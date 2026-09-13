@@ -1,0 +1,8 @@
+{
+  "renderer": "Microsoft Word hidden COM, own document only",
+  "pages": 27,
+  "allPagesVisuallyReviewed": true,
+  "tables": 23,
+  "standardRendererFallback": "bundled render_docx unavailable because soffice executable absent; used installed Microsoft Word",
+  "qaPdfDelivered": false
+}

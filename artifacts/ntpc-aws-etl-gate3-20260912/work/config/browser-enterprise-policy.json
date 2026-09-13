@@ -1,0 +1,16 @@
+{
+  "URLBlocklist": [
+    "*"
+  ],
+  "URLAllowlist": [
+    "https://data.gov.tw/*",
+    "https://data.ntpc.gov.tw/*",
+    "https://oas.bas.ntpc.gov.tw/*",
+    "https://www.stat.gov.tw/*",
+    "https://www.ris.gov.tw/*",
+    "https://ris.gov.tw/*"
+  ],
+  "BrowserSignin": 0,
+  "PasswordManagerEnabled": false,
+  "SyncDisabled": true
+}

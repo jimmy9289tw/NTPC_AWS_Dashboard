@@ -1,0 +1,794 @@
+{
+  "public_certificates_only": true,
+  "private_keys": false,
+  "verification_disabled": false,
+  "certificates": 4,
+  "hosts": [
+    {
+      "host": "apiservice.mol.gov.tw",
+      "verified": true,
+      "root_sha256": "59769007f7685d0fcd50872f9f95d5755a5b2b457d81f3692b610a98672f0e1b",
+      "root": {
+        "subject": [
+          [
+            [
+              "countryName",
+              "TW"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "TAIWAN-CA"
+            ]
+          ],
+          [
+            [
+              "organizationalUnitName",
+              "Root CA"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "TWCA Global Root CA"
+            ]
+          ]
+        ],
+        "issuer": [
+          [
+            [
+              "countryName",
+              "TW"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "TAIWAN-CA"
+            ]
+          ],
+          [
+            [
+              "organizationalUnitName",
+              "Root CA"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "TWCA Global Root CA"
+            ]
+          ]
+        ],
+        "version": 3,
+        "serialNumber": "0CBE",
+        "notBefore": "Jun 27 06:28:33 2012 GMT",
+        "notAfter": "Dec 31 15:59:59 2030 GMT"
+      },
+      "ca_chain": [
+        {
+          "subject": [
+            [
+              [
+                "countryName",
+                "TW"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "TAIWAN-CA"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "TWCA Secure SSL Certification Authority"
+              ]
+            ]
+          ],
+          "issuer": [
+            [
+              [
+                "countryName",
+                "TW"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "TAIWAN-CA"
+              ]
+            ],
+            [
+              [
+                "organizationalUnitName",
+                "Root CA"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "TWCA Global Root CA"
+              ]
+            ]
+          ],
+          "version": 3,
+          "serialNumber": "400134B3680000000000000CD0AA08EC",
+          "notBefore": "Oct 16 09:01:04 2023 GMT",
+          "notAfter": "Oct 16 15:59:59 2030 GMT",
+          "OCSP": [
+            "http://rootocsp.twca.com.tw/"
+          ],
+          "caIssuers": [
+            "http://sslserver.twca.com.tw/cacert/root4096.crt"
+          ],
+          "crlDistributionPoints": [
+            "http://rootca.twca.com.tw/TWCARCA/global_revoke_4096.crl"
+          ]
+        },
+        {
+          "subject": [
+            [
+              [
+                "countryName",
+                "TW"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "TAIWAN-CA"
+              ]
+            ],
+            [
+              [
+                "organizationalUnitName",
+                "Root CA"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "TWCA Global Root CA"
+              ]
+            ]
+          ],
+          "issuer": [
+            [
+              [
+                "countryName",
+                "TW"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "TAIWAN-CA"
+              ]
+            ],
+            [
+              [
+                "organizationalUnitName",
+                "Root CA"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "TWCA Global Root CA"
+              ]
+            ]
+          ],
+          "version": 3,
+          "serialNumber": "0CBE",
+          "notBefore": "Jun 27 06:28:33 2012 GMT",
+          "notAfter": "Dec 31 15:59:59 2030 GMT"
+        }
+      ],
+      "leaf_issuer": [
+        [
+          [
+            "countryName",
+            "TW"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "TAIWAN-CA"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "TWCA Secure SSL Certification Authority"
+          ]
+        ]
+      ]
+    },
+    {
+      "host": "data.ntpc.gov.tw",
+      "verified": true,
+      "root_sha256": "59769007f7685d0fcd50872f9f95d5755a5b2b457d81f3692b610a98672f0e1b",
+      "root": {
+        "subject": [
+          [
+            [
+              "countryName",
+              "TW"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "TAIWAN-CA"
+            ]
+          ],
+          [
+            [
+              "organizationalUnitName",
+              "Root CA"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "TWCA Global Root CA"
+            ]
+          ]
+        ],
+        "issuer": [
+          [
+            [
+              "countryName",
+              "TW"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "TAIWAN-CA"
+            ]
+          ],
+          [
+            [
+              "organizationalUnitName",
+              "Root CA"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "TWCA Global Root CA"
+            ]
+          ]
+        ],
+        "version": 3,
+        "serialNumber": "0CBE",
+        "notBefore": "Jun 27 06:28:33 2012 GMT",
+        "notAfter": "Dec 31 15:59:59 2030 GMT"
+      },
+      "ca_chain": [
+        {
+          "subject": [
+            [
+              [
+                "countryName",
+                "TW"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "TAIWAN-CA"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "TWCA Secure SSL Certification Authority"
+              ]
+            ]
+          ],
+          "issuer": [
+            [
+              [
+                "countryName",
+                "TW"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "TAIWAN-CA"
+              ]
+            ],
+            [
+              [
+                "organizationalUnitName",
+                "Root CA"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "TWCA Global Root CA"
+              ]
+            ]
+          ],
+          "version": 3,
+          "serialNumber": "400134B3680000000000000CD0AA08EC",
+          "notBefore": "Oct 16 09:01:04 2023 GMT",
+          "notAfter": "Oct 16 15:59:59 2030 GMT",
+          "OCSP": [
+            "http://rootocsp.twca.com.tw/"
+          ],
+          "caIssuers": [
+            "http://sslserver.twca.com.tw/cacert/root4096.crt"
+          ],
+          "crlDistributionPoints": [
+            "http://rootca.twca.com.tw/TWCARCA/global_revoke_4096.crl"
+          ]
+        },
+        {
+          "subject": [
+            [
+              [
+                "countryName",
+                "TW"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "TAIWAN-CA"
+              ]
+            ],
+            [
+              [
+                "organizationalUnitName",
+                "Root CA"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "TWCA Global Root CA"
+              ]
+            ]
+          ],
+          "issuer": [
+            [
+              [
+                "countryName",
+                "TW"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "TAIWAN-CA"
+              ]
+            ],
+            [
+              [
+                "organizationalUnitName",
+                "Root CA"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "TWCA Global Root CA"
+              ]
+            ]
+          ],
+          "version": 3,
+          "serialNumber": "0CBE",
+          "notBefore": "Jun 27 06:28:33 2012 GMT",
+          "notAfter": "Dec 31 15:59:59 2030 GMT"
+        }
+      ],
+      "leaf_issuer": [
+        [
+          [
+            "countryName",
+            "TW"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "TAIWAN-CA"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "TWCA Secure SSL Certification Authority"
+          ]
+        ]
+      ]
+    },
+    {
+      "host": "ws.dgbas.gov.tw",
+      "verified": true,
+      "root_sha256": "59769007f7685d0fcd50872f9f95d5755a5b2b457d81f3692b610a98672f0e1b",
+      "root": {
+        "subject": [
+          [
+            [
+              "countryName",
+              "TW"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "TAIWAN-CA"
+            ]
+          ],
+          [
+            [
+              "organizationalUnitName",
+              "Root CA"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "TWCA Global Root CA"
+            ]
+          ]
+        ],
+        "issuer": [
+          [
+            [
+              "countryName",
+              "TW"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "TAIWAN-CA"
+            ]
+          ],
+          [
+            [
+              "organizationalUnitName",
+              "Root CA"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "TWCA Global Root CA"
+            ]
+          ]
+        ],
+        "version": 3,
+        "serialNumber": "0CBE",
+        "notBefore": "Jun 27 06:28:33 2012 GMT",
+        "notAfter": "Dec 31 15:59:59 2030 GMT"
+      },
+      "ca_chain": [
+        {
+          "subject": [
+            [
+              [
+                "countryName",
+                "TW"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "TAIWAN-CA"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "TWCA Secure SSL Certification Authority"
+              ]
+            ]
+          ],
+          "issuer": [
+            [
+              [
+                "countryName",
+                "TW"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "TAIWAN-CA"
+              ]
+            ],
+            [
+              [
+                "organizationalUnitName",
+                "Root CA"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "TWCA Global Root CA"
+              ]
+            ]
+          ],
+          "version": 3,
+          "serialNumber": "400134B3680000000000000CD0AA08EC",
+          "notBefore": "Oct 16 09:01:04 2023 GMT",
+          "notAfter": "Oct 16 15:59:59 2030 GMT",
+          "OCSP": [
+            "http://rootocsp.twca.com.tw/"
+          ],
+          "caIssuers": [
+            "http://sslserver.twca.com.tw/cacert/root4096.crt"
+          ],
+          "crlDistributionPoints": [
+            "http://rootca.twca.com.tw/TWCARCA/global_revoke_4096.crl"
+          ]
+        },
+        {
+          "subject": [
+            [
+              [
+                "countryName",
+                "TW"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "TAIWAN-CA"
+              ]
+            ],
+            [
+              [
+                "organizationalUnitName",
+                "Root CA"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "TWCA Global Root CA"
+              ]
+            ]
+          ],
+          "issuer": [
+            [
+              [
+                "countryName",
+                "TW"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "TAIWAN-CA"
+              ]
+            ],
+            [
+              [
+                "organizationalUnitName",
+                "Root CA"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "TWCA Global Root CA"
+              ]
+            ]
+          ],
+          "version": 3,
+          "serialNumber": "0CBE",
+          "notBefore": "Jun 27 06:28:33 2012 GMT",
+          "notAfter": "Dec 31 15:59:59 2030 GMT"
+        }
+      ],
+      "leaf_issuer": [
+        [
+          [
+            "countryName",
+            "TW"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "TAIWAN-CA"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "TWCA Secure SSL Certification Authority"
+          ]
+        ]
+      ]
+    },
+    {
+      "host": "www.ris.gov.tw",
+      "verified": true,
+      "root_sha256": "4fa3126d8d3a11d1c4855a4f807cbad6cf919d3a5a88b03bea2c6372d93c40c9",
+      "root": {
+        "subject": [
+          [
+            [
+              "countryName",
+              "BE"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "GlobalSign nv-sa"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "GlobalSign Root R46"
+            ]
+          ]
+        ],
+        "issuer": [
+          [
+            [
+              "countryName",
+              "BE"
+            ]
+          ],
+          [
+            [
+              "organizationName",
+              "GlobalSign nv-sa"
+            ]
+          ],
+          [
+            [
+              "commonName",
+              "GlobalSign Root R46"
+            ]
+          ]
+        ],
+        "version": 3,
+        "serialNumber": "11D2BBB9D723189E405F0A9D2DD0DF2567D1",
+        "notBefore": "Mar 20 00:00:00 2019 GMT",
+        "notAfter": "Mar 20 00:00:00 2046 GMT"
+      },
+      "ca_chain": [
+        {
+          "subject": [
+            [
+              [
+                "countryName",
+                "BE"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "GlobalSign nv-sa"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "GlobalSign Atlas R46 DV TLS CA 2026 Q3"
+              ]
+            ]
+          ],
+          "issuer": [
+            [
+              [
+                "countryName",
+                "BE"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "GlobalSign nv-sa"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "GlobalSign Root R46"
+              ]
+            ]
+          ],
+          "version": 3,
+          "serialNumber": "85AC708351E68DF704248BFDF17E4272",
+          "notBefore": "Apr 22 03:00:05 2026 GMT",
+          "notAfter": "Apr 22 00:00:00 2028 GMT",
+          "OCSP": [
+            "http://ocsp.globalsign.com/rootr46"
+          ],
+          "caIssuers": [
+            "http://secure.globalsign.com/cacert/rootr46.crt"
+          ],
+          "crlDistributionPoints": [
+            "http://crl.globalsign.com/rootr46.crl"
+          ]
+        },
+        {
+          "subject": [
+            [
+              [
+                "countryName",
+                "BE"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "GlobalSign nv-sa"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "GlobalSign Root R46"
+              ]
+            ]
+          ],
+          "issuer": [
+            [
+              [
+                "countryName",
+                "BE"
+              ]
+            ],
+            [
+              [
+                "organizationName",
+                "GlobalSign nv-sa"
+              ]
+            ],
+            [
+              [
+                "commonName",
+                "GlobalSign Root R46"
+              ]
+            ]
+          ],
+          "version": 3,
+          "serialNumber": "11D2BBB9D723189E405F0A9D2DD0DF2567D1",
+          "notBefore": "Mar 20 00:00:00 2019 GMT",
+          "notAfter": "Mar 20 00:00:00 2046 GMT"
+        }
+      ],
+      "leaf_issuer": [
+        [
+          [
+            "countryName",
+            "BE"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "GlobalSign nv-sa"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "GlobalSign Atlas R46 DV TLS CA 2026 Q3"
+          ]
+        ]
+      ]
+    }
+  ]
+}

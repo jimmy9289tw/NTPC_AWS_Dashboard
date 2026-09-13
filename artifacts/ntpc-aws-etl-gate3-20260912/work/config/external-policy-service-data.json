@@ -1,0 +1,202 @@
+{
+  "configVersion": "1.0.0",
+  "retrievalDate": "2026-08-31",
+  "annualService": {
+    "111": {
+      "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/doc?detailNo=1149610994704584704&module=youth0008&type=s",
+      "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/YOUTH-ANNUAL-111.pdf",
+      "career": {
+        "activityCount": 285,
+        "groups": [
+          {"code": "SECONDARY_STUDENT", "nameZh": "國高中職學生", "activityCount": 51, "all": 6062, "male": 3367, "female": 2695},
+          {"code": "TERTIARY_STUDENT", "nameZh": "大專校院學生", "activityCount": 16, "all": 1694, "male": 674, "female": 1020},
+          {"code": "NON_STUDENT_OTHER", "nameZh": "其他（不具學生身分）", "activityCount": 218, "all": 4944, "male": 1434, "female": 3510}
+        ]
+      },
+      "entrepreneurship": {
+        "activityCount": 23,
+        "groups": [
+          {"code": "STUDENT", "nameZh": "學生", "all": 88, "male": 65, "female": 23},
+          {"code": "STARTUP_FOUNDER", "nameZh": "新創者（創業5年內）", "all": 158, "male": 104, "female": 54},
+          {"code": "OTHER_INTERESTED", "nameZh": "其他（創業逾5年或對創業有興趣）", "all": 146, "male": 84, "female": 62}
+        ]
+      }
+    },
+    "112": {
+      "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/doc?detailNo=1252104139530309632&module=youth0008&type=s",
+      "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/YOUTH-ANNUAL-112.pdf",
+      "career": {
+        "activityCount": 358,
+        "groups": [
+          {"code": "SECONDARY_STUDENT", "nameZh": "國高中職學生", "activityCount": 38, "all": 5065, "male": 2550, "female": 2515},
+          {"code": "TERTIARY_STUDENT", "nameZh": "大專校院學生", "activityCount": 48, "all": 2643, "male": 884, "female": 1759},
+          {"code": "NON_STUDENT_OTHER", "nameZh": "其他（不具學生身分）", "activityCount": 272, "all": 6462, "male": 1837, "female": 4625}
+        ]
+      },
+      "entrepreneurship": {
+        "activityCount": 129,
+        "groups": [
+          {"code": "STUDENT", "nameZh": "學生", "all": 2558, "male": 1173, "female": 1385},
+          {"code": "STARTUP_FOUNDER", "nameZh": "新創者（創業5年內）", "all": 1580, "male": 997, "female": 583},
+          {"code": "OTHER_INTERESTED", "nameZh": "其他（創業逾5年或對創業有興趣）", "all": 2179, "male": 1033, "female": 1146}
+        ]
+      }
+    },
+    "113": {
+      "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/doc?detailNo=1379997079249620992&module=youth0008&type=s",
+      "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/YOUTH-ANNUAL-113.pdf",
+      "career": {
+        "activityCount": 439,
+        "groups": [
+          {"code": "SECONDARY_STUDENT", "nameZh": "國高中職學生", "activityCount": 11, "all": 1970, "male": 1329, "female": 641},
+          {"code": "TERTIARY_STUDENT", "nameZh": "大專校院學生", "activityCount": 59, "all": 4098, "male": 1534, "female": 2564},
+          {"code": "NON_STUDENT_OTHER", "nameZh": "其他（不具學生身分）", "activityCount": 369, "all": 11770, "male": 3797, "female": 7973}
+        ]
+      },
+      "entrepreneurship": {
+        "activityCount": 174,
+        "groups": [
+          {"code": "STUDENT", "nameZh": "學生", "all": 1416, "male": 703, "female": 713},
+          {"code": "STARTUP_FOUNDER", "nameZh": "新創者（創業5年內）", "all": 2243, "male": 1332, "female": 911},
+          {"code": "OTHER_INTERESTED", "nameZh": "其他（創業逾5年或對創業有興趣）", "all": 1540, "male": 694, "female": 846}
+        ]
+      }
+    },
+    "114": {
+      "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/doc?detailNo=1505809476916088832&module=youth0008&type=s",
+      "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/YOUTH-ANNUAL-114.pdf",
+      "career": {
+        "activityCount": 155,
+        "groups": [
+          {"code": "SECONDARY_STUDENT", "nameZh": "國高中職學生", "activityCount": 7, "all": 1484, "male": 697, "female": 787},
+          {"code": "TERTIARY_STUDENT", "nameZh": "大專校院學生", "activityCount": 45, "all": 4328, "male": 1689, "female": 2639},
+          {"code": "NON_STUDENT_OTHER", "nameZh": "其他（不具學生身分）", "activityCount": 103, "all": 3334, "male": 988, "female": 2346}
+        ]
+      },
+      "entrepreneurship": {
+        "activityCount": 78,
+        "groups": [
+          {"code": "STUDENT", "nameZh": "學生", "all": 319, "male": 169, "female": 150},
+          {"code": "STARTUP_FOUNDER", "nameZh": "新創者（創業5年內）", "all": 1616, "male": 736, "female": 880}
+        ],
+        "comparabilityNote": "114年官方表未列『其他』類別，身分類別時間序列不可直接視為完全同口徑；總計仍依該年官方表呈現。"
+      }
+    }
+  },
+  "careerBase113": {
+    "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/doc?detailNo=1404372674104266752&module=youth0008&type=s",
+    "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/YOUTH-CAREER-BASE-113.pdf",
+    "ageByService": [
+      {"ageBand": "18-24", "careerConsultation": 34, "resumeInterview": 65, "all": 99},
+      {"ageBand": "25-29", "careerConsultation": 62, "resumeInterview": 61, "all": 123},
+      {"ageBand": "30-34", "careerConsultation": 55, "resumeInterview": 41, "all": 96},
+      {"ageBand": "35-40", "careerConsultation": 29, "resumeInterview": 23, "all": 52}
+    ],
+    "sexByService": [
+      {"serviceCode": "CAREER_CONSULTATION", "serviceNameZh": "職涯諮詢", "all": 180, "male": 55, "female": 125},
+      {"serviceCode": "RESUME_INTERVIEW", "serviceNameZh": "履歷健檢／模擬面試", "all": 190, "male": 70, "female": 120},
+      {"serviceCode": "ALL", "serviceNameZh": "全部專業服務", "all": 370, "male": 125, "female": 245}
+    ],
+    "identity": [
+      {"code": "RESIDE_NTPC", "nameZh": "居住新北市", "value": 278},
+      {"code": "STUDY_NTPC", "nameZh": "就讀新北市", "value": 24},
+      {"code": "REGISTERED_NTPC", "nameZh": "設籍新北市", "value": 20},
+      {"code": "WORK_NTPC", "nameZh": "就業於新北市", "value": 13},
+      {"code": "OTHER", "nameZh": "其他", "value": 35}
+    ]
+  },
+  "facilities": [
+    {
+      "facilityCode": "STARTUP_INNOVATION_HUB", "nameZh": "新北創力坊", "facilityType": "STARTUP_BASE",
+      "districtCode": "6500002", "districtNameZh": "三重區", "addressZh": "捷運台北橋站3樓", "operatingStatus": "ACTIVE",
+      "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/view?id=145&module=youth0001&serno=2c61121f-b49d-4aad-a403-2828be76c756",
+      "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/BASE-INNOVATION-HUB.html",
+      "capacities": [{"componentCode": "COWORKING_SEAT", "componentNameZh": "共同工作空間", "value": 28, "unit": "席", "method": "OFFICIAL_PAGE_DIRECT"}]
+    },
+    {
+      "facilityCode": "STARTUP_BAOGAO_DIGITAL", "nameZh": "新北青創寶高數位基地", "facilityType": "STARTUP_BASE",
+      "districtCode": "6500006", "districtNameZh": "新店區", "addressZh": "新店區寶高路30之3號7樓C701", "operatingStatus": "ACTIVE",
+      "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/view?id=145&module=youth0001&serno=085dc0a1-c64c-49d5-aaae-fda3a2d55276",
+      "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/BASE-BAOGAO.html",
+      "capacities": [{"componentCode": "MEETING_ROOM_PERSON", "componentNameZh": "會議室", "value": 12, "unit": "人", "method": "OFFICIAL_PAGE_DIRECT"}]
+    },
+    {
+      "facilityCode": "STARTUP_SANCHONG_SOCIAL", "nameZh": "新北青創三重社會創新基地", "facilityType": "STARTUP_BASE",
+      "districtCode": "6500002", "districtNameZh": "三重區", "addressZh": "三重區中央北路26號4樓", "operatingStatus": "ACTIVE",
+      "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/view?id=145&module=youth0001&serno=2a65d557-18ae-4798-b431-f60799e1743e",
+      "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/BASE-SANCHONG-SOCIAL.html",
+      "capacities": [
+        {"componentCode": "COWORKING_PERSON", "componentNameZh": "共同工作空間", "value": 30, "unit": "人", "method": "OFFICIAL_PAGE_DIRECT"},
+        {"componentCode": "MEETING_ROOM_PERSON", "componentNameZh": "會議室", "value": 6, "unit": "人", "method": "OFFICIAL_PAGE_DIRECT"}
+      ]
+    },
+    {
+      "facilityCode": "STARTUP_WUGU_MAKER", "nameZh": "新北青創五股自造基地", "facilityType": "STARTUP_BASE",
+      "districtCode": "6500015", "districtNameZh": "五股區", "addressZh": "五股區五權路13號5樓丁棟502", "operatingStatus": "ACTIVE",
+      "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/view?id=145&module=youth0001&serno=b541c3c5-7dc1-4798-84da-22dafbd5d5c9",
+      "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/BASE-WUGU-MAKER.html",
+      "capacities": [{"componentCode": "COMMON_DISCUSSION_PERSON", "componentNameZh": "共同討論空間", "value": 20, "unit": "人", "method": "OFFICIAL_PAGE_DIRECT"}]
+    },
+    {
+      "facilityCode": "STARTUP_BANQIAO_ART", "nameZh": "新北青創板橋藝術基地", "facilityType": "STARTUP_BASE",
+      "districtCode": "6500001", "districtNameZh": "板橋區", "addressZh": "板橋區成都街63巷6號、8號", "operatingStatus": "ACTIVE",
+      "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/view?id=145&module=youth0001&serno=3c8a04f5-9d4b-44b3-848c-306c8eaf9b1d",
+      "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/BASE-BANQIAO-ART.html", "capacities": []
+    },
+    {
+      "facilityCode": "STARTUP_TUCHENG_GREEN", "nameZh": "新北青創土城綠創基地", "facilityType": "STARTUP_BASE",
+      "districtCode": "6500013", "districtNameZh": "土城區", "addressZh": "土城區莊園街151號2樓", "operatingStatus": "ACTIVE",
+      "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/view?id=145&module=youth0001&serno=7d607c2b-5773-4375-a8a4-fe6cab1df773",
+      "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/BASE-TUCHENG-GREEN.html",
+      "capacities": [
+        {"componentCode": "OFFICE", "componentNameZh": "獨立辦公室", "value": 14, "unit": "間", "method": "OFFICIAL_PAGE_DIRECT"},
+        {"componentCode": "COWORKING_SEAT", "componentNameZh": "共同工作座位", "value": 8, "unit": "席", "method": "OFFICIAL_PAGE_DIRECT"},
+        {"componentCode": "MEETING_ROOM_PERSON", "componentNameZh": "會議室", "value": 12, "unit": "人", "method": "OFFICIAL_PAGE_DIRECT"}
+      ]
+    },
+    {
+      "facilityCode": "STARTUP_TUCHENG_ECOM", "nameZh": "新北青創土城電商基地", "facilityType": "STARTUP_BASE",
+      "districtCode": "6500013", "districtNameZh": "土城區", "addressZh": "土城區新洲路88號3樓", "operatingStatus": "ACTIVE",
+      "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/view?id=145&module=youth0001&serno=11d832a3-ed91-4f46-a363-83c762015be3",
+      "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/BASE-TUCHENG-ECOM.html",
+      "capacities": [
+        {"componentCode": "OFFICE", "componentNameZh": "進駐團隊辦公室", "value": 5, "unit": "間", "method": "OFFICIAL_PAGE_DIRECT"},
+        {"componentCode": "MEETING_ROOM_PERSON", "componentNameZh": "會議室", "value": 10, "unit": "人", "method": "OFFICIAL_PAGE_DIRECT"}
+      ]
+    },
+    {
+      "facilityCode": "STARTUP_ZHONGHE_ART", "nameZh": "新北青創中和藝文基地", "facilityType": "STARTUP_BASE",
+      "districtCode": "6500003", "districtNameZh": "中和區", "addressZh": "中和區連城路142之6號1、2樓", "operatingStatus": "ACTIVE",
+      "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/view?id=145&module=youth0001&serno=3e21ed3a-a756-4c87-af09-9660885374a1",
+      "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/BASE-ZHONGHE-ART.html",
+      "capacities": [
+        {"componentCode": "THEATER_PERSON", "componentNameZh": "意象劇場", "value": 60, "unit": "人", "method": "OFFICIAL_PAGE_DIRECT"},
+        {"componentCode": "CLASSROOM_PERSON", "componentNameZh": "細胞教室", "value": 20, "unit": "人", "method": "OFFICIAL_PAGE_DIRECT"},
+        {"componentCode": "MOTION_SPACE_PERSON", "componentNameZh": "韻動空間", "value": 20, "unit": "人", "method": "OFFICIAL_PAGE_DIRECT"},
+        {"componentCode": "SENSORY_SPACE_PERSON", "componentNameZh": "感官空間", "value": 15, "unit": "人", "method": "OFFICIAL_PAGE_DIRECT"}
+      ]
+    },
+    {
+      "facilityCode": "STARTUP_XINBAN_DESIGN", "nameZh": "新北青創新板設計基地", "facilityType": "STARTUP_BASE",
+      "districtCode": "6500001", "districtNameZh": "板橋區", "addressZh": "板橋區新民街6巷10號1樓", "operatingStatus": "ACTIVE",
+      "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/view?id=145&module=youth0001&serno=ee01baa9-0235-4991-92f1-e6f309ba9f89",
+      "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/BASE-XINBAN-DESIGN.html", "capacities": []
+    },
+    {
+      "facilityCode": "STARTUP_XINZHUANG_CAPSULE", "nameZh": "新北青創新莊膠囊工作站", "facilityType": "STARTUP_BASE",
+      "districtCode": "6500005", "districtNameZh": "新莊區", "addressZh": "新莊區新莊路315號2樓", "operatingStatus": "TEMPORARILY_CLOSED_1150401",
+      "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/artwebsite/view?id=254&module=artwebsite&serno=4f4abd22-e695-44b5-ad76-4b336e9ee683",
+      "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/BASE-XINZHUANG-CAPSULE.html",
+      "capacities": [
+        {"componentCode": "BOOTH", "componentNameZh": "工作電話亭", "value": 4, "unit": "座", "method": "OFFICIAL_PAGE_DIRECT"},
+        {"componentCode": "SEAT", "componentNameZh": "工作電話亭座位容量", "value": 10, "unit": "席", "method": "DERIVED_2X1_PLUS_1X2_PLUS_1X6", "formulaZh": "2座單人亭×1席＋1座雙人亭×2席＋1座六人亭×6席"}
+      ]
+    },
+    {
+      "facilityCode": "CAREER_BASE", "nameZh": "新北市青年局青職基地", "facilityType": "CAREER_SERVICE_BASE",
+      "districtCode": "6500001", "districtNameZh": "板橋區", "addressZh": "板橋區民權路170號", "operatingStatus": "ACTIVE",
+      "sourceUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/view?id=176&module=youth0005&serno=1fa88c59-feab-4921-956a-efa823f9b7ac",
+      "sourceSnapshot": "data/raw/NTPC-YOUTH-SERVICE/20260831/CAREER-BASE.html", "capacities": []
+    }
+  ]
+}

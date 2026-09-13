@@ -1,0 +1,14 @@
+import fs from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import assert from 'node:assert/strict';
+const library=process.argv[2]??'@oai/artifact-tool';
+const {Workbook}=await import(library);
+const root=fileURLToPath(new URL('../',import.meta.url));
+const text=await fs.readFile(root+'data/lsf/published/11_生活條件與公共服務_長格式.csv','utf8');
+const workbook=await Workbook.fromCSV(text.replace(/^\uFEFF/,''),{sheetName:'生活條件'});
+const sheet=workbook.worksheets.getItemAt(0),matrix=sheet.getUsedRange().values;
+assert.equal(matrix.length,794);assert.equal(matrix[0].length,42);
+assert.equal(matrix[0][0],'record_id');
+const result={reader:'artifact_tool Workbook.fromCSV',dataRows:matrix.length-1,columns:matrix[0].length,pass:true,formulasAdded:false};
+await fs.writeFile(root+'data/lsf/qa/csv-open-check.json',JSON.stringify(result,null,2));
+console.log(result);

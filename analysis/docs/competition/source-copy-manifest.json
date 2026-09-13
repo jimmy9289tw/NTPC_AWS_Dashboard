@@ -1,0 +1,1942 @@
+[
+  {
+    "path": "app/NtpcYouthAI/harness.json",
+    "sourceSha256": "dfdae34f04fd990821e00b4bde5efdc9cc21dd324c3b915f2257f082c040d65e",
+    "bytes": 2319
+  },
+  {
+    "path": "app/NtpcYouthAI/system-prompt.md",
+    "sourceSha256": "c6ea2e085e5295914dc4bc8e29523b9faeb8fa7655d8c13d5f11b628a0f1d059",
+    "bytes": 5375
+  },
+  {
+    "path": "scripts/analyze_annual_labor_age_graduation_v24.py",
+    "sourceSha256": "cecefcfb58c9f01a9051a3848f679f24992c751e2b49b34c0db017f36db41a4c",
+    "bytes": 30855
+  },
+  {
+    "path": "scripts/analyze_labor_age_graduation_v24.py",
+    "sourceSha256": "4e22f1d43963779fb5b1fffd165e13af72ef385576232acd3ad97cadf9a76f68",
+    "bytes": 35907
+  },
+  {
+    "path": "scripts/build_age_conversion_validation_docx.py",
+    "sourceSha256": "224dac6d80dcbbaa626050e9761366f368565d32b0f716b21f6afa56f37f6dbf",
+    "bytes": 35944
+  },
+  {
+    "path": "scripts/build_age_integration_csv.mjs",
+    "sourceSha256": "62b002e4d60178efb34dfbeb45d1073bf4f9b940bad4471ce56054a0f114021c",
+    "bytes": 5239
+  },
+  {
+    "path": "scripts/build_age_integration_docx.py",
+    "sourceSha256": "12a6148276a978e86a46307037054226f4fe0149d112329c037f5860a96c15dc",
+    "bytes": 38035
+  },
+  {
+    "path": "scripts/build_age_integration_inputs.py",
+    "sourceSha256": "e1c52b8913278cb6c1ff688724bdfb55802255793df25d899034ef2c23100770",
+    "bytes": 51626
+  },
+  {
+    "path": "scripts/build_chart_evidence_doc.py",
+    "sourceSha256": "9af895eb5e897ec56c96da1e87a616a6851f1772452669b60cbed3561bed187f",
+    "bytes": 27028
+  },
+  {
+    "path": "scripts/build_discussion_corrections_qa_report.py",
+    "sourceSha256": "af813eff47f26ffd21b9b68d5a1558222b6b2e84726cf7762fe2115dfc26ca75",
+    "bytes": 32984
+  },
+  {
+    "path": "scripts/build_external_policy_data.py",
+    "sourceSha256": "0e400de65dedb1f45c5ba22d048b5c68f68685a5fc688a305afa278736c5c764",
+    "bytes": 58869
+  },
+  {
+    "path": "scripts/build_g5_master_report.py",
+    "sourceSha256": "fe73120eb17d6cc8dabf6c416aec9b1d39992a4a2abb1c510e05506ad10c2579",
+    "bytes": 58987
+  },
+  {
+    "path": "scripts/build_g5_normalized_lineage.py",
+    "sourceSha256": "ce3d2d4803d6b0d07d3ca986f1e72444efb261a2b4abb554333ba8a910f60a36",
+    "bytes": 6279
+  },
+  {
+    "path": "scripts/build_g5_source_manifest.py",
+    "sourceSha256": "348080a281d26e648f1fa377d7495b719cdfdcf4e16d31db31126d7838786882",
+    "bytes": 16181
+  },
+  {
+    "path": "scripts/build_g5_v3_data.py",
+    "sourceSha256": "1b59300761c3f90f0213f0013e7e851cd9af00e43dcdca07670198485678369f",
+    "bytes": 73264
+  },
+  {
+    "path": "scripts/build_g5_v3_docs.py",
+    "sourceSha256": "621e97be64dc3887a5106708b90c761ec6b701781bd216b0e00da66f40dd29bc",
+    "bytes": 97020
+  },
+  {
+    "path": "scripts/build_government_data_package_v2.py",
+    "sourceSha256": "0682d57f45af8672dce61f04fee24b0a74b527e96ffd6513592848ab099c0a11",
+    "bytes": 90356
+  },
+  {
+    "path": "scripts/build_government_data_package_v22.py",
+    "sourceSha256": "a42f5fa67758df37e57c1c8a75dfbff46a4a6609da2f7fa8d369e340fb5ed26a",
+    "bytes": 123727
+  },
+  {
+    "path": "scripts/build_government_data_package_v23.py",
+    "sourceSha256": "a42f5fa67758df37e57c1c8a75dfbff46a4a6609da2f7fa8d369e340fb5ed26a",
+    "bytes": 123727
+  },
+  {
+    "path": "scripts/build_government_data_package_v23_amendment.py",
+    "sourceSha256": "0abc3adc79b3e21c36e124bf2dd7c4f3e0d5b2eb30daf9dbdfa7a7d97e2a972f",
+    "bytes": 41334
+  },
+  {
+    "path": "scripts/build_kiro_handoff_sop.py",
+    "sourceSha256": "e3d17a06f7a2369eafac0c78bab8e22fda49717eb1168c909a0ae3cac12f6ebb",
+    "bytes": 31018
+  },
+  {
+    "path": "scripts/build_labor_age_method_report_v24.py",
+    "sourceSha256": "2ce531431ffd6d858ad1da3af46f4f17867431fa6acc193b3f3e87c0f31840e7",
+    "bytes": 59409
+  },
+  {
+    "path": "scripts/build_next_stage_method_draft.py",
+    "sourceSha256": "c273e85da496adaee57ee9cc682dd0089a093694a0c9e42f44cbcbcf379a1b85",
+    "bytes": 60713
+  },
+  {
+    "path": "scripts/build_release_zip.py",
+    "sourceSha256": "5328bf7a47d183d3324df3aee7254716cb36dae5638092d9f9d142698e24459c",
+    "bytes": 2327
+  },
+  {
+    "path": "scripts/build_research_docx.py",
+    "sourceSha256": "0f0ee759831ff065f1b4bd74db1184d73dd384c8010154fd193ee65430e93c49",
+    "bytes": 38969
+  },
+  {
+    "path": "scripts/build_reuse_package.py",
+    "sourceSha256": "e668dedcc6878855e44cd04f5c769935a60c7a8c200f3c02346cf50884cf446c",
+    "bytes": 13383
+  },
+  {
+    "path": "scripts/build_workflow_manual_docx.py",
+    "sourceSha256": "1b9f88e12f4612623c7a06b27c6102876133b530a619b08fa40ad4f641a3bd2a",
+    "bytes": 35484
+  },
+  {
+    "path": "scripts/create_doc_contact_sheets.py",
+    "sourceSha256": "4876a3116cdef02386cbe0366766b0a98f96b6e2ff12e655ebaa85fe0b559646",
+    "bytes": 1940
+  },
+  {
+    "path": "scripts/enrich_age_integration_v13.py",
+    "sourceSha256": "efee89a78e599d28802e0482aa453377d9e1eecbb6a3a62b15bd557ec5dac62b",
+    "bytes": 6325
+  },
+  {
+    "path": "scripts/enrich_current_data_sufficiency_v14.py",
+    "sourceSha256": "0862f7ade868e1985c197fb770c565275af4db890d91b10aea26e0b8a1b74503",
+    "bytes": 8423
+  },
+  {
+    "path": "scripts/export_g5_dashboard_json.py",
+    "sourceSha256": "1fcb8c40d91c931fd06a9af966d08a867931fb28bd2bbfdeeb2edc87754a7e82",
+    "bytes": 13496
+  },
+  {
+    "path": "scripts/inspect_annual_labor_tables_v24.py",
+    "sourceSha256": "98b2b9dcd6e8d4d0ab1efc5dce6905b634eeb6640aee4d40e44b3f80b654cd8b",
+    "bytes": 1341
+  },
+  {
+    "path": "scripts/inspect_external_csvs_artifact_tool.mjs",
+    "sourceSha256": "f015b14a73033b3a6fd3984f9e046bd97fb9fa8134e95aa297e2f1c3a7b091f0",
+    "bytes": 2862
+  },
+  {
+    "path": "scripts/inspect_next_stage_sources.py",
+    "sourceSha256": "ad2b13e68254ee561e901ac3bacf66f0b729bb8d1a3a3982df83e969e8782e16",
+    "bytes": 4375
+  },
+  {
+    "path": "scripts/inspect_workbooks_readonly.py",
+    "sourceSha256": "dfe8bcc18f419e73f7183e53ebef7d3bdaec08c1c471b001916acf25ac60fe7f",
+    "bytes": 952
+  },
+  {
+    "path": "scripts/invoke_harness.py",
+    "sourceSha256": "e00652ce5df030f5dd04a3426d124d70713ad3e86be6ff32625bb60f2245f878",
+    "bytes": 910
+  },
+  {
+    "path": "scripts/make_docx_contact_sheets.py",
+    "sourceSha256": "7d2f7be28439181ec53d9a542e9ac19ce3822d58907563ff1872c61cb8682ef9",
+    "bytes": 1511
+  },
+  {
+    "path": "scripts/preflight.py",
+    "sourceSha256": "ace00e91dddc313223a7b48ed7b8bea5d789f8381288338dd01c84ae5a19ef8d",
+    "bytes": 3705
+  },
+  {
+    "path": "scripts/prepare_next_stage_report_data.py",
+    "sourceSha256": "2fa39195f6e9ae784d2e3db2198c88672ab7871e9860a5237d8aa396b4d594ed",
+    "bytes": 7582
+  },
+  {
+    "path": "scripts/process_marital_status_v23.py",
+    "sourceSha256": "173d137745bd32d8555b0910160143a4225ba6910b8efe3e5a15040459fdbac0",
+    "bytes": 23269
+  },
+  {
+    "path": "scripts/profile_odrp053.py",
+    "sourceSha256": "1a33794f934d308852a25b4343897d304313da85320532d75b98a2e8202bee52",
+    "bytes": 1928
+  },
+  {
+    "path": "scripts/qa_government_data_package_v21.py",
+    "sourceSha256": "8ccaacccb5ce641f4d9d9e8b188cfa721f96a563b03701323fd508b0292082ee",
+    "bytes": 5479
+  },
+  {
+    "path": "scripts/qa_government_data_package_v22.py",
+    "sourceSha256": "5d9c8df1422cf7e77910fe1d245f4e3261526ffbf32f78019872f8d0f9798085",
+    "bytes": 7158
+  },
+  {
+    "path": "scripts/qa_government_data_package_v23.py",
+    "sourceSha256": "18f74efc8924dea617b7a08d7f14ecb5c027cdfe630b61fe98c7060b913bada0",
+    "bytes": 5862
+  },
+  {
+    "path": "scripts/rebuild_package_file_manifest.py",
+    "sourceSha256": "f154621da63bcbb393621f5e358070548542ab39adb6f659b14df65fbb729f4a",
+    "bytes": 1790
+  },
+  {
+    "path": "scripts/render_docx_pdfium_fallback.py",
+    "sourceSha256": "e4d90fc76c8829385fece3d52a71113daf537b5750dbc83b34fbd679f3e18b05",
+    "bytes": 1937
+  },
+  {
+    "path": "scripts/render_pdf_page_pdfium.py",
+    "sourceSha256": "31a1e262a1d7888ad86c9767a863d95183acf94f77e7c0c6bea94f51c90474fc",
+    "bytes": 1018
+  },
+  {
+    "path": "scripts/run_pipeline.py",
+    "sourceSha256": "4416022fedfa6a312d3176fd340fc8cdd28533cdcb564945dee747515f8a7e7d",
+    "bytes": 2241
+  },
+  {
+    "path": "scripts/update_aws_architecture_doc_v12.py",
+    "sourceSha256": "872d6ba606fd9e76dcb689f4dbdf05a3c99fe127b3e47ae7dc9b50726e59d860",
+    "bytes": 18909
+  },
+  {
+    "path": "scripts/update_g6_ui_v2_data_package.py",
+    "sourceSha256": "4d21dd608b4a21dfa83cbb5e72753949ddd8affa9d697b927dafdd56a8ae39a2",
+    "bytes": 13973
+  },
+  {
+    "path": "scripts/validate_external_policy_data.py",
+    "sourceSha256": "62683f12ed20c2f84a18bcf2f5b54a0e859e0edc5dc744980f3ccc79acc05f1a",
+    "bytes": 8139
+  },
+  {
+    "path": "scripts/validate_g5_v3_data.py",
+    "sourceSha256": "a61fd33c765849da4d2acca42216cc21dee830644f27904c48b8f1fda9e1372a",
+    "bytes": 18360
+  },
+  {
+    "path": "scripts/validate_g7_aws_kiro_readiness.py",
+    "sourceSha256": "bda8eee9785361d1951f4b22f5b49a89c42f37b63b885c1a07a6cbdd9c91f182",
+    "bytes": 8167
+  },
+  {
+    "path": "src/ntpc_youth_ai/analytics.py",
+    "sourceSha256": "4e3b4efe8b84e5f10563e2de92977da38f81530d02523481d6804236a90b1be0",
+    "bytes": 10258
+  },
+  {
+    "path": "src/ntpc_youth_ai/governance.py",
+    "sourceSha256": "e28695df959f62f75cabe5bedbedfafcfbb693c8fffbde23edda94131bd9a6c9",
+    "bytes": 5496
+  },
+  {
+    "path": "src/ntpc_youth_ai/pipeline.py",
+    "sourceSha256": "4975469bd8addb379a36120a1dc1a32cf6f7fc54777c91fffe910287c5675db4",
+    "bytes": 13112
+  },
+  {
+    "path": "src/ntpc_youth_ai/__init__.py",
+    "sourceSha256": "10a2d49dddcee5c6c67d95f83a13795fc47771eacb1e16ccac6fa0730a78aecc",
+    "bytes": 375
+  },
+  {
+    "path": "schemas/agent-tool-contracts.schema.json",
+    "sourceSha256": "69d53b42e80a14fa7bdb0e49d49a6bd1ce400d84a0d3543221a879c928554eb0",
+    "bytes": 1787
+  },
+  {
+    "path": "schemas/audit-event.schema.json",
+    "sourceSha256": "524fa98acead20c36d669554948bb746756a68c4b9c6ca8ffe1e74bf19c73a38",
+    "bytes": 780
+  },
+  {
+    "path": "schemas/integration-contracts.schema.json",
+    "sourceSha256": "99a61c19b7d15cfc2265f4de39f1cf8f8e70665d4ef93d91ba839ce6c7e7c5c3",
+    "bytes": 1042
+  },
+  {
+    "path": "tests/test_governance.py",
+    "sourceSha256": "eddc3c9581c18796ee176b43916ffe90be15d3dd9efadf77500f755d22d424a9",
+    "bytes": 2856
+  },
+  {
+    "path": "tests/test_pipeline.py",
+    "sourceSha256": "182e9ace473a48de44364dc1efc91c8781ed616a7c31b6c2ee3c041223248846",
+    "bytes": 2960
+  },
+  {
+    "path": "docs/ADR-001-DEFINITION-CONFLICTS.md",
+    "sourceSha256": "15a3861e84f96cac5f981c799c130a4de39f1a7f0292220bae4d9a91cd1e842b",
+    "bytes": 1041
+  },
+  {
+    "path": "docs/age-conversion-method-registry-v1.0.csv",
+    "sourceSha256": "dece06651886282a56d094e7b770b9950267e4490d9d7c63d80dcdd9292a677c",
+    "bytes": 6735
+  },
+  {
+    "path": "docs/age-range-conversion-registry-v1.0.csv",
+    "sourceSha256": "b009bbe07d7a478ee709b65ef0d9e8b877c5597fb05d61c58f2bfb482223e059",
+    "bytes": 13432
+  },
+  {
+    "path": "docs/AWS-ACCEPTANCE-20260815.md",
+    "sourceSha256": "5ae6750f5bce3366ca9b9b6bf5f2728a29f72cd9c96382bb6d0d05c38293af44",
+    "bytes": 2574
+  },
+  {
+    "path": "docs/AWS-DEPLOYMENT-RUNBOOK.md",
+    "sourceSha256": "934b3107b3313d2f270057e5b1d9bee0cedde9f42d30e32d353901c08878109d",
+    "bytes": 3000
+  },
+  {
+    "path": "docs/HUMAN-REVIEW-SOP.md",
+    "sourceSha256": "ca220072a10c112b5a17f6e423c9f1133863397fb5327f6a8735145260935d89",
+    "bytes": 6332
+  },
+  {
+    "path": "docs/INTEGRATION-SPEC.md",
+    "sourceSha256": "569a3f492e1b001e2e855d1397f56f177d09cb79181d130141caf77be9cb3866",
+    "bytes": 4547
+  },
+  {
+    "path": "docs/PIPELINE-RUNBOOK.md",
+    "sourceSha256": "700b7e8b089fc3caf1a74b6415f6eaed8b7a09a7433c5fe790f483ee48e40d63",
+    "bytes": 2246
+  },
+  {
+    "path": "docs/TASK-CARD-V3.md",
+    "sourceSha256": "66e0203ee6bbcbf551f2210a21533a782383df3a1aeded6f1335424702741f7a",
+    "bytes": 4140
+  },
+  {
+    "path": "docs/年齡區間轉換方法與來源對照_V1.0.md",
+    "sourceSha256": "5f9529bb2f09c07979b46cb4edef9d337cb38802284ec8a0e0869907d7423dff",
+    "bytes": 10665
+  },
+  {
+    "path": "config/age-groups.json",
+    "sourceSha256": "310e1cdc0a88993d13c6c66836b86213737dc5c97a7f28f8ffe56f2643ffb932",
+    "bytes": 1295
+  },
+  {
+    "path": "config/agent-tool-contracts.json",
+    "sourceSha256": "cb89d2e5e7f0067c823b3ff284faf652e8f29616afac5cf9767f3b4e29d86f26",
+    "bytes": 8739
+  },
+  {
+    "path": "config/browser-enterprise-policy.json",
+    "sourceSha256": "9a0635ad5da2dbf1e69d8b72c874a4da90d2d23e343c48d8badf7b8c18d6345a",
+    "bytes": 334
+  },
+  {
+    "path": "config/deployment-settings.json",
+    "sourceSha256": "39dbc76247ca048949a67bbe661e909f93950afc4fb7c5333d23d66e2c1c9753",
+    "bytes": 1784
+  },
+  {
+    "path": "config/external-policy-service-data.json",
+    "sourceSha256": "c0e5abfb42b157a6400ae20d1ab401cc3390c6dd21ed7012b371f2cee6b2f363",
+    "bytes": 14489
+  },
+  {
+    "path": "config/g5-refresh-policy.json",
+    "sourceSha256": "e0fb6d0982f15c745bd81bd5d09420ef249e671c7ed950ba7fddafdf37f7ebe4",
+    "bytes": 4290
+  },
+  {
+    "path": "config/integration-contracts.json",
+    "sourceSha256": "14a5a12c15b23fab5c16118d80d1850a60027378ce65e89655eeb02d5260498f",
+    "bytes": 7806
+  },
+  {
+    "path": "config/publication-policy.json",
+    "sourceSha256": "1ce6b0f76aa2e71d4834d18bc7a003150822a90012ee6de98b69b8166ec6cad1",
+    "bytes": 891
+  },
+  {
+    "path": "config/source-registry-normalized.json",
+    "sourceSha256": "242e283844bc168ba0d6d431c0c1b73cb14bcb4a11cd622299448f70281133d2",
+    "bytes": 5074
+  },
+  {
+    "path": "config/sources.json",
+    "sourceSha256": "2a8a04097d59d2977951aecd75136151ba74cfd254140064deaa9c267b37d5ec",
+    "bytes": 6287
+  },
+  {
+    "path": "aws/athena/ntpc_youth_catalog.sql.tmpl",
+    "sourceSha256": "a41323d8fc610bbf5b116716705e57ea98efdb5e17de58f558a57eba10af1d58",
+    "bytes": 4575
+  },
+  {
+    "path": "aws/athena/README.md",
+    "sourceSha256": "30ad7f5366c475fa1f3be875b9d8146adc84a9080188927356cf47bc68584de4",
+    "bytes": 2633
+  },
+  {
+    "path": "aws/bridge/lambda_function.py",
+    "sourceSha256": "387c432e7d3d9e6e48d4f15365dba9f9f15a58904311c8e96a194905cd4fb765",
+    "bytes": 4256
+  },
+  {
+    "path": "aws/bridge/README.md",
+    "sourceSha256": "676f6a86a3f564612793be5d906329c8722f8da7d914f11e7f716da823d75e0e",
+    "bytes": 1255
+  },
+  {
+    "path": "aws/bridge/template.yaml",
+    "sourceSha256": "841539c84225e013f7bdfb858adec0ae4ea58ee7cebfcf3c8af8d2701f5baaf0",
+    "bytes": 2763
+  },
+  {
+    "path": "aws/bridge/test_lambda_function.py",
+    "sourceSha256": "a29d2e5f369ca3b8afcfe9ab03ef2fa18cea8df98ba966ca6a9795d7c011f8a7",
+    "bytes": 1474
+  },
+  {
+    "path": "agentcore/.gitignore",
+    "sourceSha256": "c1e92d28d3906e98d6024f0d6f2c020fc8aa1795052947a1b10fded69eea789d",
+    "bytes": 232
+  },
+  {
+    "path": "agentcore/agentcore.json",
+    "sourceSha256": "5354d843de28fb176bc538d17056934efa903663bf058f9790587270b326cb2e",
+    "bytes": 788
+  },
+  {
+    "path": "agentcore/aws-targets.json",
+    "sourceSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "bytes": 2
+  },
+  {
+    "path": "agentcore/.llm-context/agentcore.ts",
+    "sourceSha256": "82cbf8de000ef46359fde5ec8dd89aef4e9e8f7ebfe4c1a62dfd6dbe424b85b7",
+    "bytes": 19800
+  },
+  {
+    "path": "agentcore/.llm-context/aws-targets.ts",
+    "sourceSha256": "7d26bd4117669bc2abc2ffe814eebd1e6c0f295aaf4f2bb606f630b9bc7f14df",
+    "bytes": 2121
+  },
+  {
+    "path": "agentcore/.llm-context/README.md",
+    "sourceSha256": "656dbf09be43bffe8225d7b2f3bb28e144aeb139cf9941e9fffb4a849523e5db",
+    "bytes": 711
+  },
+  {
+    "path": "agentcore/cdk/.gitignore",
+    "sourceSha256": "0ac3f638bdf7011b014fbb0465d042250f1c0925687f5c1a937d319c27c99a25",
+    "bytes": 103
+  },
+  {
+    "path": "agentcore/cdk/.npmignore",
+    "sourceSha256": "8610ff2e37f5501913393f902e5bb07d0c0da081604f606945e1129b6f17367f",
+    "bytes": 65
+  },
+  {
+    "path": "agentcore/cdk/.prettierrc",
+    "sourceSha256": "dd5ee06b4b36bf19981abca564fd1bd295a72c055e70b23430a85185b3d0718a",
+    "bytes": 132
+  },
+  {
+    "path": "agentcore/cdk/cdk.json",
+    "sourceSha256": "1029a341303ddcaae23a2caf5e7a39d164f326d159ed9404bdd50fe4e26a2d7e",
+    "bytes": 5487
+  },
+  {
+    "path": "agentcore/cdk/jest.config.js",
+    "sourceSha256": "95d20167cc4c767fa885fb09e31dd7344e5f01c1af023ba3ffb3e18c7d6ef98d",
+    "bytes": 225
+  },
+  {
+    "path": "agentcore/cdk/package.json",
+    "sourceSha256": "fce06a66b67867ec6b2e9f5adf943c08707e6f62da7878850177b26b4027a753",
+    "bytes": 673
+  },
+  {
+    "path": "agentcore/cdk/README.md",
+    "sourceSha256": "f3a4d8e3abd674a84a710c9b7849fbf4d7f27ac64993d276dfddb533099a401e",
+    "bytes": 1006
+  },
+  {
+    "path": "agentcore/cdk/tsconfig.json",
+    "sourceSha256": "eccae8093ed8b11c532d0c40874d0942e1627be7e96af31b255f4db01a467335",
+    "bytes": 770
+  },
+  {
+    "path": "agentcore/cdk/bin/cdk.ts",
+    "sourceSha256": "77d807232ee032ec4d44e8ac86ef7b6c7f99fe29e9d45848bd975e26aaded63a",
+    "bytes": 8007
+  },
+  {
+    "path": "agentcore/cdk/lib/cdk-stack.ts",
+    "sourceSha256": "6daa70223c641882bb4531154c1c98d36e5cbe4f4e757d3e674235fe4b87b674",
+    "bytes": 10100
+  },
+  {
+    "path": "agentcore/cdk/test/cdk.test.ts",
+    "sourceSha256": "88b0eaff6c4aa7ccd611c1fc85f41595451b39f907211ce194bd49cc8c310166",
+    "bytes": 851
+  },
+  {
+    "path": ".kiro/specs/ntpc-youth-g5/design.md",
+    "sourceSha256": "4de5c6a1e8c93bc211613eba8250969021fcbcae60b5be5c34e759c0d4831a9d",
+    "bytes": 2973
+  },
+  {
+    "path": ".kiro/specs/ntpc-youth-g5/requirements.md",
+    "sourceSha256": "4d5a5aeadded36bca2634db4e5f4c83b04f3418c3d31b6d4d2be535f60e98cdc",
+    "bytes": 3318
+  },
+  {
+    "path": ".kiro/specs/ntpc-youth-g5/tasks.md",
+    "sourceSha256": "0535e53911dc66d91d6c139cc789ce7857c529f46c21d8825ad9227bf8d13f58",
+    "bytes": 2726
+  },
+  {
+    "path": ".kiro/steering/g5-data-governance.md",
+    "sourceSha256": "5da835a2a1c9faba9e2dec8036154d7c9ad33d190d17a5f81bcfaf57d76cb4fb",
+    "bytes": 2972
+  },
+  {
+    "path": "dashboard/.gitignore",
+    "sourceSha256": "d1b061939ecc90c8bf3dad18d2677c15b14410289f574de8a7c3be51d27d9d65",
+    "bytes": 517
+  },
+  {
+    "path": "dashboard/DESIGN.md",
+    "sourceSha256": "6f03a172c14ecee0b995a33437e7470e14b0cb02ff85edad3b304a06e8638910",
+    "bytes": 2472
+  },
+  {
+    "path": "dashboard/drizzle.config.ts",
+    "sourceSha256": "73d0807c58e541dc3eaf175909fb5acc966faed61f74ff659d9d55027bf3e25b",
+    "bytes": 155
+  },
+  {
+    "path": "dashboard/eslint.config.mjs",
+    "sourceSha256": "65faa1afb99cc75b8ac3386dcd0072cf1869c04665bc93367e5f132a292ed3f3",
+    "bytes": 1087
+  },
+  {
+    "path": "dashboard/next-env.d.ts",
+    "sourceSha256": "74ecf1a3bc702f296a7363c9ec6fe560278e32bd7f44c1bbac987f81ef7aa6df",
+    "bytes": 194
+  },
+  {
+    "path": "dashboard/next.config.ts",
+    "sourceSha256": "a972c4f0ffa6dd714e7909b02d1ac19d2f2fe3d01f191efd2c5054bd6f142ec1",
+    "bytes": 140
+  },
+  {
+    "path": "dashboard/package-lock.json",
+    "sourceSha256": "65946ba7ebe269be8fdc853f91dc20310208cb2af7ff449a1a652d8bb937f4d7",
+    "bytes": 356114
+  },
+  {
+    "path": "dashboard/package.json",
+    "sourceSha256": "09ca4888ff52d26d648cec586ef315eed6d70cea577cfc2491448fa94d5c50b0",
+    "bytes": 1946
+  },
+  {
+    "path": "dashboard/postcss.config.mjs",
+    "sourceSha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+    "bytes": 101
+  },
+  {
+    "path": "dashboard/README.md",
+    "sourceSha256": "47e2dae68dfef8596623fae72aa71a8f9437c645ce475cd4d68df47b4ed37487",
+    "bytes": 9421
+  },
+  {
+    "path": "dashboard/tsconfig.json",
+    "sourceSha256": "aa837bb69cb28085c4948496e476ee726872731fb6925acbf915db1ddb396150",
+    "bytes": 671
+  },
+  {
+    "path": "dashboard/tsconfig.worker.json",
+    "sourceSha256": "f7b0af249ca317e088f5876b62214b11101d25b94d7042d853cdb6cb73ec02b6",
+    "bytes": 194
+  },
+  {
+    "path": "dashboard/vite.config.ts",
+    "sourceSha256": "5d68239b2f24f42354e8a05cf69b83fd8f3ce34727f2edf2b55283e4f732c77a",
+    "bytes": 1756
+  },
+  {
+    "path": "dashboard/wrangler.production.jsonc",
+    "sourceSha256": "188a4035507c2fceabf6f63c031ae273434ce68a6c94e3cd2f51a07c6b486eff",
+    "bytes": 945
+  },
+  {
+    "path": "dashboard/app/chart-canvas.tsx",
+    "sourceSha256": "129a99913cd99167825b4af6734aa56492cdc4f5e4fbf9f0aab551df844cd0a3",
+    "bytes": 6782
+  },
+  {
+    "path": "dashboard/app/chart-transition.ts",
+    "sourceSha256": "7eee1a9a64c5d03d4485c7547060e0eedc441904d6e4cf29155644c8d3a667e0",
+    "bytes": 5907
+  },
+  {
+    "path": "dashboard/app/chatgpt-auth.ts",
+    "sourceSha256": "e19651c2d1db12696883ae3eb79d4f09dce249f7afa1144a62d544e2e18299ca",
+    "bytes": 2640
+  },
+  {
+    "path": "dashboard/app/custom-analysis-chart.css",
+    "sourceSha256": "3cf889141955adb0a74bb64337959e1fe90c16b8e1c8b0da311996e86faf5ae6",
+    "bytes": 3792
+  },
+  {
+    "path": "dashboard/app/custom-analysis-chart.tsx",
+    "sourceSha256": "55e04615c46343c434604247694a99df6ad1a064ed03b7885a38fffef7553c4f",
+    "bytes": 8450
+  },
+  {
+    "path": "dashboard/app/custom-analysis-workbench.tsx",
+    "sourceSha256": "5d08d7d4ef4b80eaa37570bf71883a7602935dfe269e5e2e587df20f0774a751",
+    "bytes": 17144
+  },
+  {
+    "path": "dashboard/app/custom-chart-layout.ts",
+    "sourceSha256": "ae148fabb223a2649cbc7cede46c77cef56d736cdd3015140f6eae0c089a5726",
+    "bytes": 3437
+  },
+  {
+    "path": "dashboard/app/dashboard-client.tsx",
+    "sourceSha256": "a7e22b26ec61754bafaa67cf2c4c87d51fbe109fc192291726ee157dbafcc88d",
+    "bytes": 324519
+  },
+  {
+    "path": "dashboard/app/dashboard-data.ts",
+    "sourceSha256": "de484ef6f989781feb8098c3759b17e994adaafe3cc2659f106eb96bda6b8679",
+    "bytes": 4717
+  },
+  {
+    "path": "dashboard/app/data-reading-summary.tsx",
+    "sourceSha256": "36441e6c32b8812eb81ed5c901a170bcc9354bb72f8b698d4a0e6c96cae7fb30",
+    "bytes": 369
+  },
+  {
+    "path": "dashboard/app/data-reading.ts",
+    "sourceSha256": "27930edb3785bd11897372b15328c0b955f4c5178647e12e8f5474e529001c53",
+    "bytes": 4140
+  },
+  {
+    "path": "dashboard/app/district-annual-rankings.ts",
+    "sourceSha256": "25b8454072a631b3143d078957afe1f06fa898e899217157e8f8f2e54a6790f4",
+    "bytes": 7621
+  },
+  {
+    "path": "dashboard/app/district-policy-evidence.ts",
+    "sourceSha256": "dda960395148c9080848217cd5f3319a400477b57e70d5c2d60c4323cfc223ce",
+    "bytes": 8137
+  },
+  {
+    "path": "dashboard/app/error.tsx",
+    "sourceSha256": "0e9880462a726c0f77919dca42919b2194e5baf44e60b86a6d3f1fd8a797efbd",
+    "bytes": 483
+  },
+  {
+    "path": "dashboard/app/export-catalogue.ts",
+    "sourceSha256": "4c421e0578e0ebb631a92c786d7b8e3e31bb9fcb6500d8983d4fdcfe98d3b516",
+    "bytes": 3284
+  },
+  {
+    "path": "dashboard/app/export-center.tsx",
+    "sourceSha256": "7f65bd0a65dfe6d458424715355dff529d1e5fb454432610cd70667fc86fc402",
+    "bytes": 15978
+  },
+  {
+    "path": "dashboard/app/export-contract.ts",
+    "sourceSha256": "9880f5797888f6cf616dcc810d4b0dcecc20d6ae97d470cd587b82f41fcc99f7",
+    "bytes": 17767
+  },
+  {
+    "path": "dashboard/app/export-selection.ts",
+    "sourceSha256": "9de26905f3b1e8760584046ce1c586956605504407cf153428a618722b578a73",
+    "bytes": 11060
+  },
+  {
+    "path": "dashboard/app/globals.css",
+    "sourceSha256": "9a1cb23574e6ca20d6d8b2cd4df6354fb7228ed34df359406962f2a50f37d650",
+    "bytes": 199303
+  },
+  {
+    "path": "dashboard/app/joint-education-marriage.ts",
+    "sourceSha256": "e549032870d31de6d0e7b3458a7d90f31a523c235c0da5b55bf46987e50d00d7",
+    "bytes": 4623
+  },
+  {
+    "path": "dashboard/app/layout.tsx",
+    "sourceSha256": "09599e9a4fe769498dccd9da9f993dd7faf02d5490a2d7717c420a9eee306167",
+    "bytes": 580
+  },
+  {
+    "path": "dashboard/app/map-metrics.ts",
+    "sourceSha256": "be96905f0d52ab9bca2d2ae0fc8b1743dbee1164878ec61a4ab6890240be5263",
+    "bytes": 4116
+  },
+  {
+    "path": "dashboard/app/modal-interaction.ts",
+    "sourceSha256": "bc6e810fc162d9a5217108b5e4ff40017236773038f3d6ae85662e181f3aa1d6",
+    "bytes": 2689
+  },
+  {
+    "path": "dashboard/app/mol-salary-context.ts",
+    "sourceSha256": "430ddb50e8661cc375868fbf1a11f2f9dcb2fdf46c31e9118324d827a1c5d5dc",
+    "bytes": 1717
+  },
+  {
+    "path": "dashboard/app/monthly-population-view.ts",
+    "sourceSha256": "87ca629d89af4429aff7647a24a5d22f1e827d9d4f67fb0e889ae47d5a698cee",
+    "bytes": 1124
+  },
+  {
+    "path": "dashboard/app/monthly-population.ts",
+    "sourceSha256": "0906296389860a2af51eea8109f7011f3fbf165f644187552677b0a2606b70c6",
+    "bytes": 1402
+  },
+  {
+    "path": "dashboard/app/page.tsx",
+    "sourceSha256": "166f454c7aed009334c984ad02042c62d38afbda0d7c8d2e0f8613b5c5dfeee8",
+    "bytes": 120
+  },
+  {
+    "path": "dashboard/app/policy-action-flow.ts",
+    "sourceSha256": "8463e6be5eca922761285cb6bfb9c676613a3df2a584f879a68be2fe3b8ce093",
+    "bytes": 2660
+  },
+  {
+    "path": "dashboard/app/policy-budget-table.tsx",
+    "sourceSha256": "c2ecbe95f28f87f3ca9ef1a02fe47c09119ab9329f24cb89bd624dbaf1a1a22e",
+    "bytes": 6300
+  },
+  {
+    "path": "dashboard/app/policy-budget.ts",
+    "sourceSha256": "b22e2ef0229035fd38519828300a531f5e439a9663dc41d442da96fa8eb4f763",
+    "bytes": 4947
+  },
+  {
+    "path": "dashboard/app/policy-district-facts.ts",
+    "sourceSha256": "ebaf34d055e52c035f0ffe0049be31227291a801a28a2a06c86f4f295a8e378f",
+    "bytes": 16124
+  },
+  {
+    "path": "dashboard/app/policy-engine.ts",
+    "sourceSha256": "3f6b29d23064625e4a2c66d092e41918fab239c5fe7c8aa270c36d5f4d4778e4",
+    "bytes": 41744
+  },
+  {
+    "path": "dashboard/app/policy-evidence-chart.tsx",
+    "sourceSha256": "024b5623762d535e87629a9e29ed9c77a79a607a759ce803117d003ea0c3a29a",
+    "bytes": 20611
+  },
+  {
+    "path": "dashboard/app/policy-facility-references.tsx",
+    "sourceSha256": "d3b4dfeb8bf1e990a2185e3a9d721fdb95731c336f3dff46203eebf3902dfcf2",
+    "bytes": 1497
+  },
+  {
+    "path": "dashboard/app/policy-industry-evidence.ts",
+    "sourceSha256": "d0c8f10de6d273387cca89d8885007e9da51e9087421560cfc2e167502b89c8d",
+    "bytes": 11027
+  },
+  {
+    "path": "dashboard/app/policy-industry-input.ts",
+    "sourceSha256": "6d834c2f9c508ed51099e3f00ff973514a1511508e78de860d98ba14152f2ff7",
+    "bytes": 2777
+  },
+  {
+    "path": "dashboard/app/policy-narrative-workbench.tsx",
+    "sourceSha256": "a42d8513f923460ac477da77fa8ad37b9afd97985f20680a1604ad0dac5a7129",
+    "bytes": 24082
+  },
+  {
+    "path": "dashboard/app/policy-narrative.css",
+    "sourceSha256": "f7c1b093ad8b03d5f7774131cdb20217dba7336c917a12579a7dc9b47a364543",
+    "bytes": 24463
+  },
+  {
+    "path": "dashboard/app/policy-narrative.ts",
+    "sourceSha256": "c47928967cc08b46a3cb8db2ad1a0daca650fab5fd8d65a766d109f0ba584bf6",
+    "bytes": 32929
+  },
+  {
+    "path": "dashboard/app/policy-program-options.ts",
+    "sourceSha256": "0ab520361edc0b0be22012d0eb49524a3b8561907e6c2832f95c6fb5b7dc066d",
+    "bytes": 17327
+  },
+  {
+    "path": "dashboard/app/policy-source-status.ts",
+    "sourceSha256": "eaa70d1ddfc026bc95a086b951f37e42aa048666f04ce922a15167bbc0c73a73",
+    "bytes": 3392
+  },
+  {
+    "path": "dashboard/app/policy-synthesis.ts",
+    "sourceSha256": "631ad44ecd8d49d6f698ef94a2a214b492aee54f63c6b8171189f43b78f0cf58",
+    "bytes": 16292
+  },
+  {
+    "path": "dashboard/app/policy-workbench.tsx",
+    "sourceSha256": "022fba765fe31fe043c1e4354257935841f131a5c6c574f62143c6dfd33f2c59",
+    "bytes": 21012
+  },
+  {
+    "path": "dashboard/app/policy-workflow.tsx",
+    "sourceSha256": "fb4211aa85e3aad8c2f1ce6fb03706a237c9e231d56249c8d88f462b8ec9a1a6",
+    "bytes": 26633
+  },
+  {
+    "path": "dashboard/app/quadrant-chart-primitives.tsx",
+    "sourceSha256": "dc9ac1a53a9111a21cffbbba101b66acae4cd7a7503757a0a547d6aeaa0f2faf",
+    "bytes": 2641
+  },
+  {
+    "path": "dashboard/app/release.ts",
+    "sourceSha256": "3a84f4e866412b9ae87a89ad9f707e9830018c315882b0d46010464fae435c61",
+    "bytes": 313
+  },
+  {
+    "path": "dashboard/app/resident-employment-industry.ts",
+    "sourceSha256": "9d8efc0890a40635d34e5101d876e6021c2b60bbc9b156220178bdda781a7aa1",
+    "bytes": 3390
+  },
+  {
+    "path": "dashboard/app/wage-metrics.ts",
+    "sourceSha256": "04c926b67efe7d30f5f05c0736e23e23e5057c1a72b59bd24fd73e59fa198aa4",
+    "bytes": 1461
+  },
+  {
+    "path": "dashboard/app/workspace-presentation.ts",
+    "sourceSha256": "df2cc34062d036ea031c2541e9d3a6886268ec18d9811164928911fdde9cc020",
+    "bytes": 723
+  },
+  {
+    "path": "dashboard/app/workspace-ui.css",
+    "sourceSha256": "984a23ddc4a2b32979dc6f6b575925af87fae5ac902bf6b24d12f6f5df98568d",
+    "bytes": 7912
+  },
+  {
+    "path": "dashboard/app/youth-industry-wage.ts",
+    "sourceSha256": "3fb28ae5ad77a1f0d88e493180a979ed58e193768f18323c172e113b5c914984",
+    "bytes": 1785
+  },
+  {
+    "path": "dashboard/app/api/ask/route.ts",
+    "sourceSha256": "ad6099989cdae92bbdfd933bfaed49e319f6c3ee960112bb0387cc18c907da4e",
+    "bytes": 28007
+  },
+  {
+    "path": "dashboard/app/api/export/route.ts",
+    "sourceSha256": "70cd544c8407a806e21602b67b605bed659e1938702e61760920cf92699d9367",
+    "bytes": 5605
+  },
+  {
+    "path": "dashboard/app/api/monthly-population/route.ts",
+    "sourceSha256": "62e921695c33fa60971865b5c7b35a1d158fc4d06a4bfdb55cd011720ed6c504",
+    "bytes": 2730
+  },
+  {
+    "path": "dashboard/app/data/district-population-baseline-109.json",
+    "sourceSha256": "8cd924a58eb12e7b76fbbcd1d33ccd588480277d4c6dbcf80cca0694b6afaf60",
+    "bytes": 30654
+  },
+  {
+    "path": "dashboard/app/data/export-code-book.json",
+    "sourceSha256": "fac8d368119e6c178669832a85d5415583243693aff38069f199eb2a7a28ed87",
+    "bytes": 8195
+  },
+  {
+    "path": "dashboard/app/data/g5-dashboard-data.json",
+    "sourceSha256": "0ffd45c239e893aebdbe618997b49ff9fc2fc2d57b764a779178bbf98da5d9a7",
+    "bytes": 3037068
+  },
+  {
+    "path": "dashboard/app/data/mol-salary-context.json",
+    "sourceSha256": "d8105fb61edc4754d2919b0c35791f53da439b91f8f40a2b70d3bc6e892b91ea",
+    "bytes": 5654
+  },
+  {
+    "path": "dashboard/app/data/mol-salary-matrix.json",
+    "sourceSha256": "13d68b9f10447972bad561e293e7a0c06a1031491ab4e4f070f17a6fd1d493ad",
+    "bytes": 33323
+  },
+  {
+    "path": "dashboard/app/data/monthly-population.json",
+    "sourceSha256": "172a23889d0ae4fbb1b423b67a8a630866326781a904994d5f4f23865b9d0848",
+    "bytes": 2642304
+  },
+  {
+    "path": "dashboard/app/data/resident-employment-industry.json",
+    "sourceSha256": "33ed9a091c7ea65f116a91b19da4d0e78c0e4a609ebb9245cfecfec552e0af1f",
+    "bytes": 715385
+  },
+  {
+    "path": "dashboard/app/data/youth-industry-wage.json",
+    "sourceSha256": "483224e98cb04125106be96887cf3fed0d42bc3ee57b90deaddc9ffd91ef20e7",
+    "bytes": 37817
+  },
+  {
+    "path": "dashboard/build/sites-vite-plugin.ts",
+    "sourceSha256": "abd6bc3a592961e978ab72fceb8ee7647824d9a2321ee5b5777b2a05d69526cc",
+    "bytes": 1299
+  },
+  {
+    "path": "dashboard/data/policy-ranking/01_新北市29行政區青年指標排名.csv",
+    "sourceSha256": "31ef2d34aa8e6d9a93f88797c1ce0db67f9fac5805fab304e4a9bc46d1d99b07",
+    "bytes": 1134486
+  },
+  {
+    "path": "dashboard/data/policy-ranking/02_新北市全市青年指標年度與結構排名.csv",
+    "sourceSha256": "5d30967877d332aa8a38cae7582c0ea72835dafad6f47829741e5f024aaafbcf",
+    "bytes": 2311064
+  },
+  {
+    "path": "dashboard/data/raw/DGBAS-WAGE-INDUSTRY-AGE/20260907/BLI-AGE-REGION-SEX-113.csv",
+    "sourceSha256": "6200c08d7c9c8a5ddc84688155c5f3c68d91405a5964ffd86992e330c83c2fdc",
+    "bytes": 3923
+  },
+  {
+    "path": "dashboard/data/raw/DGBAS-WAGE-INDUSTRY-AGE/20260907/DGBAS-WAGE-TABLE2-INDUSTRY-AGE.xlsx",
+    "sourceSha256": "2ec4b9a7785e9ac57acd6ba735e61979ee05d3a95257de956394306d76db2757",
+    "bytes": 33488
+  },
+  {
+    "path": "dashboard/data/raw/DGBAS-WAGE-INDUSTRY-AGE/20260907/DGBAS-WAGE-TABLE6-COUNTY-AGE.xlsx",
+    "sourceSha256": "e6b188147c5fe02376c8e8c5d1a1294c3b8aaab8e86203b5e8664fa67d89460b",
+    "bytes": 46188
+  },
+  {
+    "path": "dashboard/db/index.ts",
+    "sourceSha256": "b947941cb0b7dbc854bed010e23679097df785e9d0cdd6f874522b882c996924",
+    "bytes": 508
+  },
+  {
+    "path": "dashboard/db/schema.ts",
+    "sourceSha256": "48b4f7fafee1f2720b8977ba31bc0cf03dedb7ea8826c4bcbc8dfd74f2d8744f",
+    "bytes": 173
+  },
+  {
+    "path": "dashboard/design-system/ntpc-youth-evidence-console/MASTER.md",
+    "sourceSha256": "7f486907b7cf3e9ae419416c7e765f990db1ad3ec72c29b75381166ad106d9fd",
+    "bytes": 6774
+  },
+  {
+    "path": "dashboard/design-system/ntpc-youth-evidence-console/pages/dashboard.md",
+    "sourceSha256": "d4e3bc1ceee36bf6c56ad0005de0f3fe7f352f0874efd1625970172efb98c751",
+    "bytes": 11461
+  },
+  {
+    "path": "dashboard/design-system/ntpc-youth-evidence-console/pages/workspace-v532.md",
+    "sourceSha256": "ba34d673c335e57028249dd43cdf69802a598681b5b43cd10fc027c54c6bce45",
+    "bytes": 3815
+  },
+  {
+    "path": "dashboard/docs/custom-analysis-axis-readability.md",
+    "sourceSha256": "4b77749c1579915a6a997b7a23895cf8345cfab7065e1cc9fdb8e63ce166fdb0",
+    "bytes": 3075
+  },
+  {
+    "path": "dashboard/docs/data-narration-v5.28.md",
+    "sourceSha256": "4c754e60fba4f4604b5c3c1e975b7d093e18f6e6eb4c3ae7f2304b9f661fcb97",
+    "bytes": 6257
+  },
+  {
+    "path": "dashboard/docs/G6-POL-V3-政策證據敘事與版面.md",
+    "sourceSha256": "a29b729cd0bd81162d68ede1392e79e8a37417ba3c2a577a9d6882ffc7765b87",
+    "bytes": 7368
+  },
+  {
+    "path": "dashboard/docs/policy-budget-planning-20260908.md",
+    "sourceSha256": "047caec0a3f3ad486a18681929454cb1c4aea6f23714b0bd77f65592b980678d",
+    "bytes": 5314
+  },
+  {
+    "path": "dashboard/docs/policy-evidence-v5.27.md",
+    "sourceSha256": "288fd0879d182f94508b6f5ef2ec97221ee4a8e3bfc42edc661fd641dc4639c0",
+    "bytes": 4360
+  },
+  {
+    "path": "dashboard/docs/policy-inventory-and-synthesis-20260908.md",
+    "sourceSha256": "4cfe762f06f320089ce5a392c6f0152c1d8e565c88eb5b20b889aeb86b84c735",
+    "bytes": 5531
+  },
+  {
+    "path": "dashboard/docs/POLICY_EVIDENCE_V4_20260908.md",
+    "sourceSha256": "7a56c0420aaec1539f314e84c2b09fe1095add2d69dc8f1882b74438667a6f66",
+    "bytes": 7784
+  },
+  {
+    "path": "dashboard/docs/release-v5.25.md",
+    "sourceSha256": "6f8040c0a885ed7b50b9cceee2bbb81880ceab79c1de6064ec1163a3b6e43c80",
+    "bytes": 1665
+  },
+  {
+    "path": "dashboard/docs/release-v5.26.md",
+    "sourceSha256": "92eae210dbfd54b850d35822c1e484071846c30de5176f1b81f7a94b064abfa9",
+    "bytes": 1477
+  },
+  {
+    "path": "dashboard/docs/release-v5.28.md",
+    "sourceSha256": "216d9ed2a0bc6492e549215774f74efc11b432e8c43477b877bad18e0f5bcb89",
+    "bytes": 1592
+  },
+  {
+    "path": "dashboard/docs/release-v5.31.md",
+    "sourceSha256": "dc60c421b2326d82c29bc44815713c70acc93b45ea4920f139adc64b7e231619",
+    "bytes": 1628
+  },
+  {
+    "path": "dashboard/docs/ui-v5.29.md",
+    "sourceSha256": "3982c45b05b57d9c3d8ccb7b8c224261017da75ed3a8fb5ce79f716de46dcfc4",
+    "bytes": 6914
+  },
+  {
+    "path": "dashboard/docs/ui-v5.30.md",
+    "sourceSha256": "878204fe82e7e06e350fe842d1c2b1d9b8b449f08fb774220f48cc9ebfac68b6",
+    "bytes": 5929
+  },
+  {
+    "path": "dashboard/docs/ui-v5.31.md",
+    "sourceSha256": "63db393c6cc533671d3c95da191528d59ed52e561c8b28adb1e3adf5c0a40d1f",
+    "bytes": 5371
+  },
+  {
+    "path": "dashboard/docs/ui-v5.32.md",
+    "sourceSha256": "aeae0668670aeeffcbdfa3d32888fafa13a540e497144765ee4e2cf27fb73a81",
+    "bytes": 4233
+  },
+  {
+    "path": "dashboard/drizzle/meta/_journal.json",
+    "sourceSha256": "5a5f57f8f48fcf1d065725c0f3dab19e590e96e7e1e5bf8ddff17339a0de8d9a",
+    "bytes": 66
+  },
+  {
+    "path": "dashboard/examples/d1/app/api/notes/route.ts",
+    "sourceSha256": "b0b134b9b0b4a9f5947abbd13fd4425b88b59c64f91db1aacb0cecbc16c38f45",
+    "bytes": 1758
+  },
+  {
+    "path": "dashboard/examples/d1/db/schema.ts",
+    "sourceSha256": "1acd70317bcaf22cb140436fb47754c2144e7c2adfc59a3f427ecb1d816fa0f3",
+    "bytes": 379
+  },
+  {
+    "path": "dashboard/public/favicon.svg",
+    "sourceSha256": "3e8863288c2d43dd33d2a71de317dcf9198f09932ea8d61e0def1b846a865435",
+    "bytes": 718
+  },
+  {
+    "path": "dashboard/public/file.svg",
+    "sourceSha256": "81a9ce5ca9bc60870c1d72c0fd5b98b2bc5c8c02b0e04fefeab9efcc11277228",
+    "bytes": 393
+  },
+  {
+    "path": "dashboard/public/globe.svg",
+    "sourceSha256": "13187c071b4d369df3a7a179f69a927165bf624e1a524ee6c93b7d3be75d6fc8",
+    "bytes": 1037
+  },
+  {
+    "path": "dashboard/public/window.svg",
+    "sourceSha256": "d3cd4bf0c1123258fcc266409856e28c93d4fc1cf8476702225e17842900ca63",
+    "bytes": 387
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage.json",
+    "sourceSha256": "b28af4b2229814844e21e6b1c4649ec6a15f0476f8121d215067206150d58f6a",
+    "bytes": 414750
+  },
+  {
+    "path": "dashboard/public/data/ntpc-districts.geojson",
+    "sourceSha256": "f93efb615122056022d24cb3f828f5b5e71de59fd225f3be3c6b0f755498a6e0",
+    "bytes": 825787
+  },
+  {
+    "path": "dashboard/public/data/pipeline-manifest.json",
+    "sourceSha256": "562e3f2aaa40dd797768c9c6d56dab46c352398814923d58ecba1283d450bcc5",
+    "bytes": 5093
+  },
+  {
+    "path": "dashboard/public/data/policy-indicators.json",
+    "sourceSha256": "11d59cb15f389bf6906a258bc8ab5d4c9c7f9ad1f057a94627e3f878b40297e9",
+    "bytes": 13167
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000010.json",
+    "sourceSha256": "43a0f1f5d9b4fd354a374d5744e7e88d4d99880dc73bf63fe096a9cb655191ed",
+    "bytes": 410110
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000020.json",
+    "sourceSha256": "bebef5e67bcd4ff2bb3b5106949f362ea2b6d70c833b4f8eae53d158abed472a",
+    "bytes": 409948
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000030.json",
+    "sourceSha256": "37722bb81a6db7d675415f2b9c17b362bbc8c29c6ffb4d499ef24dede5c50cd2",
+    "bytes": 409523
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000040.json",
+    "sourceSha256": "ef5e643c363399e8ea8f2a65067e5fdb27cff464fea5267239f3cbe025a04ef0",
+    "bytes": 407546
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000050.json",
+    "sourceSha256": "b8921850d69577f55d30cbedcdf6fbeadd4843082f9ab31f7677a3b31ca4380d",
+    "bytes": 410154
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000060.json",
+    "sourceSha256": "a6e77d75ca4982839924e3c6e4f4e1772c21a743f031d6254224311e0999e01e",
+    "bytes": 409004
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000070.json",
+    "sourceSha256": "63b94feb5f4d606c6305386f734b6b3727d09447346f16d710d01fece05aeee8",
+    "bytes": 408334
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000080.json",
+    "sourceSha256": "312bc9c1d62e0c13a94de0f346c1ea69063841e1ea3c5afe16c43c3d36d3b7c9",
+    "bytes": 407347
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000090.json",
+    "sourceSha256": "3d84ca783e4e3f924a2c3b769f415bf6f60e066ca10eab5523c3eb879d0f5a0c",
+    "bytes": 407188
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000100.json",
+    "sourceSha256": "1b775f56495975b49d3933912b576fc2906e515c970fe05bb402b7b857704da0",
+    "bytes": 408146
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000110.json",
+    "sourceSha256": "75d4ac2c377dd2bff662349694b3879ceb5787aeae6fdbac0ffc67c601168207",
+    "bytes": 408173
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000120.json",
+    "sourceSha256": "b17c22e88dfda3e12343984d5f145f6524d5b69020588fbaa0813eb45c148619",
+    "bytes": 403937
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000130.json",
+    "sourceSha256": "bff7183179d48a5c1a322ed657fcf3f6a7a6f2eddde928810e72bc3993479c05",
+    "bytes": 409174
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000140.json",
+    "sourceSha256": "02d441cdf718898f7f6e567f6ce3da0de6f29458c66f2f9d0cd0b3c99c5b6e39",
+    "bytes": 408505
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000150.json",
+    "sourceSha256": "27bce144b5dc956647de25f080ecd86ea8c30f235e0ca0406062941b2c66bb2b",
+    "bytes": 407050
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000160.json",
+    "sourceSha256": "01ba42e4b2fb62d4468ced152f1631be10615951e97c482b353b3107a531dc0e",
+    "bytes": 406258
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000170.json",
+    "sourceSha256": "929727bd2135556ed43b92e9d6e396202c7a84b8aa0257eb9de6b079aa3b24c8",
+    "bytes": 407213
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000180.json",
+    "sourceSha256": "7d4ad23d0e038ff5c19eea00206165285b03ecc516121bd85924356ff492f349",
+    "bytes": 402693
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000190.json",
+    "sourceSha256": "2962899d16c906ef90f1f7facc5525d7be962a5d675273ef7bb9b4bf71d9073f",
+    "bytes": 399529
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000200.json",
+    "sourceSha256": "a213f2c805fd2b768422c1b56ca8e179b15afdf9507cd323d3f98ab74dbaa036",
+    "bytes": 399030
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000210.json",
+    "sourceSha256": "c96d78e238e04beb415ba53c0fbd13ae1fc15bfdf05ee7ccda89fa136b6ed6aa",
+    "bytes": 403014
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000220.json",
+    "sourceSha256": "e1f4c0cbedddd5d00046858f3e87fcf4ed82385ce5ba88806b646b494133b351",
+    "bytes": 400603
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000230.json",
+    "sourceSha256": "b1dd2b56d3e065d19bac69e19075dcdcdae128f1bf23b95afa935d0315255752",
+    "bytes": 404500
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000240.json",
+    "sourceSha256": "03d6d2cea23188467fac171c698e4f799ace79765030309afe4a519ec2d207d2",
+    "bytes": 396511
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000250.json",
+    "sourceSha256": "2dd7926f7e545f79cc2e77aa8a7f0b86bede50006e354ec6ce08ad2e138df292",
+    "bytes": 399511
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000260.json",
+    "sourceSha256": "8d68af20c922507b066ccd1ea5a01b414979a34d269977c65de8d8320667c561",
+    "bytes": 400664
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000270.json",
+    "sourceSha256": "3c7ebb16322c71022700666502e7a3872e75ed7c79e9c5c45f8eef02ee4ed1f9",
+    "bytes": 402801
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000280.json",
+    "sourceSha256": "e86b1b3081b8470325ecd452aff0bc84c07002a0ae7f19a9d26badf507888a90",
+    "bytes": 402351
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/65000290.json",
+    "sourceSha256": "453c092f0888f216ab5572cdbb350f7ecc5cf94667e95faf0fcbd82c0715c151",
+    "bytes": 400276
+  },
+  {
+    "path": "dashboard/public/data/joint-education-marriage-districts/index.json",
+    "sourceSha256": "843d40791e06867ab8f90e449a08c5ffcfddd8a5a9b7d93cb2a256e2db7180a4",
+    "bytes": 2871
+  },
+  {
+    "path": "dashboard/public/icons/district-compare.png",
+    "sourceSha256": "ec6e4b52f06fcb250033e94efa66d2e63aeca674b99e553db1b5b5976c01a77c",
+    "bytes": 46817
+  },
+  {
+    "path": "dashboard/public/icons/employment.png",
+    "sourceSha256": "fb7a23ce55d47385adf5118015ec8a4847fc23cbba6933eeeba17f5114d57ced",
+    "bytes": 32762
+  },
+  {
+    "path": "dashboard/public/icons/life-stage.png",
+    "sourceSha256": "b21f8fc2a99a4e4e19410e75ecac554cba9d88aa6d887f4b6f14acc37417acde",
+    "bytes": 24287
+  },
+  {
+    "path": "dashboard/public/icons/overview.png",
+    "sourceSha256": "4f777a997ed9bd2698237bf38aeac41f9e5dc8378072c59608204b9d8b785b51",
+    "bytes": 48673
+  },
+  {
+    "path": "dashboard/public/icons/salary.png",
+    "sourceSha256": "af753b9b2e14a5fe6b780cf74057301c4adac3f9ba10dba370abefdd46dfbaa7",
+    "bytes": 42564
+  },
+  {
+    "path": "dashboard/scripts/build-district-population-baseline.py",
+    "sourceSha256": "722ad47753615af3475cf940d8c02d39617f988dd2c2faeda0d3915609db5a15",
+    "bytes": 4795
+  },
+  {
+    "path": "dashboard/scripts/build-joint-education-marriage.py",
+    "sourceSha256": "dbb05c15cccda1d4b15f2b53a7d200ed4e3ff5dc9fa4ecde86d7971063242db3",
+    "bytes": 17958
+  },
+  {
+    "path": "dashboard/scripts/build-mol-salary-context.mjs",
+    "sourceSha256": "fb9494571af131de2c70742a69c7195d06e2ef165dafda2c2c2249715b9c613b",
+    "bytes": 6079
+  },
+  {
+    "path": "dashboard/scripts/build-policy-ranking-csv.mjs",
+    "sourceSha256": "eb5e9db4fe98d4d4f3125001b684e76d59e7df55a336064cf4c9ddad83ca5076",
+    "bytes": 19674
+  },
+  {
+    "path": "dashboard/scripts/build-youth-industry-wage.py",
+    "sourceSha256": "395369764fa573763b70847509cef0b86a93b9de288303b460ea237d8776b50a",
+    "bytes": 22328
+  },
+  {
+    "path": "dashboard/scripts/build_monthly_population_data.py",
+    "sourceSha256": "3ada4cc81877edbdba9ec8c7c76900035ff3db319077b0d7a26838392c12bd77",
+    "bytes": 7475
+  },
+  {
+    "path": "dashboard/scripts/build_resident_employment_industry_data.py",
+    "sourceSha256": "016dc6a904054d7ae35ef196d739b692936515fc7d18594ae3c4d57a17a85d78",
+    "bytes": 9472
+  },
+  {
+    "path": "dashboard/scripts/build_youth_resident_employment_industry_data.py",
+    "sourceSha256": "ea46ccf43b567ebdc9047aa185fa23e3f344446212015e816e35e9f6fbb84d89",
+    "bytes": 24647
+  },
+  {
+    "path": "dashboard/tests/annual-city-analysis.test.mjs",
+    "sourceSha256": "aa1982257b7ec734f5ab3147129c3d7cd44dbdd4bc6c4d1a5540d5fc190261f5",
+    "bytes": 6281
+  },
+  {
+    "path": "dashboard/tests/annual-district-analysis.test.mjs",
+    "sourceSha256": "65e6d8028fc30a97d7c51ab7ad360433d3b79a7a6a07574acb6e0385ff933b4f",
+    "bytes": 6545
+  },
+  {
+    "path": "dashboard/tests/annual-labor-analysis.test.mjs",
+    "sourceSha256": "06e8743a16f8e352eeedc4883fd1523d87238525fac7b7c71b616db7632c713d",
+    "bytes": 3949
+  },
+  {
+    "path": "dashboard/tests/annual-wage-analysis.test.mjs",
+    "sourceSha256": "1bae5618c220e6386a3bda62735808920b90fd5792cd57d50064bb6a8ab636b5",
+    "bytes": 7976
+  },
+  {
+    "path": "dashboard/tests/auth.test.mts",
+    "sourceSha256": "ba38b5c061a0bb71869e49bce40dbd523f9dcfdd62a6a253f19c46a302987073",
+    "bytes": 4583
+  },
+  {
+    "path": "dashboard/tests/chart-transition.test.mts",
+    "sourceSha256": "33dcb8263b83ad5ccaef0c58ae75910f633bc21ddb9018cc07a5827ff1e983a6",
+    "bytes": 5848
+  },
+  {
+    "path": "dashboard/tests/custom-analysis-chart.test.mjs",
+    "sourceSha256": "06e722d1c09564657fff99b16eb21fd24f97a3f52dc62d3a2f4a3b299cace0a7",
+    "bytes": 6257
+  },
+  {
+    "path": "dashboard/tests/data-reading.test.mts",
+    "sourceSha256": "d54c3d1c358937dad476128e6a2fa1361a2e9bc1c11c6f7a1d6ebe8729a80c19",
+    "bytes": 5821
+  },
+  {
+    "path": "dashboard/tests/export-contract.test.mjs",
+    "sourceSha256": "520aa5e06fc657007a4a8c39b43471d97e25f72dc2631e28bf893ff38c29d3c6",
+    "bytes": 3851
+  },
+  {
+    "path": "dashboard/tests/google-id-token.test.mts",
+    "sourceSha256": "93b2e71870c66185a9aa6d4b159281832ea3ca5927aa7f04166e8e350d960e60",
+    "bytes": 3389
+  },
+  {
+    "path": "dashboard/tests/joint-policy-evidence.test.mjs",
+    "sourceSha256": "dbbaf2d2907cbd55457ff7c2c518c11bd5f31c3c34ccb65bb5f9ec238ff56dfb",
+    "bytes": 1744
+  },
+  {
+    "path": "dashboard/tests/policy-budget.test.mjs",
+    "sourceSha256": "5e33974ed61a78e75d7b614b17ac4b9073915ca1b83ea2ecc8238f3925a6d51f",
+    "bytes": 7315
+  },
+  {
+    "path": "dashboard/tests/policy-evidence-v4.test.mjs",
+    "sourceSha256": "0adcee57dc7c47ecf1d0a9c7c03360df69d1495ecfcce0225463c5828f2dd6d7",
+    "bytes": 16155
+  },
+  {
+    "path": "dashboard/tests/policy-industry-evidence.test.mts",
+    "sourceSha256": "fc40b1ecd7f8aebc2e2b6fe3321416c1fc4a8e4c352ca2ec36c1a629039ca67a",
+    "bytes": 10475
+  },
+  {
+    "path": "dashboard/tests/policy-map-rules.test.mjs",
+    "sourceSha256": "02bdb45e5a5732316740722f6cfdcac890ca3b677cf9c19debd42dc6bce1d3e6",
+    "bytes": 12755
+  },
+  {
+    "path": "dashboard/tests/policy-narrative.test.mjs",
+    "sourceSha256": "e0b355ddffeedc0954cea30775a3fc00122df1d43f3f4681883fc8720aaa0313",
+    "bytes": 11678
+  },
+  {
+    "path": "dashboard/tests/policy-ranking-csv.test.mjs",
+    "sourceSha256": "6e29be65c0591a39345b3bb395b429c2cf5d95a33dcb87d83a1b25e84b3c4f4f",
+    "bytes": 3353
+  },
+  {
+    "path": "dashboard/tests/policy-synthesis.test.mjs",
+    "sourceSha256": "482f5859310064ebbbf5048b84e35a230ed1e011b32676445735be34c8b911c7",
+    "bytes": 9543
+  },
+  {
+    "path": "dashboard/tests/policy-workbench.test.mjs",
+    "sourceSha256": "94ea0a6017ccc74202f003ce5756053533b603638e82b81f50793601e29dd348",
+    "bytes": 3744
+  },
+  {
+    "path": "dashboard/tests/rendered-html.test.mjs",
+    "sourceSha256": "3211e80fc93934c69b3bf28030b3ba369269e2311e73b8c7438286e9d8b80b02",
+    "bytes": 33688
+  },
+  {
+    "path": "dashboard/tests/ui-v529.test.mts",
+    "sourceSha256": "ee472159e8685396d8681bd93ab7c681566403bede226928eaae12ef8edcbc96",
+    "bytes": 6140
+  },
+  {
+    "path": "dashboard/tests/ui-v530.test.mts",
+    "sourceSha256": "1e793c2664d41d860aee2d262015734aa4416c474d3a961d87d1820f97dadb0d",
+    "bytes": 7313
+  },
+  {
+    "path": "dashboard/tests/ui-v532.test.mts",
+    "sourceSha256": "1b6a58be9a022be9679235210051e377ac0069ab398eaab5ba982d3233e6d1c2",
+    "bytes": 8404
+  },
+  {
+    "path": "dashboard/tests/wage-metrics.test.mjs",
+    "sourceSha256": "ca060843f0238e7e3f88f8c140fe52a666ae650c316e76d975db3c8ff3323b38",
+    "bytes": 961
+  },
+  {
+    "path": "dashboard/worker/auth.ts",
+    "sourceSha256": "0c41df4fe763127e30818bddcbdc190f8e6ca2b6784d0a43455ed7903a714c91",
+    "bytes": 17943
+  },
+  {
+    "path": "dashboard/worker/google-id-token.ts",
+    "sourceSha256": "a11bc79ac61a886d395a143181f77101f3998e72bd1cb702ee72220f798f49aa",
+    "bytes": 8073
+  },
+  {
+    "path": "dashboard/worker/http.ts",
+    "sourceSha256": "6f8876833c3ba81d76422324d4d054803bd79ce079af69c2eafee2f59c0007d9",
+    "bytes": 3266
+  },
+  {
+    "path": "dashboard/worker/index.ts",
+    "sourceSha256": "37db2de6b1c4fd22578c0b4a7aca3f6b82f3a2ff1eba0f41ccc10aac1812e072",
+    "bytes": 2874
+  },
+  {
+    "path": "dashboard/worker/runtime-env.ts",
+    "sourceSha256": "9680ede4e291d3a6346fe797b3ef1dbfecdc4c5b84021e760d7a5e1fd144e50b",
+    "bytes": 1940
+  },
+  {
+    "path": "dashboard/worker/worker-configuration.d.ts",
+    "sourceSha256": "2c0ff8a850a37f8bb8c7a68826910deb665cad79b22f0e35613b38eb98e854eb",
+    "bytes": 509020
+  },
+  {
+    "path": "AGENTS.md",
+    "sourceSha256": "7129f4f5bcf3e9aea79c6d2a669e5af07db6d87672fc42817556d8e575d66127",
+    "bytes": 11122
+  },
+  {
+    "path": "README.md",
+    "sourceSha256": "986f76308050886a06da446a66881c6947ac235cf624f6d0e4f5c53017efbb6a",
+    "bytes": 2214
+  },
+  {
+    "path": "pyproject.toml",
+    "sourceSha256": "09a4e1049faf5445889a1bd49ce68783eeedc17509a9c456e68e8bac513a3003",
+    "bytes": 322
+  },
+  {
+    "path": ".gitignore",
+    "sourceSha256": "d54b2ee914ba961143c229878d9d959686783d61417e96d31da66aa54076c1e7",
+    "bytes": 183
+  },
+  {
+    "path": "data/published/01_戶籍人口母體_長格式.csv",
+    "sourceSha256": "13282f1877cc65a3efb16200a2206e02b23e1455357f95816aa76e85919c8c2b",
+    "bytes": 41037719
+  },
+  {
+    "path": "data/published/02_民間人口與勞動市場母體_長格式.csv",
+    "sourceSha256": "d223eeccc40c03fb180f8d90b80445bbbb38ff254847756b19e1c566bfe857b4",
+    "bytes": 221839
+  },
+  {
+    "path": "data/published/03_受僱員工薪資母體_長格式.csv",
+    "sourceSha256": "92e79d07b9935627c6315c88f96351b5364ffdcd41f415e63189681b8c154f0b",
+    "bytes": 43810
+  },
+  {
+    "path": "data/published/04_來源主檔.csv",
+    "sourceSha256": "d56c29463fb452533a5ea362647d36a292301f8809df7ef172653ce603a12223",
+    "bytes": 3250
+  },
+  {
+    "path": "data/published/05_資料列來源關聯.csv",
+    "sourceSha256": "a993299d68c1e401d755d82b97d0c652cbc471a009ca6aec11ee1c375102f905",
+    "bytes": 23370051
+  },
+  {
+    "path": "data/published/06_政策服務與曝光_長格式.csv",
+    "sourceSha256": "f99c138d0bb07baa5d5c6f4447175fcdbdf4b59f46e0d2b4490a35428653cbd2",
+    "bytes": 228955
+  },
+  {
+    "path": "data/published/07_三母體與外部政策資料整合狀態.csv",
+    "sourceSha256": "743bf740ae16dc97371fceb6d27b842d3f342d122ec9cbb9cf2de16e6dd69cd4",
+    "bytes": 920
+  },
+  {
+    "path": "data/published/08_外部政策資料與三母體介接規則.csv",
+    "sourceSha256": "70ba006693c727ef05ac38d2e2b8c20b653e08c863dce5defe83db41aed986e5",
+    "bytes": 3091
+  },
+  {
+    "path": "data/published/09_月度青年戶籍人口_110_114.json",
+    "sourceSha256": "172a23889d0ae4fbb1b423b67a8a630866326781a904994d5f4f23865b9d0848",
+    "bytes": 2642304
+  },
+  {
+    "path": "data/published/10_新北市居住就業者行業分布_110_114.json",
+    "sourceSha256": "09c78d8673ea2385582323d3815419ce7ab2c3b6c6a784772eeedbffb1c92c6e",
+    "bytes": 37749
+  },
+  {
+    "path": "data/published/code_book.csv",
+    "sourceSha256": "8ad86877b72c7b6c976724b6e2fc2be3d68e2aae212f3618ef1896cfea0a0174",
+    "bytes": 5760
+  },
+  {
+    "path": "data/published/code_book_G6_V5.32.json",
+    "sourceSha256": "1b6d9efde2e36eb4b83c5acb503e29523d1c1aa02bfd8d35fe2c667ae06e1a77",
+    "bytes": 13973
+  },
+  {
+    "path": "data/published/data_catalog.json",
+    "sourceSha256": "628797d177188a9ef4310cc814107de33fa610cd9171fb855e74b1b99524762c",
+    "bytes": 5884
+  },
+  {
+    "path": "data/published/data_catalog_G6_V5.32.json",
+    "sourceSha256": "9b2bae707f1068a93826d6015e3f7d4768cdceb92825cbb7c58b68874af14cfb",
+    "bytes": 3741
+  },
+  {
+    "path": "data/published/external_metric_code_book.csv",
+    "sourceSha256": "1d903ce15f0f0c8142319fab2869ef255a8d7a3f5b5e3d3ef2bc6f4911ff748e",
+    "bytes": 4000
+  },
+  {
+    "path": "data/published/README.md",
+    "sourceSha256": "44438a46659336a5b29dc960246d687abc0ee14167ac3eb2ab06533f8d7df302",
+    "bytes": 747
+  },
+  {
+    "path": "data/published/README.txt",
+    "sourceSha256": "15627d88e6432dcfe1e609cf6cb90ae689fef503602a18cee4a26378fbe895cf",
+    "bytes": 5453
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage.json",
+    "sourceSha256": "b28af4b2229814844e21e6b1c4649ec6a15f0476f8121d215067206150d58f6a",
+    "bytes": 414750
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/ntpc-districts.geojson",
+    "sourceSha256": "f93efb615122056022d24cb3f828f5b5e71de59fd225f3be3c6b0f755498a6e0",
+    "bytes": 825787
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/pipeline-manifest.json",
+    "sourceSha256": "562e3f2aaa40dd797768c9c6d56dab46c352398814923d58ecba1283d450bcc5",
+    "bytes": 5093
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/policy-indicators.json",
+    "sourceSha256": "11d59cb15f389bf6906a258bc8ab5d4c9c7f9ad1f057a94627e3f878b40297e9",
+    "bytes": 13167
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000010.json",
+    "sourceSha256": "43a0f1f5d9b4fd354a374d5744e7e88d4d99880dc73bf63fe096a9cb655191ed",
+    "bytes": 410110
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000020.json",
+    "sourceSha256": "bebef5e67bcd4ff2bb3b5106949f362ea2b6d70c833b4f8eae53d158abed472a",
+    "bytes": 409948
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000030.json",
+    "sourceSha256": "37722bb81a6db7d675415f2b9c17b362bbc8c29c6ffb4d499ef24dede5c50cd2",
+    "bytes": 409523
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000040.json",
+    "sourceSha256": "ef5e643c363399e8ea8f2a65067e5fdb27cff464fea5267239f3cbe025a04ef0",
+    "bytes": 407546
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000050.json",
+    "sourceSha256": "b8921850d69577f55d30cbedcdf6fbeadd4843082f9ab31f7677a3b31ca4380d",
+    "bytes": 410154
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000060.json",
+    "sourceSha256": "a6e77d75ca4982839924e3c6e4f4e1772c21a743f031d6254224311e0999e01e",
+    "bytes": 409004
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000070.json",
+    "sourceSha256": "63b94feb5f4d606c6305386f734b6b3727d09447346f16d710d01fece05aeee8",
+    "bytes": 408334
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000080.json",
+    "sourceSha256": "312bc9c1d62e0c13a94de0f346c1ea69063841e1ea3c5afe16c43c3d36d3b7c9",
+    "bytes": 407347
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000090.json",
+    "sourceSha256": "3d84ca783e4e3f924a2c3b769f415bf6f60e066ca10eab5523c3eb879d0f5a0c",
+    "bytes": 407188
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000100.json",
+    "sourceSha256": "1b775f56495975b49d3933912b576fc2906e515c970fe05bb402b7b857704da0",
+    "bytes": 408146
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000110.json",
+    "sourceSha256": "75d4ac2c377dd2bff662349694b3879ceb5787aeae6fdbac0ffc67c601168207",
+    "bytes": 408173
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000120.json",
+    "sourceSha256": "b17c22e88dfda3e12343984d5f145f6524d5b69020588fbaa0813eb45c148619",
+    "bytes": 403937
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000130.json",
+    "sourceSha256": "bff7183179d48a5c1a322ed657fcf3f6a7a6f2eddde928810e72bc3993479c05",
+    "bytes": 409174
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000140.json",
+    "sourceSha256": "02d441cdf718898f7f6e567f6ce3da0de6f29458c66f2f9d0cd0b3c99c5b6e39",
+    "bytes": 408505
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000150.json",
+    "sourceSha256": "27bce144b5dc956647de25f080ecd86ea8c30f235e0ca0406062941b2c66bb2b",
+    "bytes": 407050
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000160.json",
+    "sourceSha256": "01ba42e4b2fb62d4468ced152f1631be10615951e97c482b353b3107a531dc0e",
+    "bytes": 406258
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000170.json",
+    "sourceSha256": "929727bd2135556ed43b92e9d6e396202c7a84b8aa0257eb9de6b079aa3b24c8",
+    "bytes": 407213
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000180.json",
+    "sourceSha256": "7d4ad23d0e038ff5c19eea00206165285b03ecc516121bd85924356ff492f349",
+    "bytes": 402693
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000190.json",
+    "sourceSha256": "2962899d16c906ef90f1f7facc5525d7be962a5d675273ef7bb9b4bf71d9073f",
+    "bytes": 399529
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000200.json",
+    "sourceSha256": "a213f2c805fd2b768422c1b56ca8e179b15afdf9507cd323d3f98ab74dbaa036",
+    "bytes": 399030
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000210.json",
+    "sourceSha256": "c96d78e238e04beb415ba53c0fbd13ae1fc15bfdf05ee7ccda89fa136b6ed6aa",
+    "bytes": 403014
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000220.json",
+    "sourceSha256": "e1f4c0cbedddd5d00046858f3e87fcf4ed82385ce5ba88806b646b494133b351",
+    "bytes": 400603
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000230.json",
+    "sourceSha256": "b1dd2b56d3e065d19bac69e19075dcdcdae128f1bf23b95afa935d0315255752",
+    "bytes": 404500
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000240.json",
+    "sourceSha256": "03d6d2cea23188467fac171c698e4f799ace79765030309afe4a519ec2d207d2",
+    "bytes": 396511
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000250.json",
+    "sourceSha256": "2dd7926f7e545f79cc2e77aa8a7f0b86bede50006e354ec6ce08ad2e138df292",
+    "bytes": 399511
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000260.json",
+    "sourceSha256": "8d68af20c922507b066ccd1ea5a01b414979a34d269977c65de8d8320667c561",
+    "bytes": 400664
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000270.json",
+    "sourceSha256": "3c7ebb16322c71022700666502e7a3872e75ed7c79e9c5c45f8eef02ee4ed1f9",
+    "bytes": 402801
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000280.json",
+    "sourceSha256": "e86b1b3081b8470325ecd452aff0bc84c07002a0ae7f19a9d26badf507888a90",
+    "bytes": 402351
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/65000290.json",
+    "sourceSha256": "453c092f0888f216ab5572cdbb350f7ecc5cf94667e95faf0fcbd82c0715c151",
+    "bytes": 400276
+  },
+  {
+    "path": "data/published/地圖與教育婚姻交叉/joint-education-marriage-districts/index.json",
+    "sourceSha256": "843d40791e06867ab8f90e449a08c5ffcfddd8a5a9b7d93cb2a256e2db7180a4",
+    "bytes": 2871
+  },
+  {
+    "path": "data/published/政策排名/01_新北市29行政區青年指標排名.csv",
+    "sourceSha256": "31ef2d34aa8e6d9a93f88797c1ce0db67f9fac5805fab304e4a9bc46d1d99b07",
+    "bytes": 1134486
+  },
+  {
+    "path": "data/published/政策排名/02_新北市全市青年指標年度與結構排名.csv",
+    "sourceSha256": "5d30967877d332aa8a38cae7582c0ea72835dafad6f47829741e5f024aaafbcf",
+    "bytes": 2311064
+  },
+  {
+    "path": "data/published/政策排名/請勿用於新分析.md",
+    "sourceSha256": "9a1691ed9b3bda4f997af574cebce79d30446ff4adfbe4035e989c957e3fd9ae",
+    "bytes": 352
+  },
+  {
+    "path": "data/published/政策排名_交付修正版/01_新北市29行政區青年指標排名.csv",
+    "sourceSha256": "31ef8a572cd6239e7ae605aa3080aa1cd188b40c4d3881d1e49c961814e69299",
+    "bytes": 1388884
+  },
+  {
+    "path": "data/published/政策排名_交付修正版/02_新北市全市青年指標年度與結構排名.csv",
+    "sourceSha256": "6823170aad4038cba703e7cd8a7b957ab1224a53df376cd962fd49cb77dd64be",
+    "bytes": 2341234
+  },
+  {
+    "path": "data/published/政策排名_交付修正版/README.md",
+    "sourceSha256": "c8a64de08e9617ed279fe4eaab43950e98711f26351739178bad113bd148d533",
+    "bytes": 964
+  },
+  {
+    "path": "data/published/網站最新快照/district-population-baseline-109.json",
+    "sourceSha256": "8cd924a58eb12e7b76fbbcd1d33ccd588480277d4c6dbcf80cca0694b6afaf60",
+    "bytes": 30654
+  },
+  {
+    "path": "data/published/網站最新快照/export-code-book.json",
+    "sourceSha256": "fac8d368119e6c178669832a85d5415583243693aff38069f199eb2a7a28ed87",
+    "bytes": 8195
+  },
+  {
+    "path": "data/published/網站最新快照/g5-dashboard-data.json",
+    "sourceSha256": "0ffd45c239e893aebdbe618997b49ff9fc2fc2d57b764a779178bbf98da5d9a7",
+    "bytes": 3037068
+  },
+  {
+    "path": "data/published/網站最新快照/mol-salary-context.json",
+    "sourceSha256": "d8105fb61edc4754d2919b0c35791f53da439b91f8f40a2b70d3bc6e892b91ea",
+    "bytes": 5654
+  },
+  {
+    "path": "data/published/網站最新快照/mol-salary-matrix.json",
+    "sourceSha256": "13d68b9f10447972bad561e293e7a0c06a1031491ab4e4f070f17a6fd1d493ad",
+    "bytes": 33323
+  },
+  {
+    "path": "data/published/網站最新快照/monthly-population.json",
+    "sourceSha256": "172a23889d0ae4fbb1b423b67a8a630866326781a904994d5f4f23865b9d0848",
+    "bytes": 2642304
+  },
+  {
+    "path": "data/published/網站最新快照/resident-employment-industry.json",
+    "sourceSha256": "33ed9a091c7ea65f116a91b19da4d0e78c0e4a609ebb9245cfecfec552e0af1f",
+    "bytes": 715385
+  },
+  {
+    "path": "data/published/網站最新快照/youth-industry-wage.json",
+    "sourceSha256": "483224e98cb04125106be96887cf3fed0d42bc3ee57b90deaddc9ffd91ef20e7",
+    "bytes": 37817
+  },
+  {
+    "path": "docs/statistical-methods/README.md",
+    "sourceSha256": "8ba1032ebd5bd03aad326731612ec43846f511a0281f0b915363764e5fe41ec8",
+    "bytes": 203
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/README.txt",
+    "sourceSha256": "839a0556ada159c00a1ee6df31dba611103097e9018f42092282a83c4723aacb",
+    "bytes": 933
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/analyze_annual_labor_age_graduation_v24.py",
+    "sourceSha256": "cecefcfb58c9f01a9051a3848f679f24992c751e2b49b34c0db017f36db41a4c",
+    "bytes": 30855
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/build_external_policy_data.py",
+    "sourceSha256": "0e400de65dedb1f45c5ba22d048b5c68f68685a5fc688a305afa278736c5c764",
+    "bytes": 58869
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/build_g5_master_report.py",
+    "sourceSha256": "fe73120eb17d6cc8dabf6c416aec9b1d39992a4a2abb1c510e05506ad10c2579",
+    "bytes": 58987
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/build_g5_normalized_lineage.py",
+    "sourceSha256": "ce3d2d4803d6b0d07d3ca986f1e72444efb261a2b4abb554333ba8a910f60a36",
+    "bytes": 6279
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/build_g5_source_manifest.py",
+    "sourceSha256": "348080a281d26e648f1fa377d7495b719cdfdcf4e16d31db31126d7838786882",
+    "bytes": 16181
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/build_g5_v3_data.py",
+    "sourceSha256": "1b59300761c3f90f0213f0013e7e851cd9af00e43dcdca07670198485678369f",
+    "bytes": 73264
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/build_g5_v3_docs.py",
+    "sourceSha256": "621e97be64dc3887a5106708b90c761ec6b701781bd216b0e00da66f40dd29bc",
+    "bytes": 97020
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/build_monthly_population_data.py",
+    "sourceSha256": "3ada4cc81877edbdba9ec8c7c76900035ff3db319077b0d7a26838392c12bd77",
+    "bytes": 7475
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/build_release_zip.py",
+    "sourceSha256": "5328bf7a47d183d3324df3aee7254716cb36dae5638092d9f9d142698e24459c",
+    "bytes": 2327
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/build_resident_employment_industry_data.py",
+    "sourceSha256": "9f6e1f91fb833daadaadb8581cf859521f570e0dbb94aaff216857b02b86e5bf",
+    "bytes": 9092
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/export_g5_dashboard_json.py",
+    "sourceSha256": "1fcb8c40d91c931fd06a9af966d08a867931fb28bd2bbfdeeb2edc87754a7e82",
+    "bytes": 13496
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/g5-refresh-policy.json",
+    "sourceSha256": "e17532f0891657ffe6be296b5a2c96b8e33b1c7f16fd6e51170b9fac79a3387a",
+    "bytes": 2996
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/inspect_external_csvs_artifact_tool.mjs",
+    "sourceSha256": "f015b14a73033b3a6fd3984f9e046bd97fb9fa8134e95aa297e2f1c3a7b091f0",
+    "bytes": 2862
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/process_marital_status_v23.py",
+    "sourceSha256": "173d137745bd32d8555b0910160143a4225ba6910b8efe3e5a15040459fdbac0",
+    "bytes": 23269
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/README.txt",
+    "sourceSha256": "9e48cd7a61a274404b4f0a09bfa0cb2617902d4b0be29589aeaa78a4de655f7c",
+    "bytes": 2531
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/rebuild_file_manifest.ps1",
+    "sourceSha256": "ded53f79735abdf0a6c17ef2c35a8e4953a30dd236958efb3830585166b9ecd7",
+    "bytes": 879
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/update_g6_ui_v2_data_package.py",
+    "sourceSha256": "4d21dd608b4a21dfa83cbb5e72753949ddd8affa9d697b927dafdd56a8ae39a2",
+    "bytes": 13973
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/validate_export_schemas.py",
+    "sourceSha256": "2c6c87f83a322b33f8b07a775b069b5a6ec0c36689a38aa16cd029a8b1119825",
+    "bytes": 5181
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/validate_external_policy_data.py",
+    "sourceSha256": "62683f12ed20c2f84a18bcf2f5b54a0e859e0edc5dc744980f3ccc79acc05f1a",
+    "bytes": 8139
+  },
+  {
+    "path": "docs/statistical-methods/既有方法文件與驗證/reproducible_scripts/validate_g5_v3_data.py",
+    "sourceSha256": "a61fd33c765849da4d2acca42216cc21dee830644f27904c48b8f1fda9e1372a",
+    "bytes": 18360
+  },
+  {
+    "path": "docs/history/報告書機器可讀文字.md",
+    "sourceSha256": "a05a1ca8f0a251ab6425482ccdf35106693c591179d84237d36734a5a6426c80",
+    "bytes": 38088
+  },
+  {
+    "path": "docs/history/本次品質發現與處理.md",
+    "sourceSha256": "ff6bcf36f8688f7cd53859cbfec457abf5206b769195f3b2a1fa95751f644427",
+    "bytes": 1045
+  }
+]

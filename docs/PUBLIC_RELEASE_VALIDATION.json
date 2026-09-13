@@ -1,0 +1,29 @@
+{
+  "snapshot_date": "2026-09-13",
+  "scope": "Sanitized public source snapshot; no AWS resources changed during publication",
+  "review_unit_tests": { "passed": 27, "failed": 0 },
+  "dashboard_tests": { "passed": 27, "failed": 0 },
+  "dashboard_build": { "public": "PASS", "internal": "PASS", "vite": "8.0.13" },
+  "staged_credentials_review": {
+    "files": 555,
+    "credential_pattern_findings": 0,
+    "sensitive_literal_candidates": 6,
+    "candidate_resolution": "All six are explicitly labeled test values in authentication/review test files; no production credentials identified",
+    "scope": "Git index content, including provider token formats, private keys, JWTs, database URLs containing passwords and sensitive-name string assignments"
+  },
+  "python_syntax": { "method": "AST parse", "files": 227, "status": "PASS" },
+  "publication_checks": [
+    "Explicit selection of current application, ETL, review integration and analysis source files",
+    "Excluded credentials, local settings, cloud operation receipts, dependency caches and raw data downloads",
+    "Replaced original deployment account, private resource identifiers, administrator emails and allowed IP addresses with examples",
+    "Scanned source for AWS and GitHub key formats, private keys and literal JWTs",
+    "Checked GitHub individual file size limit"
+  ],
+  "test_environment": "Windows, bundled Python and Node; dashboard dependencies reused from the existing lockfile installation",
+  "limitations": [
+    "Fresh dependency installation and deployment to a new AWS account were not performed",
+    "Pattern scanning cannot guarantee detection of every possible secret",
+    "Historical analysis report scripts may need source inputs and local paths adjusted",
+    "SNS recipient confirmation and human Cognito sign-off remain user activation steps"
+  ]
+}

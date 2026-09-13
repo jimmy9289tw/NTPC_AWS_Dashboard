@@ -1,0 +1,30 @@
+.aws-roa .aws-quadrant-evidence{background:transparent;border:0;border-radius:3px;color:inherit;text-align:left;padding:0;min-height:36px;text-decoration:underline;text-underline-offset:4px;line-height:1.6}
+.aws-evidence-entry{margin:4px 0 20px;font-weight:700}
+.roa-evidence-layer{position:fixed;inset:0;z-index:1500;color:#19324a}
+.roa-evidence-layer,.aws-roa{--pn-bg:#f5f8fa;--pn-border:#d9e2ec;--pn-navy:#0b2f47;--pn-teal:#0f766e}
+.roa-evidence-backdrop{position:absolute;inset:0;background:#0b2f4770}
+.roa-evidence-drawer{position:absolute;right:0;top:0;width:min(900px,100vw);height:100dvh;background:#fff;overflow-y:auto;overscroll-behavior:contain;box-shadow:-12px 0 42px #0b2f4728;animation:roa-evidence-in .25s ease-out;font-size:16px;line-height:1.75}
+.roa-evidence-drawer>header{position:sticky;top:0;z-index:10;display:flex;align-items:start;justify-content:space-between;gap:12px;background:white;padding:20px 24px;border-bottom:1px solid #d9e2ec}
+.roa-evidence-drawer>header p,.roa-evidence-drawer h2{margin:0}.roa-evidence-drawer h2{font-size:24px;font-weight:750}.roa-evidence-body{padding:0 24px 40px;min-width:0}
+.roa-evidence-drawer h3{font-size:21px;margin:0 0 12px}.roa-evidence-drawer h4{font-size:18px;margin:10px 0}
+.roa-evidence-drawer button,.roa-evidence-drawer select{min-height:44px;border:1px solid #9baec0;background:white;border-radius:8px;padding:8px 14px;font:inherit;color:inherit;cursor:pointer}
+.roa-evidence-drawer button[aria-pressed=true]{background:#e6f3f0;border-color:#0f766e;color:#0f766e;font-weight:700}
+.roa-evidence-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.roa-evidence-status{padding:14px;background:#f5f8fa;border-left:4px solid #0f766e}
+.roa-evidence-section{min-width:0;border-top:1px solid #d9e2ec;padding:24px 0}.roa-evidence-section p{margin:10px 0}.roa-evidence-section details{margin-top:16px}.roa-evidence-section label{display:grid;gap:8px}.roa-evidence-section select{width:100%;min-width:0}
+.roa-evidence-drawer a,.roa-evidence-drawer summary{color:#075985;cursor:pointer}.roa-evidence-drawer summary{padding:8px 0;font-weight:650}.roa-evidence-drawer small{color:#526477}.roa-evidence-drawer article{padding:12px 0;border-bottom:1px solid #d9e2ec}.roa-evidence-drawer :focus-visible{outline:3px solid #2563eb;outline-offset:3px}
+.roa-evidence-drawer .pn-chart,.aws-roa .pn-chart{margin:16px 0;min-width:0;max-width:100%}
+.roa-evidence-drawer .pn-chart table,.aws-roa .pn-chart table{min-width:0!important;width:100%!important;table-layout:fixed}
+.roa-evidence-drawer .pn-chart td,.roa-evidence-drawer .pn-chart th,.aws-roa .pn-chart td,.aws-roa .pn-chart th{white-space:normal!important;overflow-wrap:anywhere;padding:10px 8px!important}
+.readable-evidence-table table{width:100%!important;min-width:0!important;table-layout:fixed}
+.readable-evidence-table tbody th{position:static;background:#eaf1f5;color:#19324a;text-align:left;font-weight:500}
+.readable-evidence-table td{text-align:right;font-variant-numeric:tabular-nums}.readable-evidence-table td,.readable-evidence-table th{white-space:normal;overflow-wrap:anywhere}
+.aws-chat-records dl>div{display:grid;grid-template-columns:80px minmax(0,1fr);gap:10px;padding:8px 0;border-bottom:1px solid #d9e2ec}.aws-chat-records dd{margin:0;overflow-wrap:anywhere}
+/* The reading heading shares the exact containing-card edge at every width. */
+.story-bridge{width:100%!important;margin:28px 0 16px!important;display:block;max-width:none}
+.story-bridge>span{display:none}.story-bridge>div{padding:0;border:0}
+.story-bridge h2{font-size:clamp(24px,2.1vw,32px);line-height:1.4;font-weight:800;color:var(--navy);margin:0;display:flex;gap:10px 18px;align-items:baseline;flex-wrap:wrap}
+.story-bridge h2 small{font-size:.68em;color:var(--teal);font-weight:750;white-space:nowrap}.story-bridge p{font-size:15px;margin:8px 0 0;max-width:76ch;line-height:1.7}
+.annual-analysis-intro{flex-wrap:wrap;gap:18px}.annual-analysis-intro>div{flex:1 1 420px;min-width:0}.annual-analysis-intro>ol{flex:1 1 480px;justify-content:flex-start;flex-wrap:wrap}.annual-analysis-intro .title-help-row h2{overflow-wrap:normal;word-break:normal}
+@keyframes roa-evidence-in{from{transform:translateX(100%)}to{transform:translateX(0)}}
+@media(max-width:600px){.roa-evidence-drawer>header{padding:16px}.roa-evidence-body{padding:0 16px 28px}.roa-evidence-drawer h2{font-size:21px}.story-bridge h2{font-size:24px;gap:4px 12px}.story-bridge p{font-size:14px}}
+@media(prefers-reduced-motion:reduce){.roa-evidence-drawer{animation:none}}

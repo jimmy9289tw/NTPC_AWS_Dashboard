@@ -1,0 +1,26 @@
+"""機械式替換；只處理新的 AWS 副本，不觸及原始平台。"""
+from pathlib import Path
+root=Path(__file__).resolve().parent/'dashboard'
+p=root/'app/export-center.tsx'; text=p.read_text(encoding='utf-8')
+if "from './aws-export'" not in text:
+    text="import {awsExportFetch} from './aws-export';\n"+text.replace('fetch("/api/export"','awsExportFetch("/api/export"')
+p.write_text(text,encoding='utf-8')
+p=root/'app/dashboard-client.tsx';text=p.read_text(encoding='utf-8')
+text=text.replace('登入首頁｜跨年度月度分析','公開首頁｜跨年度月度分析')
+text=text.replace('授權帳號可使用的政策研判','白名單網路可使用的ROA研判')
+text=text.replace('官方逐月資料｜110年1月至114年12月</p>','官方逐月資料｜{monthlyPeriodLabel}</p>')
+text=text.replace('<strong>110年1月—114年12月</strong>','<strong>{monthlyPeriodLabel}</strong>')
+text=text.replace('"110年1月至114年12月"','monthlyPeriodLabel')
+text=text.replace('"110/01–114/12月度"','`${monthlyPeriodCompact}月度`')
+text=text.replace('<strong>110/01–114/12</strong><small>共60個月底值</small>','<strong>{monthlyPeriodCompact}</strong><small>共{monthlyPeriods.length}個月底值</small>')
+text=text.replace('"110年1月至114年12月的青年人口如何連續變動？"','`${monthlyPeriodLabel}的青年人口如何連續變動？`')
+text=text.replace('`110至114年各年度${comparisonMonth}月底的青年人口如何變化？`','`各可用年度${comparisonMonth}月底的青年人口如何變化？`')
+text=text.replace('"依時間順序查看60個月底人口值。"','`依時間順序查看${monthlyPeriods.length}個月底人口值。`')
+text=text.replace('"查看60個月底值、月增率與同月年增率"','`查看${monthlyPeriods.length}個月底值、月增率與同月年增率`')
+text=text.replace('`比較110–114年每年${comparisonMonth}月底，不加總月份。`','`比較各可用年度${comparisonMonth}月底，不加總月份。`')
+text=text.replace('"110年1月至114年12月，各月底存量"','`${monthlyPeriodLabel}，各月底存量`')
+text=text.replace('依目前行政區、年齡與性別擷取110年1月至114年12月共60個月底值。','依目前行政區、年齡與性別擷取{monthlyPeriodLabel}共{monthlyPeriods.length}個月底值。')
+p.write_text(text,encoding='utf-8')
+p=root/'app/dashboard-client.tsx';text=p.read_text(encoding='utf-8')
+text=text.replace('依資料訊號、相對位置與版本化門檻建立查核順序，再用Green Book的ROAMEF與Magenta Book評估邏輯比較維持現況、最低調整及試辦。','從R資料依據與O關注目標，整理A四象限分級及未來研擬方向。')
+p.write_text(text,encoding='utf-8')

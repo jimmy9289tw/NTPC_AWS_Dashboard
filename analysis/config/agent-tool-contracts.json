@@ -1,0 +1,207 @@
+{
+  "$schema": "../schemas/agent-tool-contracts.schema.json",
+  "contractVersion": "1.0.0",
+  "defaultQueryPolicy": {
+    "readOnly": true,
+    "parameterizedSqlOnly": true,
+    "maxRows": 500,
+    "timeoutSeconds": 20,
+    "failClosed": true,
+    "denyCrossUniverseDenominator": true,
+    "denyRawS3Listing": true
+  },
+  "dataPlanes": [
+    {
+      "code": "REGISTERED_POPULATION",
+      "nameZh": "戶籍人口母體",
+      "kind": "POPULATION_UNIVERSE",
+      "athenaTable": "registered_population_metrics",
+      "geographyScope": "CITY_AND_DISTRICT"
+    },
+    {
+      "code": "LABOR_MARKET",
+      "nameZh": "民間人口與勞動市場母體",
+      "kind": "POPULATION_UNIVERSE",
+      "athenaTable": "labor_market_metrics",
+      "geographyScope": "CITY_ONLY"
+    },
+    {
+      "code": "EMPLOYEE_WAGE",
+      "nameZh": "受僱員工薪資母體",
+      "kind": "POPULATION_UNIVERSE",
+      "athenaTable": "employee_wage_metrics",
+      "geographyScope": "CITY_ONLY"
+    },
+    {
+      "code": "POLICY_SERVICE",
+      "nameZh": "政策服務與曝光輔助證據",
+      "kind": "AUXILIARY_EVIDENCE",
+      "athenaTable": "policy_service_evidence",
+      "geographyScope": "CITY_ONLY"
+    },
+    {
+      "code": "SERVICE_FACILITY",
+      "nameZh": "青年服務據點與公開量能",
+      "kind": "AUXILIARY_EVIDENCE",
+      "athenaTable": "service_facility_inventory",
+      "geographyScope": "FACILITY_AND_DISTRICT"
+    }
+  ],
+  "requiredEvidenceFields": [
+    "record_id",
+    "roc_year",
+    "period_basis",
+    "universe_name_zh",
+    "geography_name_zh",
+    "age_band",
+    "sex_name_zh",
+    "metric_name_zh",
+    "value",
+    "unit",
+    "formula_zh",
+    "value_origin_label_zh",
+    "method_name_zh",
+    "source_name",
+    "source_url",
+    "source_sha256",
+    "retrieved_at",
+    "publish_status",
+    "qa_status",
+    "note_zh"
+  ],
+  "tools": [
+    {
+      "name": "list_available_dimensions",
+      "descriptionZh": "列出可用年度、年齡、性別、地理、指標及資料身分，不回傳內部儲存路徑。",
+      "access": "READ_ONLY",
+      "dataPlaneCodes": ["REGISTERED_POPULATION", "LABOR_MARKET", "EMPLOYEE_WAGE", "POLICY_SERVICE", "SERVICE_FACILITY"],
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "dataPlaneCode": {"type": "string", "enum": ["REGISTERED_POPULATION", "LABOR_MARKET", "EMPLOYEE_WAGE", "POLICY_SERVICE", "SERVICE_FACILITY"]}
+        },
+        "additionalProperties": false
+      },
+      "outputContract": {"type": "DIMENSION_LIST", "mustIncludeAvailability": true}
+    },
+    {
+      "name": "query_registered_metrics",
+      "descriptionZh": "查詢戶籍人口、教育、婚姻及性別指標；行政區只允許此母體。",
+      "access": "READ_ONLY",
+      "dataPlaneCodes": ["REGISTERED_POPULATION"],
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "rocYear": {"type": "integer", "minimum": 110, "maximum": 114},
+          "ageBand": {"type": "string", "enum": ["18-24", "25-29", "30-35", "18-35"]},
+          "sexCode": {"type": "string", "enum": ["ALL", "M", "F"]},
+          "geographyCode": {"type": "string", "pattern": "^650[0-9]{5}$"},
+          "metricCodes": {"type": "array", "minItems": 1, "maxItems": 20, "items": {"type": "string", "pattern": "^[A-Z0-9_]+$"}}
+        },
+        "required": ["rocYear", "ageBand", "sexCode", "geographyCode", "metricCodes"],
+        "additionalProperties": false
+      },
+      "outputContract": {"type": "EVIDENCE_ROWS", "includeRequiredEvidenceFields": true, "maxRows": 500}
+    },
+    {
+      "name": "query_labor_metrics",
+      "descriptionZh": "查詢新北市全市民間人口、勞動力、就業、失業及重算率；拒絕行政區查詢。",
+      "access": "READ_ONLY",
+      "dataPlaneCodes": ["LABOR_MARKET"],
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "rocYear": {"type": "integer", "minimum": 110, "maximum": 114},
+          "ageBand": {"type": "string", "enum": ["18-24", "25-29", "30-35", "18-35"]},
+          "sexCode": {"type": "string", "enum": ["ALL", "M", "F"]},
+          "metricCodes": {"type": "array", "minItems": 1, "maxItems": 20, "items": {"type": "string", "pattern": "^[A-Z0-9_]+$"}}
+        },
+        "required": ["rocYear", "ageBand", "sexCode", "metricCodes"],
+        "additionalProperties": false
+      },
+      "outputContract": {"type": "EVIDENCE_ROWS", "includeRequiredEvidenceFields": true, "fixedGeographyCode": "65000000", "maxRows": 200}
+    },
+    {
+      "name": "query_wage_metrics",
+      "descriptionZh": "查詢新北市工作場所口徑之本國籍全時受僱員工薪資；缺值不以最近年度補位。",
+      "access": "READ_ONLY",
+      "dataPlaneCodes": ["EMPLOYEE_WAGE"],
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "rocYear": {"type": "integer", "minimum": 110, "maximum": 114},
+          "ageBand": {"type": "string", "enum": ["18-24", "25-29", "30-35", "18-35"]},
+          "sexCode": {"type": "string", "enum": ["ALL", "M", "F"]},
+          "statistic": {"type": "string", "enum": ["MEAN", "MEDIAN", "ALL"]}
+        },
+        "required": ["rocYear", "ageBand", "sexCode", "statistic"],
+        "additionalProperties": false
+      },
+      "outputContract": {"type": "EVIDENCE_OR_EXPLICIT_GAP", "includeRequiredEvidenceFields": true, "fixedGeographyCode": "65000000", "noYearFallback": true, "maxRows": 100}
+    },
+    {
+      "name": "query_policy_service_evidence",
+      "descriptionZh": "查詢全市政策服務場次、人次及曝光強度；曝光強度為人次除以場次，不是百分比。",
+      "access": "READ_ONLY",
+      "dataPlaneCodes": ["POLICY_SERVICE"],
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "rocYear": {"type": "integer", "minimum": 111, "maximum": 114},
+          "serviceDomain": {"type": "string", "enum": ["CAREER_DEVELOPMENT", "ENTREPRENEURSHIP", "ALL"]},
+          "metricCodes": {"type": "array", "minItems": 1, "maxItems": 10, "items": {"type": "string", "enum": ["SERVICE_ACTIVITY_COUNT", "SERVICE_PARTICIPATION_PERSON_TIMES", "SERVICE_PERSON_TIMES_PER_ACTIVITY"]}}
+        },
+        "required": ["rocYear", "serviceDomain", "metricCodes"],
+        "additionalProperties": false
+      },
+      "outputContract": {"type": "EVIDENCE_ROWS", "includeRequiredEvidenceFields": true, "fixedGeographyCode": "65000000", "exposureUnit": "人次／場", "retainRepeatedPersonTimes": true, "maxRows": 100}
+    },
+    {
+      "name": "list_service_facilities",
+      "descriptionZh": "列出官方青年服務據點、行政區、營運狀態、地址及分單位公開量能；不推論服務覆蓋率。",
+      "access": "READ_ONLY",
+      "dataPlaneCodes": ["SERVICE_FACILITY"],
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "districtCode": {"type": "string", "pattern": "^650[0-9]{5}$"},
+          "operatingStatus": {"type": "string", "enum": ["ACTIVE", "INACTIVE", "ALL"]}
+        },
+        "additionalProperties": false
+      },
+      "outputContract": {"type": "FACILITY_ROWS", "includeOfficialSource": true, "keepCapacityUnitsSeparate": true, "maxRows": 100}
+    },
+    {
+      "name": "explain_method",
+      "descriptionZh": "依指標、方法或紀錄代號說明公式、模型、驗證、不確定性及不可推論事項。",
+      "access": "READ_ONLY",
+      "dataPlaneCodes": ["REGISTERED_POPULATION", "LABOR_MARKET", "EMPLOYEE_WAGE", "POLICY_SERVICE"],
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "recordId": {"type": "string", "pattern": "^[0-9a-f]{24}$"},
+          "metricCode": {"type": "string", "pattern": "^[A-Z0-9_]+$"},
+          "methodCode": {"type": "string", "pattern": "^[A-Z0-9_+.-]+$"}
+        },
+        "minProperties": 1,
+        "additionalProperties": false
+      },
+      "outputContract": {"type": "METHOD_EVIDENCE", "includeFormula": true, "includeLimitations": true}
+    },
+    {
+      "name": "get_source_evidence",
+      "descriptionZh": "回傳已發布紀錄的官方來源、快照雜湊、擷取時間與QA身分；拒絕列出raw S3物件。",
+      "access": "READ_ONLY",
+      "dataPlaneCodes": ["REGISTERED_POPULATION", "LABOR_MARKET", "EMPLOYEE_WAGE", "POLICY_SERVICE", "SERVICE_FACILITY"],
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "recordIds": {"type": "array", "minItems": 1, "maxItems": 50, "items": {"type": "string", "pattern": "^[0-9a-f]{24}$"}}
+        },
+        "required": ["recordIds"],
+        "additionalProperties": false
+      },
+      "outputContract": {"type": "SOURCE_EVIDENCE", "denyRawS3Listing": true, "maxRows": 50}
+    }
+  ]
+}

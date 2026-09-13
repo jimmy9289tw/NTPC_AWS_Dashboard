@@ -1,0 +1,131 @@
+/* V5.32: the current shared presentation layer. Data/decision colours retain their meaning. */
+:root {
+  --font-ui: "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+  --text-body: 1rem;
+  --text-label: .875rem;
+  --text-meta: .75rem;
+  --surface-page: #f5f8fa;
+  --surface-card: #fff;
+  --text-primary: #19324a;
+  --text-secondary: #475f70;
+  --action-primary: #0f766e;
+  --border-default: #d9e2ec;
+  --card-radius: 12px;
+  --card-shadow: 0 2px 6px rgb(11 47 71 / 4%);
+  --canvas: var(--surface-page);
+  --paper: var(--surface-card);
+  --ink: var(--text-primary);
+  --muted: var(--text-secondary);
+  --border: var(--border-default);
+  --radius: var(--card-radius);
+}
+body { font-family: var(--font-ui); font-size: var(--text-body); line-height: 1.65; }
+button, select, input, textarea { font-family: inherit; }
+.shell :is(button, select, input, textarea, summary):focus-visible,
+.side-nav button:focus-visible, .mobile-menu :is(button, a):focus-visible {
+  outline: 3px solid #2563eb; outline-offset: 3px;
+}
+.shell :is(h1, h2, h3) { text-wrap: balance; }
+.home-monthly { grid-template-columns: minmax(0, 1fr); min-width: 0; }
+.home-monthly > *, .home-monthly-heading > *, .monthly-analysis, .monthly-chart { min-width: 0; max-width: 100%; }
+.annual-quadrant-card, .section-shell, .entry-card, .export-step-card { border-radius: var(--card-radius); box-shadow: var(--card-shadow); }
+.annual-change-strip span, .annual-change-strip small,
+.district-ranking-grid article > small, .rank-movement,
+.industry-matrix-cell small, .industry-matrix-reader small,
+.salary-matrix-cell small, .side-nav nav small, .side-nav footer,
+.evidence-details summary small, .five-point-note, .quadrant-label,
+.meta-chip, .entry-scope, .source-status { font-size: var(--text-meta); }
+.annual-change-strip strong, .industry-matrix-cell strong { font-size: var(--text-body); }
+.chart-filter-row label, .annual-map-filters label, .policy-context-controls label,
+.custom-filter-grid label, .role-well label, .wage-page-filter label,
+.district-ranking-grid article > span, .chart-legend, .chart-overline,
+.chart-series-label, .industry-heatmap-legend { font-size: var(--text-label); }
+.chart-filter-row select, .policy-context-controls select, .custom-filter-grid select,
+.role-well select, .side-nav-heading button, .help-tip-trigger { min-width: 44px; min-height: 44px; }
+.chart-filter-row select, .policy-context-controls select, .role-well select { font-size: var(--text-body); }
+.help-tip-trigger { width: 44px; height: 44px; margin-block: -4px; }
+.help-tip-panel-heading > button { min-height: 44px; }
+.filter-scope-note { flex-basis: 100%; color: var(--text-secondary); font-size: var(--text-meta); font-weight: 600; }
+.scope-caption { margin: 8px 0 12px; color: var(--text-secondary); font-size: var(--text-label); }
+.side-nav nav strong { font-size: var(--text-label); line-height: 1.5; }
+.side-nav nav button { min-height: 72px; }
+.side-nav nav img { width: 36px; height: 36px; }
+.side-nav nav small { white-space: normal; line-height: 1.5; }
+.mobile-menu-heading { display: flex !important; align-items: center; justify-content: space-between; gap: 12px; }
+.mobile-menu-heading button { min-height: 44px; min-width: 64px; border: 1px solid var(--border); border-radius: 8px; color: var(--navy); background: white; }
+.mobile-menu-links strong { font-size: var(--text-body); }
+.mobile-menu-links small { font-size: var(--text-meta); }
+.shell .entry-card { min-height: 0; gap: 12px; padding: 20px; }
+.shell .entry-card:nth-child(n) { min-height: 0; }
+.entry-card-top img { width: 44px; height: 44px; }
+.entry-card h3 { font-size: 22px; line-height: 1.45; }
+.entry-scope { margin-bottom: 4px; }
+.entry-question { margin-top: 8px; font-size: var(--text-body); }
+.entry-card-actions { grid-template-columns: minmax(0,1fr) auto; padding-top: 8px; gap: 12px; }
+.entry-card-actions .entry-chat-button { padding-inline: 8px; border-color: transparent; background: transparent; color: var(--action-primary); text-decoration: underline; text-underline-offset: 4px; }
+.entry-card:hover { transform: none; box-shadow: var(--card-shadow); }
+.intro.inner-intro { margin-bottom: 16px; }
+.inner-intro .hero-copy { grid-template-columns: 48px minmax(0,1fr); gap: 12px; }
+.inner-intro .hero-generated-icon { width: 48px; height: 48px; }
+.inner-intro .hero-copy h1 { font-size: clamp(24px, 2vw, 30px); }
+.compact-meta > details > summary { min-height: 44px; color: var(--action-primary); font-size: var(--text-label); }
+.compact-meta > details dl { margin-top: 8px; }
+.export-choice-actions button { min-height: 44px; min-width: 48px; }
+.export-workspace .export-controls { min-width: 0; }
+.export-preview .section-heading { align-items: flex-start; }
+.export-preview .section-heading p { overflow-wrap: anywhere; }
+.table-scroll, .salary-matrix-scroll, .pn-table-scroll { overscroll-behavior-x: contain; }
+.table-scroll table :is(th,td):first-child, .pn-table-scroll table :is(th,td):first-child {
+  position: sticky; left: 0; z-index: 1; background: var(--surface-card); box-shadow: 1px 0 0 var(--border);
+}
+.table-scroll table thead th:first-child, .pn-table-scroll table thead th:first-child {
+  background: var(--navy); color: #fff; z-index: 2;
+}
+.readable-chart { min-width: 0; max-width: 100%; }
+.readable-plot-frame { position: relative; min-width: 0; max-width: 100%; }
+.readable-chart .readable-plot-scroll { width: 100%; max-width: 100%; min-width: 0; overflow-x: auto; overflow-y: hidden; overscroll-behavior-x: contain; }
+.readable-chart .readable-plot-scroll > svg { display: block; width: 100%; max-width: none; height: auto; overflow: hidden; }
+.readable-chart .chart-canvas svg text, .readable-chart .chart-pinned-axis text {
+  font-family: var(--font-ui); font-size: 16px; font-variant-numeric: tabular-nums;
+}
+.readable-chart .chart-pinned-axis text { fill: var(--text-secondary); }
+.readable-chart .chart-canvas :is(.joint-bar-value, .wage-gap-annotation text) { font-size: 14px !important; }
+.readable-chart .chart-pinned-axis { position: absolute; top: 0; min-width: 0 !important; max-width: none !important; z-index: 2; pointer-events: none; }
+.chart-pinned-axis.left { left: 0; }
+.chart-pinned-axis.right { right: 0; }
+.pn-chart { --plot-surface: #f5f8fa; }
+.readable-chart .chart-reading-guide { min-height: 24px; margin: 8px 0; color: var(--text-secondary); font-size: var(--text-meta); line-height: 1.6; }
+.chart-tap-readout { margin: 8px 0 0; padding: 12px 14px; border-left: 3px solid var(--action-primary); background: #edf7f5; color: var(--text-primary); font-size: var(--text-body); overflow-wrap: anywhere; }
+.chart-point-tooltip small { font-size: var(--text-meta); }
+.pn-evidence-drawer .chart-reading-guide, .pn-stage .chart-reading-guide { font-size: var(--text-meta); }
+.pn-status-board .pn-status-column { align-self: start; }
+@media (max-width: 820px) {
+  .home-monthly-heading { grid-template-columns: minmax(0, 1fr); }
+  .shell .chart-filter-row select, .shell .wage-page-filter select, .shell .custom-filter-grid select { font-size: 16px; }
+  .annual-change-strip { grid-template-columns: repeat(5, minmax(116px, 1fr)); overflow-x: auto; padding-bottom: 6px; }
+  .entry-card-actions { grid-template-columns: minmax(0,1fr) auto; }
+  .readable-chart .chart-reading-guide { font-size: var(--text-label); }
+  .pn-evidence-drawer, .ai-drawer { padding-bottom: calc(24px + env(safe-area-inset-bottom)); }
+}
+@media (max-width: 560px) {
+  .shell .entry-card { padding: 16px; }
+  .inner-intro .hero-copy { grid-template-columns: minmax(0,1fr); }
+  .inner-intro .hero-generated-icon { display: none; }
+  .side-nav-heading { gap: 8px; }
+}
+@media print {
+  .chart-pinned-axis, .chart-reading-guide, .entry-card-actions { display: none !important; }
+  .readable-chart .readable-plot-scroll { overflow: visible; }
+  .readable-chart .readable-plot-scroll > svg { min-width: 0 !important; max-width: 100%; }
+}
+
+/* SVG districts use their geographic contour, not a rectangular focus outline. */
+svg path:is(.annual-map-district, .policy-picker-district, .district):focus,
+svg.aws-region-map path[role="button"]:focus {
+  outline: none;
+}
+svg path:is(.annual-map-district, .policy-picker-district, .district):focus-visible,
+svg.aws-region-map path[role="button"]:focus-visible {
+  stroke: #0b2f47;
+  stroke-width: 5;
+}

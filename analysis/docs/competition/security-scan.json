@@ -1,0 +1,8 @@
+{
+  "scannedFiles": 418,
+  "scannedBytes": 123053369,
+  "secretPatternFindings": [],
+  "consumerEmailFilesForReview": [],
+  "filesOver100MiB": [],
+  "scope": "literal-pattern scan of deliverable source; not a guarantee that arbitrary obfuscated secrets are absent"
+}

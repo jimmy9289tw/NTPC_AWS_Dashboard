@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "definitionId": "DEF-YOUTH-AGE-001",
+  "version": "1.0",
+  "coreYouthDefinition": "18-35",
+  "groups": [
+    {
+      "id": "AGE-OBS-15-17",
+      "label": "青年銜接觀察組",
+      "minAge": 15,
+      "maxAge": 17,
+      "core": false,
+      "policyRole": "觀察"
+    },
+    {
+      "id": "AGE-CORE-18-24",
+      "label": "就學、初入職場與轉銜階段",
+      "minAge": 18,
+      "maxAge": 24,
+      "core": true,
+      "policyRole": "核心"
+    },
+    {
+      "id": "AGE-CORE-25-29",
+      "label": "職涯建立階段",
+      "minAge": 25,
+      "maxAge": 29,
+      "core": true,
+      "policyRole": "核心"
+    },
+    {
+      "id": "AGE-CORE-30-35",
+      "label": "職涯、居住與家庭形成階段",
+      "minAge": 30,
+      "maxAge": 35,
+      "core": true,
+      "policyRole": "核心"
+    },
+    {
+      "id": "AGE-EXT-36-40",
+      "label": "方案擴充組",
+      "minAge": 36,
+      "maxAge": 40,
+      "core": false,
+      "policyRole": "擴充"
+    }
+  ],
+  "conflictRules": {
+    "countProrationAllowed": false,
+    "rateProrationAllowed": false,
+    "averageProrationAllowed": false,
+    "crossBoundarySourceBand": "AGE_BOUNDARY_CONFLICT",
+    "publicationEffect": "BLOCK_UNTIL_REVIEWED"
+  }
+}

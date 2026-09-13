@@ -1,0 +1,551 @@
+{
+  "version": "G3-1",
+  "supported_years": [
+    110,
+    111,
+    112,
+    113,
+    114
+  ],
+  "wage_available_years": [
+    110,
+    111,
+    112,
+    113
+  ],
+  "files": [
+    {
+      "url": "https://www.ris.gov.tw/AS2/infocenter/opendata110Y051.zip",
+      "target": "data/raw/MOI-EDU-SINGLEAGE/110/opendata110Y051.csv",
+      "source_name": "opendata110Y051.zip",
+      "group": "population",
+      "year": 110,
+      "transform": "ntpc_csv",
+      "verified_archive_sha256": "876200ddc29c4d0f1d8974d0a332d57986665ac201c83e6ef0d1409e438b8bdb",
+      "verified_subset_sha256": "03bb21107720519450f03a1bc55b26a34777b9642bd68ccc2c95346ef9ea3beb"
+    },
+    {
+      "url": "https://www.ris.gov.tw/AS2/infocenter/opendata110Y031.zip",
+      "target": "data/raw/MOI-MARITAL5Y/110/opendata110Y031.csv",
+      "source_name": "opendata110Y031.zip",
+      "group": "population",
+      "year": 110,
+      "transform": "ntpc_csv",
+      "verified_archive_sha256": "a9cc593248c28a8238997630c7ffac198f927142da1a6ce4b789bef70ee53b72",
+      "verified_subset_sha256": "9cfd8384f1b215e2b1aca170b2d9534e094c821126cfaf139ad3f14c7759b4c1"
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/207903/table27.xls",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/110/table27.xlsx",
+      "source_name": "table27.xls",
+      "group": "labor",
+      "year": 110,
+      "transform": "xls_to_xlsx"
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/207903/table28.xls",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/110/table28.xlsx",
+      "source_name": "table28.xls",
+      "group": "labor",
+      "year": 110,
+      "transform": "xls_to_xlsx"
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/207903/table32.xls",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/110/table32.xlsx",
+      "source_name": "table32.xls",
+      "group": "labor",
+      "year": 110,
+      "transform": "xls_to_xlsx"
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/207903/table36.xls",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/110/table36.xlsx",
+      "source_name": "table36.xls",
+      "group": "labor",
+      "year": 110,
+      "transform": "xls_to_xlsx"
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/207903/table37.xls",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/110/table37.xlsx",
+      "source_name": "table37.xls",
+      "group": "labor",
+      "year": 110,
+      "transform": "xls_to_xlsx"
+    },
+    {
+      "url": "https://www.ris.gov.tw/AS2/infocenter/opendata111Y051.zip",
+      "target": "data/raw/MOI-EDU-SINGLEAGE/111/opendata111Y051.csv",
+      "source_name": "opendata111Y051.zip",
+      "group": "population",
+      "year": 111,
+      "transform": "ntpc_csv",
+      "verified_archive_sha256": "53d88b3ac4975d54f867628fa160baa999a5ee32577df7cbbb54573cb96eb3bc",
+      "verified_subset_sha256": "1cedfa6c228e2e9fed66a49cf1423c504bae5ee6dd954755ed9e088c8f047fff"
+    },
+    {
+      "url": "https://www.ris.gov.tw/AS2/infocenter/opendata111Y031.zip",
+      "target": "data/raw/MOI-MARITAL5Y/111/opendata111Y031.csv",
+      "source_name": "opendata111Y031.zip",
+      "group": "population",
+      "year": 111,
+      "transform": "ntpc_csv",
+      "verified_archive_sha256": "5c9cf19c18d85febfb8b6fc8cb2031043e9e44926d7838aecf33ff907b0fc16e",
+      "verified_subset_sha256": "6b09bb20a26ced784f63e6610c6e54dff4ef16697f879c54c0f56e34946d9258"
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/231112/table27.xls",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/111/table27.xlsx",
+      "source_name": "table27.xls",
+      "group": "labor",
+      "year": 111,
+      "transform": "xls_to_xlsx"
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/231112/table28.xls",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/111/table28.xlsx",
+      "source_name": "table28.xls",
+      "group": "labor",
+      "year": 111,
+      "transform": "xls_to_xlsx"
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/231112/table32.xls",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/111/table32.xlsx",
+      "source_name": "table32.xls",
+      "group": "labor",
+      "year": 111,
+      "transform": "xls_to_xlsx"
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/231112/table36.xls",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/111/table36.xlsx",
+      "source_name": "table36.xls",
+      "group": "labor",
+      "year": 111,
+      "transform": "xls_to_xlsx"
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/231112/table37.xls",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/111/table37.xlsx",
+      "source_name": "table37.xls",
+      "group": "labor",
+      "year": 111,
+      "transform": "xls_to_xlsx"
+    },
+    {
+      "url": "https://www.ris.gov.tw/AS2/infocenter/opendata112Y051.zip",
+      "target": "data/raw/MOI-EDU-SINGLEAGE/112/opendata112Y051.csv",
+      "source_name": "opendata112Y051.zip",
+      "group": "population",
+      "year": 112,
+      "transform": "ntpc_csv",
+      "verified_archive_sha256": "791df0c9a4635235bf2fd4f6c9212bb55709e49aae3dac82532130e75e676951",
+      "verified_subset_sha256": "ab6dd46e7096af3b469f620b14a1f3bde4906c39324d906abcad92c78e57aa53"
+    },
+    {
+      "url": "https://www.ris.gov.tw/AS2/infocenter/opendata112Y031.zip",
+      "target": "data/raw/MOI-MARITAL5Y/112/opendata112Y031.csv",
+      "source_name": "opendata112Y031.zip",
+      "group": "population",
+      "year": 112,
+      "transform": "ntpc_csv",
+      "verified_archive_sha256": "a17671297d2c1a8e3c905da02e82673e12f47c7cba154e99416c6f4b74695d22",
+      "verified_subset_sha256": "d0e066b64d1802e92b57a454695c42e12887f7aba2d54f81875eba90fb869fc3"
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/234726/table27.xlsx",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/112/table27.xlsx",
+      "source_name": "table27.xlsx",
+      "group": "labor",
+      "year": 112,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/234726/table28.xlsx",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/112/table28.xlsx",
+      "source_name": "table28.xlsx",
+      "group": "labor",
+      "year": 112,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/234726/table32.xlsx",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/112/table32.xlsx",
+      "source_name": "table32.xlsx",
+      "group": "labor",
+      "year": 112,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/234726/table36.xlsx",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/112/table36.xlsx",
+      "source_name": "table36.xlsx",
+      "group": "labor",
+      "year": 112,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/234726/table37.xlsx",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/112/table37.xlsx",
+      "source_name": "table37.xlsx",
+      "group": "labor",
+      "year": 112,
+      "transform": null
+    },
+    {
+      "url": "https://www.ris.gov.tw/AS2/infocenter/opendata113Y051.zip",
+      "target": "data/raw/MOI-EDU-SINGLEAGE/113/opendata113Y051.csv",
+      "source_name": "opendata113Y051.zip",
+      "group": "population",
+      "year": 113,
+      "transform": "ntpc_csv",
+      "verified_archive_sha256": "acc797871416f75caee9672871f587ddfe81a4290c59783fa2b6ad8f65479916",
+      "verified_subset_sha256": "b269681da924ecd6d4bd9dc5db412b745777bbe1788a587b1dcc5a302c59ac09"
+    },
+    {
+      "url": "https://www.ris.gov.tw/AS2/infocenter/opendata113Y031.zip",
+      "target": "data/raw/MOI-MARITAL5Y/113/opendata113Y031.csv",
+      "source_name": "opendata113Y031.zip",
+      "group": "population",
+      "year": 113,
+      "transform": "ntpc_csv",
+      "verified_archive_sha256": "1141192258e0ef275fe0857e3b1699ee84d8e55bbbd5e64e71e600e8718d4997",
+      "verified_subset_sha256": "1a6fd39d7db4d76075912f56e3500d9f0b5a989c6b424f827be3226564af228a"
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/234727/table27.xlsx",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/113/table27.xlsx",
+      "source_name": "table27.xlsx",
+      "group": "labor",
+      "year": 113,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/234727/table28.xlsx",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/113/table28.xlsx",
+      "source_name": "table28.xlsx",
+      "group": "labor",
+      "year": 113,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/234727/table32.xlsx",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/113/table32.xlsx",
+      "source_name": "table32.xlsx",
+      "group": "labor",
+      "year": 113,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/234727/table36.xlsx",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/113/table36.xlsx",
+      "source_name": "table36.xlsx",
+      "group": "labor",
+      "year": 113,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/234727/table37.xlsx",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/113/table37.xlsx",
+      "source_name": "table37.xlsx",
+      "group": "labor",
+      "year": 113,
+      "transform": null
+    },
+    {
+      "url": "https://www.ris.gov.tw/AS2/infocenter/opendata114Y051.zip",
+      "target": "data/raw/MOI-EDU-SINGLEAGE/114/opendata114Y051.csv",
+      "source_name": "opendata114Y051.zip",
+      "group": "population",
+      "year": 114,
+      "transform": "ntpc_csv",
+      "verified_archive_sha256": "45781e36cba374e9a6f23b3745130a194359133c2497fa70bae57752513d8c0b",
+      "verified_subset_sha256": "284dc220c7a37852706e78767a724519b255057187727ac4c0e05eb17c720725"
+    },
+    {
+      "url": "https://www.ris.gov.tw/AS2/infocenter/opendata114Y031.zip",
+      "target": "data/raw/MOI-MARITAL5Y/114/opendata114Y031.csv",
+      "source_name": "opendata114Y031.zip",
+      "group": "population",
+      "year": 114,
+      "transform": "ntpc_csv",
+      "verified_archive_sha256": "3b4607c98d99a194f26cc0ea0ef0a1f9cbf90030c3ecd81ab3f0f1289dc110f5",
+      "verified_subset_sha256": "b38f50921a0f34b58e82fe40e82a0b0abf8c8b219c75067982c2532a2d4d1dcf"
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/236078/table27.xlsx",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/114/table27.xlsx",
+      "source_name": "table27.xlsx",
+      "group": "labor",
+      "year": 114,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/236078/table28.xlsx",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/114/table28.xlsx",
+      "source_name": "table28.xlsx",
+      "group": "labor",
+      "year": 114,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/236078/table32.xlsx",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/114/table32.xlsx",
+      "source_name": "table32.xlsx",
+      "group": "labor",
+      "year": 114,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/236078/table36.xlsx",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/114/table36.xlsx",
+      "source_name": "table36.xlsx",
+      "group": "labor",
+      "year": 114,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/236078/table37.xlsx",
+      "target": "deliverables/NTPC_Labor_18-35_Sprague_PCLM_Pilot_V1.1_20260825/raw/annual/114/table37.xlsx",
+      "source_name": "table37.xlsx",
+      "group": "labor",
+      "year": 114,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11040/235759/table41.xlsx",
+      "target": "additional-inputs/DGBAS-NTPC-UR-AGE-T41-11412.xlsx",
+      "source_name": "table41.xlsx",
+      "group": "labor",
+      "year": 114,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11040/235759/table42.xlsx",
+      "target": "additional-inputs/DGBAS-NTPC-LABOR-AGE-T42-114H2.xlsx",
+      "source_name": "table42.xlsx",
+      "group": "labor",
+      "year": 114,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/207903/table33.xls",
+      "target": "dashboard/work/official-source-check/DGBAS_110_Annual_Table33_Industry.xls",
+      "source_name": "table33.xls",
+      "group": "industry",
+      "year": 110,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/231112/table33.xls",
+      "target": "dashboard/work/official-source-check/DGBAS_111_Annual_Table33_Industry.xls",
+      "source_name": "table33.xls",
+      "group": "industry",
+      "year": 111,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/234726/table33.xlsx",
+      "target": "dashboard/work/official-source-check/DGBAS_112_Annual_Table33_Industry.xlsx",
+      "source_name": "table33.xlsx",
+      "group": "industry",
+      "year": 112,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/234727/table33.xlsx",
+      "target": "dashboard/work/official-source-check/DGBAS_113_Annual_Table33_Industry.xlsx",
+      "source_name": "table33.xlsx",
+      "group": "industry",
+      "year": 113,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11516/236078/table33.xlsx",
+      "target": "dashboard/work/official-source-check/DGBAS_114_Annual_Table33_Industry.xlsx",
+      "source_name": "table33.xlsx",
+      "group": "industry",
+      "year": 114,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/public/data/dgbas04/bc4/month/11006/table42.xls",
+      "target": "dashboard/work/official-source-check/DGBAS_110_H1_NTPC_Industry_Age.xls",
+      "source_name": "table42.xls",
+      "group": "industry",
+      "year": 110,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/public/data/dgbas04/bc4/month/11012/table42.xls",
+      "target": "dashboard/work/official-source-check/DGBAS_110_H2_NTPC_Industry_Age.xls",
+      "source_name": "table42.xls",
+      "group": "industry",
+      "year": 110,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/public/data/dgbas04/bc4/month/11106/table42.xls",
+      "target": "dashboard/work/official-source-check/DGBAS_111_H1_NTPC_Industry_Age.xls",
+      "source_name": "table42.xls",
+      "group": "industry",
+      "year": 111,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11040/230702/table42.xls",
+      "target": "dashboard/work/official-source-check/DGBAS_111_H2_NTPC_Industry_Age.xls",
+      "source_name": "table42.xls",
+      "group": "industry",
+      "year": 111,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11040/231948/table42.xlsx",
+      "target": "dashboard/work/official-source-check/DGBAS_112_H1_NTPC_Industry_Age.xlsx",
+      "source_name": "table42.xlsx",
+      "group": "industry",
+      "year": 112,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11040/232937/table42.xlsx",
+      "target": "dashboard/work/official-source-check/DGBAS_112_H2_NTPC_Industry_Age.xlsx",
+      "source_name": "table42.xlsx",
+      "group": "industry",
+      "year": 112,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11040/233571/table42.xlsx",
+      "target": "dashboard/work/official-source-check/DGBAS_113_H1_NTPC_Industry_Age.xlsx",
+      "source_name": "table42.xlsx",
+      "group": "industry",
+      "year": 113,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11040/234489/table42.xlsx",
+      "target": "dashboard/work/official-source-check/DGBAS_113_H2_NTPC_Industry_Age.xlsx",
+      "source_name": "table42.xlsx",
+      "group": "industry",
+      "year": 113,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11040/235113/table44.xlsx",
+      "target": "dashboard/work/official-source-check/DGBAS_114_H1_NTPC_Industry_Age.xlsx",
+      "source_name": "table44.xlsx",
+      "group": "industry",
+      "year": 114,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11040/235759/table44.xlsx",
+      "target": "dashboard/work/official-source-check/DGBAS_114_H2_NTPC_Industry_Age.xlsx",
+      "source_name": "table44.xlsx",
+      "group": "industry",
+      "year": 114,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11753/232642/表6　工業及服務業全年總薪資統計－本國籍全時受僱員工按工作場所所在縣市別及年齡別分.xlsx",
+      "target": "data/raw/WAGE-AUX/20260826/STAT-WAGE-LOC-TABLE6-current.xlsx",
+      "source_name": "表6　工業及服務業全年總薪資統計－本國籍全時受僱員工按工作場所所在縣市別及年齡別分.xlsx",
+      "group": "wage",
+      "year": 113,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11753/232642/表6　工業及服務業全年總薪資統計－本國籍全時受僱員工按工作場所所在縣市別及年齡別分.xlsx",
+      "target": "dashboard/data/raw/DGBAS-WAGE-INDUSTRY-AGE/20260907/DGBAS-WAGE-TABLE6-COUNTY-AGE.xlsx",
+      "source_name": "表6　工業及服務業全年總薪資統計－本國籍全時受僱員工按工作場所所在縣市別及年齡別分.xlsx",
+      "group": "wage",
+      "year": 113,
+      "transform": null
+    },
+    {
+      "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11753/232642/表2　各業受僱員工全年總薪資統計－按年齡別分.xlsx",
+      "target": "dashboard/data/raw/DGBAS-WAGE-INDUSTRY-AGE/20260907/DGBAS-WAGE-TABLE2-INDUSTRY-AGE.xlsx",
+      "source_name": "表2　各業受僱員工全年總薪資統計－按年齡別分.xlsx",
+      "group": "wage",
+      "year": 113,
+      "transform": null
+    },
+    {
+      "url": "https://data.ntpc.gov.tw/api/datasets/13f881c7-53c4-4f8c-b693-816584562666/csv",
+      "target": "data/raw/NTPC-LAND-AREA/20260831/NTPC-DISTRICT-LAND-AREA.csv",
+      "source_name": "csv",
+      "group": "area",
+      "year": null,
+      "transform": null
+    },
+    {
+      "url": "https://apiservice.mol.gov.tw/OdService/download/A17000000J-030517-61x",
+      "source_name": "BLI-AGE-REGION-SEX-110.csv",
+      "target": "data/raw/WAGE-AUX/20260826/BLI-AGE-REGION-SEX-110.csv",
+      "group": "wage-aux",
+      "year": 110,
+      "transform": null
+    },
+    {
+      "url": "https://apiservice.mol.gov.tw/OdService/download/A17000000J-030517-cwz",
+      "source_name": "BLI-AGE-REGION-SEX-111.csv",
+      "target": "data/raw/WAGE-AUX/20260826/BLI-AGE-REGION-SEX-111.csv",
+      "group": "wage-aux",
+      "year": 111,
+      "transform": null
+    },
+    {
+      "url": "https://apiservice.mol.gov.tw/OdService/download/A17000000J-030517-LOg",
+      "source_name": "BLI-AGE-REGION-SEX-112.csv",
+      "target": "data/raw/WAGE-AUX/20260826/BLI-AGE-REGION-SEX-112.csv",
+      "group": "wage-aux",
+      "year": 112,
+      "transform": null
+    },
+    {
+      "url": "https://apiservice.mol.gov.tw/OdService/download/A17000000J-030517-2ei",
+      "source_name": "BLI-AGE-REGION-SEX-113.csv",
+      "target": "data/raw/WAGE-AUX/20260826/BLI-AGE-REGION-SEX-113.csv",
+      "group": "wage-aux",
+      "year": 113,
+      "transform": null
+    },
+    {
+      "url": "https://apiservice.mol.gov.tw/OdService/download/A17000000J-030157-zzg",
+      "source_name": "BLI-PENSION-AGE-WAGE-110.csv",
+      "target": "data/raw/WAGE-AUX/20260826/BLI-PENSION-AGE-WAGE-110.csv",
+      "group": "wage-aux",
+      "year": 110,
+      "transform": null
+    },
+    {
+      "url": "https://apiservice.mol.gov.tw/OdService/download/A17000000J-030157-wAG",
+      "source_name": "BLI-PENSION-AGE-WAGE-111.csv",
+      "target": "data/raw/WAGE-AUX/20260826/BLI-PENSION-AGE-WAGE-111.csv",
+      "group": "wage-aux",
+      "year": 111,
+      "transform": null
+    },
+    {
+      "url": "https://apiservice.mol.gov.tw/OdService/download/A17000000J-030157-jwL",
+      "source_name": "BLI-PENSION-AGE-WAGE-112.csv",
+      "target": "data/raw/WAGE-AUX/20260826/BLI-PENSION-AGE-WAGE-112.csv",
+      "group": "wage-aux",
+      "year": 112,
+      "transform": null
+    },
+    {
+      "url": "https://apiservice.mol.gov.tw/OdService/download/A17000000J-030157-ESm",
+      "source_name": "BLI-PENSION-AGE-WAGE-113.csv",
+      "target": "data/raw/WAGE-AUX/20260826/BLI-PENSION-AGE-WAGE-113.csv",
+      "group": "wage-aux",
+      "year": 113,
+      "transform": null
+    }
+  ],
+  "note": "CSV 為官方原始列；ZIP 只暫存於擷取工作目錄，不上傳 S3。未知新年度須先通過欄位契約。"
+}

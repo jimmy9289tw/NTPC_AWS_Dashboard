@@ -1,0 +1,16 @@
+{
+  "version": "NTPC-LSF-RULES-V1",
+  "framework": "參考紐西蘭LSF的多面向與群體比較，以下為本案自訂證據分流，非LSF官方演算法",
+  "algorithm": "版本化描述性證據規則，不是以政策成效訓練的機器學習決策樹",
+  "rounding": "人口使用整數；讀者看到的比率先四捨五入至小數2位，再計算呈現的百分點差；原始精度另保留",
+  "classification": {"positive": "大於0", "negative": "小於0", "equal": "等於0", "meaning": "僅描述方向，非統計顯著性或政策啟動門檻"},
+  "sharedGates": ["同地理層級", "各自母體明示", "同期同定義才能計算差值", "缺值保留", "方向相反時檢視替代解釋", "禁止由全市值分派成行政區值"],
+  "domains": [
+    {"id":"housing","label":"居住與安定","lsf":["Housing"],"question":"人口變化是否伴隨居住成本或居住不穩定？","requiredMetrics":["同型態租金歷年分位數","租屋樣本數與結構","居民家庭可支配所得","租屋需求與搬遷原因"],"comparison":"同型態、同樣本定義、同期間的地區與市級或相似區；不得平均行政區中位數","round1":"先比較居住成本與穩定性變化；單期租金只提供水準","round2":"若負擔或不穩定增加且另有需求證據，定位租屋型態、家戶與居住地","missingBranch":"補同口徑歷史租金與居民收入，保留單期背景","counterBranch":"檢視租屋型態與租補樣本組成，不能以青年增加推定租金上漲","allowedConclusion":"後續可研究居住負擔、租屋資訊及居住穩定性","forbiddenConclusion":"由工作場所薪資與地區租金估計青年租金負擔率"},
+    {"id":"family","label":"家庭與照顧","lsf":["Family and friends","Work, care and volunteering"],"question":"家庭結構、幼兒人口與照顧安排是否一起改變？","requiredMetrics":["出生人數與粗出生率","0–5歲人口","家戶組成","托育容量、候補與使用情形"],"comparison":"出生率以年中全年齡人口為分母，與青年婚姻存量分開看","round1":"先看出生與家戶線索是否支持原本的需求假設","round2":"需求與等候／使用證據同時支持時，定位兒童年齡、里別及服務時段","missingBranch":"補幼兒人口與候補使用資料","counterBranch":"青年人口增加但粗出生率下降，改查遷入家戶與年齡組成","allowedConclusion":"區分幼兒照顧、家庭支持與新遷入者資訊需求","forbiddenConclusion":"以未婚或離婚占比認定家庭福祉不佳"},
+    {"id":"transport","label":"交通與可近性","lsf":["Environmental amenity","Work, care and volunteering"],"question":"日常移動是否更費時或更難抵達服務？","requiredMetrics":["起訖旅次","通勤時間","班距與載客量","路線與服務時段"],"comparison":"同路線、方向、日別與時段；站點數不等於班次或運能","round1":"對照旅次需求與實際移動負擔","round2":"需求與時間／擁擠證據支持時，定位瓶頸路線、轉乘與時段","missingBranch":"申請或下載可用歷史旅次、班距與載客資料","counterBranch":"區分通勤、觀光與轉乘旅次","allowedConclusion":"後續可研究通勤瓶頸與公共服務可達性","forbiddenConclusion":"人口增加即認定塞車或要求增班"},
+    {"id":"services","label":"服務與公共空間","lsf":["Leisure and play","Engagement and voice"],"question":"現有服務是否能在需要的地點與時段使用？","requiredMetrics":["據點位置與開放時間","需求調查","服務使用量與容量","跨區利用與到達時間"],"comparison":"據點僅依115年快照，不能回填110–114；人次不等於去重人數","round1":"列出現有據點與可近性資料，不用據點數判斷不足","round2":"需求與使用／可近性證據支持時，區分時間、內容或地理障礙","missingBranch":"補開放時段、跨區使用、候補與未使用原因","counterBranch":"檢查鄰區、線上與非青年局既有服務","allowedConclusion":"後續可研究服務內容、時間與空間配置","forbiddenConclusion":"零青年據點即代表零服務或需要新設據點"},
+    {"id":"career","label":"學習與工作發展","lsf":["Knowledge and skills","Income, consumption and wealth","Work, care and volunteering"],"question":"學習結構與工作機會之間，有哪些值得追查的落差？","requiredMetrics":["教育結構","全市就業、失業與行業","工作場所薪資","訓練需求、轉職與媒合結果"],"comparison":"行政區只使用戶籍教育；勞動、行業與薪資只在全市分流並列","round1":"分別呈現教育、居民就業與工作場所薪資的變化","round2":"同目標群體的需求與實際轉銜障礙支持時，定位能力、行業與生命階段","missingBranch":"補技能、工作意願與轉銜紀錄","counterBranch":"檢查行業組成、工時與樣本變化","allowedConclusion":"後續可研究學習與職涯轉銜問題","forbiddenConclusion":"把全市薪資或失業率當成行政區居民結果"},
+    {"id":"environment","label":"能源與生活環境","lsf":["Environmental amenity"],"question":"用電與環境服務的變化來自戶數、天氣或活動型態？","requiredMetrics":["住宅售電量與用戶數","同期間溫度","停電與供電品質","住宅及產業用電分流"],"comparison":"台電縣市資料只在全市使用；發電量不等於住戶用電需求","round1":"先拆住宅用戶數與每戶用電，再檢查天氣與用電性質","round2":"持續負擔／品質證據支持時，定位時段、用戶與設施","missingBranch":"確認行政區住宅售電與品質是否提供，未取得不分攤","counterBranch":"排除工業、商業、氣溫及自發自用口徑差異","allowedConclusion":"後續可研究住宅能源需求與供電品質","forbiddenConclusion":"從地區發電量推論青年用電不足"}
+  ]
+}

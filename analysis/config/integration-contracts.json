@@ -1,0 +1,171 @@
+{
+  "$schema": "../schemas/integration-contracts.schema.json",
+  "contractVersion": "1.0.0",
+  "defaultPolicy": {
+    "timeoutSeconds": 30,
+    "maxAttempts": 3,
+    "backoffSeconds": [1, 3, 9],
+    "userAgent": "NtpcYouthAI-Research/1.0 (+public-data; contact=PENDING_APPROVAL)",
+    "rawRetention": "versioned",
+    "hashAlgorithm": "SHA-256",
+    "failClosed": true
+  },
+  "sources": [
+    {
+      "id": "MOI-POP1Y",
+      "category": "人口",
+      "officialPage": "https://data.gov.tw/dataset/77132",
+      "connector": {
+        "type": "http_json_paginated",
+        "endpointTemplate": "https://www.ris.gov.tw/rs-opendata/api/v1/datastore/ODRP014/{period}?page={page}",
+        "periodFormat": "YYYMM (民國年)",
+        "firstPage": 1,
+        "pageCountField": "totalPage",
+        "recordsField": "responseData"
+      },
+      "grain": "村里×單一年齡×性別×月",
+      "primaryKey": ["statistic_yyymm", "district_code"],
+      "canonicalFields": {
+        "period": "statistic_yyymm",
+        "geoCode": "district_code",
+        "geoName": "site_id",
+        "village": "village",
+        "populationTotal": "people_total",
+        "maleAgeTemplate": "people_age_{age:03d}_m",
+        "femaleAgeTemplate": "people_age_{age:03d}_f"
+      },
+      "refreshCadence": "monthly",
+      "use": "18–35歲核心青年及各分組戶籍人口精確加總",
+      "limitations": ["僅代表戶籍人口", "必須取得18–35每一單一年齡", "不可與工作地薪資視為同一母體"]
+    },
+    {
+      "id": "NTPC-POP",
+      "category": "人口",
+      "officialPage": "https://data.ntpc.gov.tw/datasets/8308ab58-62d1-424e-8314-24b65b7ab492",
+      "connector": {
+        "type": "http_json_page_size",
+        "endpointTemplate": "https://data.ntpc.gov.tw/api/datasets/8308ab58-62d1-424e-8314-24b65b7ab492/json?page={page}&size={size}",
+        "firstPage": 0,
+        "pageSize": 1000,
+        "maxPages": 20,
+        "expectedMinimumRows": 2250
+      },
+      "grain": "年×行政區×性別×來源年齡帶",
+      "refreshCadence": "annual",
+      "use": "年度人口趨勢與 OAS 鏡像查核",
+      "limitations": ["五歲年齡帶可能跨越18或35歲政策邊界", "不得按年數比例切割"]
+    },
+    {
+      "id": "NTPC-UNEMP",
+      "category": "就業",
+      "officialPage": "https://data.ntpc.gov.tw/datasets/c29c80d4-bef1-452c-8d9a-659e72f07831",
+      "connector": {
+        "type": "http_json",
+        "endpoint": "https://data.ntpc.gov.tw/api/datasets/c29c80d4-bef1-452c-8d9a-659e72f07831/json?page=0&size=100"
+      },
+      "grain": "年×年齡帶×性別",
+      "canonicalFields": {
+        "year": "field1",
+        "age15To24Male": "item value2",
+        "age15To24Female": "item value3",
+        "age25To29Male": "item value4",
+        "age25To29Female": "item value5",
+        "age30To34Male": "item value6",
+        "age30To34Female": "item value7",
+        "age35To39Male": "item value8",
+        "age35To39Female": "item value9"
+      },
+      "refreshCadence": "annual",
+      "use": "25–29歲失業率與短期趨勢觀察",
+      "limitations": ["18–24無法由15–24精確拆出", "30–35無法由30–34與35–39精確重組", "率不得按年數比例拆分"]
+    },
+    {
+      "id": "NTPC-EMPSTR",
+      "category": "就業",
+      "officialPage": "https://data.ntpc.gov.tw/datasets/c285509a-7fb2-434f-8542-0b4986c337a8",
+      "connector": {
+        "type": "http_json",
+        "endpoint": "https://data.ntpc.gov.tw/api/datasets/c285509a-7fb2-434f-8542-0b4986c337a8/json?page=0&size=100"
+      },
+      "grain": "年×年齡帶×性別",
+      "refreshCadence": "annual",
+      "use": "就業者年齡結構補充觀察",
+      "limitations": ["母體為就業者，不是全部青年", "年齡邊界須逐欄核對"]
+    },
+    {
+      "id": "NTPC-EDU15P",
+      "category": "教育",
+      "officialPage": "https://data.ntpc.gov.tw/datasets/ffef3ed1-867e-4013-ade0-47cfdba44b2d",
+      "connector": {
+        "type": "http_json",
+        "endpoint": "https://data.ntpc.gov.tw/api/datasets/ffef3ed1-867e-4013-ade0-47cfdba44b2d/json?page=0&size=100"
+      },
+      "grain": "年×性別×教育程度",
+      "canonicalFields": {
+        "year": "field1",
+        "universityPlusMale": "itemvalue2",
+        "universityPlusFemale": "itemvalue3"
+      },
+      "refreshCadence": "annual",
+      "use": "教育程度趨勢及教育×薪資跨域並列分析",
+      "limitations": ["母體為15歲以上人口，不是18–35青年", "只能並列，不可推論教育造成薪資差異"]
+    },
+    {
+      "id": "STAT-WAGE-EDU",
+      "category": "薪資×教育",
+      "officialPage": "https://www.stat.gov.tw/News_Content.aspx?n=4580&s=232642",
+      "connector": {
+        "type": "http_xlsx",
+        "endpoint": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11753/232642/%E8%A1%A85%E3%80%80%E5%B7%A5%E6%A5%AD%E5%8F%8A%E6%9C%8D%E5%8B%99%E6%A5%AD%E5%8F%97%E5%83%B1%E5%93%A1%E5%B7%A5%E5%85%A8%E5%B9%B4%E7%B8%BD%E8%96%AA%E8%B3%87%E7%B5%B1%E8%A8%88%EF%BC%8D%E6%8C%89%E5%B9%B4%E9%BD%A1%E5%8F%8A%E6%95%99%E8%82%B2%E7%A8%8B%E5%BA%A6%E5%88%86.xlsx",
+        "worksheetPattern": "表5({rocYear}年)",
+        "selector": {"rowLabel": "25-29歲", "meanColumns": "B:F", "medianColumns": "G:K"}
+      },
+      "grain": "年×年齡帶×教育程度×統計量",
+      "refreshCadence": "annual",
+      "use": "25–29歲全國薪資之教育程度分層",
+      "limitations": ["全國資料，非新北市", "受僱員工母體，非全部青年", "為描述性關聯，非因果效果"]
+    },
+    {
+      "id": "STAT-WAGE-LOC",
+      "category": "薪資",
+      "officialPage": "https://www.stat.gov.tw/News_Content.aspx?n=4580&s=232642",
+      "connector": {
+        "type": "http_xlsx",
+        "endpoint": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/11753/232642/%E8%A1%A86%E3%80%80%E5%B7%A5%E6%A5%AD%E5%8F%8A%E6%9C%8D%E5%8B%99%E6%A5%AD%E5%85%A8%E5%B9%B4%E7%B8%BD%E8%96%AA%E8%B3%87%E7%B5%B1%E8%A8%88%EF%BC%8D%E6%9C%AC%E5%9C%8B%E7%B1%8D%E5%85%A8%E6%99%82%E5%8F%97%E5%83%B1%E5%93%A1%E5%B7%A5%E6%8C%89%E5%B7%A5%E4%BD%9C%E5%A0%B4%E6%89%80%E6%89%80%E5%9C%A8%E7%B8%A3%E5%B8%82%E5%88%A5%E5%8F%8A%E5%B9%B4%E9%BD%A1%E5%88%A5%E5%88%86.xlsx",
+        "worksheetPattern": "表6({rocYear}年)",
+        "selector": {"rowLabel": "新北市", "mean25To29Column": "E", "median25To29Column": "M"}
+      },
+      "grain": "年×工作場所縣市×年齡帶×統計量",
+      "refreshCadence": "annual",
+      "use": "新北市工作場所25–29歲全年總薪資",
+      "limitations": ["地理角色是工作場所，不是居住地", "本國籍全時受僱員工母體", "30–35無法由30–39精確拆出"]
+    },
+    {
+      "id": "OAS-POP",
+      "category": "人口",
+      "officialPage": "https://oas.bas.ntpc.gov.tw/DgbasWeb/Page/Default.aspx",
+      "connector": {
+        "type": "manual_export",
+        "requiredEvidence": ["下載頁面截圖", "查詢條件", "匯出檔原名", "擷取時間", "SHA-256", "覆核人"]
+      },
+      "grain": "依人工匯出表",
+      "refreshCadence": "on-demand",
+      "use": "與新北 OpenData 同名指標鏡像核對",
+      "limitations": ["目前未確認穩定公開 API", "不得宣稱自動介接", "未完成人工證據鏈時不得發布"]
+    },
+    {
+      "id": "OCR-DOC",
+      "category": "掃描文件",
+      "connector": {
+        "type": "ocr_optional",
+        "preferredEngine": "Amazon Textract",
+        "localFallback": "Tesseract OCR",
+        "statusWhenUnavailable": "PENDING_HUMAN_REVIEW"
+      },
+      "grain": "頁×文字區塊×信心分數",
+      "refreshCadence": "on-demand",
+      "use": "僅處理無結構掃描附件",
+      "limitations": ["數值表格須逐欄人工覆核", "低信心欄位不得進入正式指標"]
+    }
+  ]
+}

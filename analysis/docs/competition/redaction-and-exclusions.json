@@ -1,0 +1,70 @@
+{
+  "changes": [
+    {
+      "path": "scripts/build_labor_age_method_report_v24.py",
+      "reason": "登入身分及個人工作路徑去識別化"
+    },
+    {
+      "path": "dashboard/tests/auth.test.mts",
+      "reason": "登入身分及個人工作路徑去識別化"
+    },
+    {
+      "path": "dashboard/tests/google-id-token.test.mts",
+      "reason": "登入身分及個人工作路徑去識別化"
+    },
+    {
+      "path": "dashboard/tests/rendered-html.test.mjs",
+      "reason": "登入身分及個人工作路徑去識別化"
+    },
+    {
+      "path": ".kiro/steering/g5-data-governance.md",
+      "reason": "G5歷史規則改為手動引用；競賽最新steering另列"
+    },
+    {
+      "path": "dashboard/wrangler.production.jsonc",
+      "reason": "雲端帳戶及資源識別碼替換；正式路由僅供辨識既有架構，禁止直接deploy"
+    },
+    {
+      "path": "dashboard/tests/auth.test.mts",
+      "reason": "所有真實測試帳號及姓名替換成example.invalid合成身分，39項相關測試通過"
+    },
+    {
+      "path": "dashboard/tests/rendered-html.test.mjs",
+      "reason": "所有真實測試帳號及姓名替換成example.invalid合成身分，39項相關測試通過"
+    }
+  ],
+  "excludedFiles": [
+    "agentcore\\.env.local",
+    "dashboard\\tsconfig.tsbuildinfo"
+  ],
+  "excludedDirectoryRules": [
+    ".cli",
+    ".codex-temp",
+    ".git",
+    ".github",
+    ".next",
+    ".openai",
+    ".venv",
+    ".vinext",
+    ".vite",
+    ".wrangler",
+    "__pycache__",
+    "_render",
+    "cdk.out",
+    "competition-submission",
+    "dist",
+    "node_modules",
+    "outputs",
+    "python-vendor",
+    "render",
+    "renders",
+    "tmp",
+    "work"
+  ],
+  "portabilityChanges": [
+    "dashboard/vite.config.ts讀local-hosting.json",
+    "明列tsx 4.22.1開發依賴並更新鎖定檔",
+    "root README、.gitignore及.kiro最新版",
+    "新增資料入口competition-catalog.json"
+  ]
+}

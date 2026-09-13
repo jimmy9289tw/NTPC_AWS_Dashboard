@@ -1,0 +1,1404 @@
+{
+  "sizeGroups": [
+    {
+      "name": "1–9人",
+      "sourceBands": [
+        "1-2人",
+        "3-4人",
+        "5-9人"
+      ]
+    },
+    {
+      "name": "10–49人",
+      "sourceBands": [
+        "10-19人",
+        "20-29人",
+        "30-39人",
+        "40-49人"
+      ]
+    },
+    {
+      "name": "50–199人",
+      "sourceBands": [
+        "50-99人",
+        "100-199人"
+      ]
+    },
+    {
+      "name": "200–999人",
+      "sourceBands": [
+        "200-299人",
+        "300-399人",
+        "400-499人",
+        "500-999人"
+      ]
+    },
+    {
+      "name": "1,000人以上",
+      "sourceBands": [
+        "1000-1999人",
+        "2000-2999人",
+        "3000-3999人",
+        "4000-4999人",
+        "5000-9999人"
+      ]
+    },
+    {
+      "name": "其他",
+      "sourceBands": [
+        "其他"
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "industry": "電力及燃氣供應業",
+      "total": {
+        "name": "電力及燃氣供應業",
+        "headcount": 2067,
+        "averageContributionWage": 80017
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 138,
+          "averageContributionWage": 41506
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 243,
+          "averageContributionWage": 60283
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 902,
+          "averageContributionWage": 80469
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 772,
+          "averageContributionWage": 93106
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 0,
+          "averageContributionWage": null
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 12,
+          "averageContributionWage": 46504
+        }
+      ]
+    },
+    {
+      "industry": "金融及保險業",
+      "total": {
+        "name": "金融及保險業",
+        "headcount": 13375,
+        "averageContributionWage": 62655
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 1868,
+          "averageContributionWage": 41181
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 6140,
+          "averageContributionWage": 71273
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 3111,
+          "averageContributionWage": 60930
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 918,
+          "averageContributionWage": 53275
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 1165,
+          "averageContributionWage": 64168
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 173,
+          "averageContributionWage": 59257
+        }
+      ]
+    },
+    {
+      "industry": "出版影音及資通訊業",
+      "total": {
+        "name": "出版影音及資通訊業",
+        "headcount": 37655,
+        "averageContributionWage": 60095
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 4949,
+          "averageContributionWage": 42132
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 8673,
+          "averageContributionWage": 52181
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 6308,
+          "averageContributionWage": 58711
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 10102,
+          "averageContributionWage": 68252
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 7538,
+          "averageContributionWage": 71329
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 85,
+          "averageContributionWage": 50337
+        }
+      ]
+    },
+    {
+      "industry": "運輸及倉儲業",
+      "total": {
+        "name": "運輸及倉儲業",
+        "headcount": 35497,
+        "averageContributionWage": 51242
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 3140,
+          "averageContributionWage": 34084
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 4670,
+          "averageContributionWage": 38273
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 2905,
+          "averageContributionWage": 46905
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 7102,
+          "averageContributionWage": 55908
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 17434,
+          "averageContributionWage": 56706
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 246,
+          "averageContributionWage": 45760
+        }
+      ]
+    },
+    {
+      "industry": "專業、科學及技術服務業",
+      "total": {
+        "name": "專業、科學及技術服務業",
+        "headcount": 47479,
+        "averageContributionWage": 49646
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 16128,
+          "averageContributionWage": 37657
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 14174,
+          "averageContributionWage": 49174
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 8169,
+          "averageContributionWage": 58395
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 7435,
+          "averageContributionWage": 56575
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 1365,
+          "averageContributionWage": 106185
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 208,
+          "averageContributionWage": 49094
+        }
+      ]
+    },
+    {
+      "industry": "製造業",
+      "total": {
+        "name": "製造業",
+        "headcount": 312278,
+        "averageContributionWage": 49476
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 47539,
+          "averageContributionWage": 34165
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 93209,
+          "averageContributionWage": 38906
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 62647,
+          "averageContributionWage": 49477
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 58297,
+          "averageContributionWage": 61947
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 50348,
+          "averageContributionWage": 69072
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 238,
+          "averageContributionWage": 47427
+        }
+      ]
+    },
+    {
+      "industry": "公共行政及國防；強制性社會安全",
+      "total": {
+        "name": "公共行政及國防；強制性社會安全",
+        "headcount": 13941,
+        "averageContributionWage": 46896
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 291,
+          "averageContributionWage": 41402
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 1970,
+          "averageContributionWage": 41552
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 4262,
+          "averageContributionWage": 43211
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 2844,
+          "averageContributionWage": 45404
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 4574,
+          "averageContributionWage": 53908
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 0,
+          "averageContributionWage": null
+        }
+      ]
+    },
+    {
+      "industry": "批發及零售業",
+      "total": {
+        "name": "批發及零售業",
+        "headcount": 284866,
+        "averageContributionWage": 43009
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 95699,
+          "averageContributionWage": 35492
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 103074,
+          "averageContributionWage": 40783
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 42990,
+          "averageContributionWage": 51209
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 31478,
+          "averageContributionWage": 58212
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 11290,
+          "averageContributionWage": 53370
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 335,
+          "averageContributionWage": 45776
+        }
+      ]
+    },
+    {
+      "industry": "醫療保健及社會工作服務業",
+      "total": {
+        "name": "醫療保健及社會工作服務業",
+        "headcount": 75416,
+        "averageContributionWage": 42877
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 16547,
+          "averageContributionWage": 32909
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 29060,
+          "averageContributionWage": 36039
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 8061,
+          "averageContributionWage": 43516
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 6641,
+          "averageContributionWage": 46315
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 15000,
+          "averageContributionWage": 65263
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 107,
+          "averageContributionWage": 42037
+        }
+      ]
+    },
+    {
+      "industry": "不動產業",
+      "total": {
+        "name": "不動產業",
+        "headcount": 19761,
+        "averageContributionWage": 42190
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 6915,
+          "averageContributionWage": 42039
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 5299,
+          "averageContributionWage": 47235
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 4659,
+          "averageContributionWage": 37960
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 2747,
+          "averageContributionWage": 39564
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 0,
+          "averageContributionWage": null
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 141,
+          "averageContributionWage": 50880
+        }
+      ]
+    },
+    {
+      "industry": "營建工程業",
+      "total": {
+        "name": "營建工程業",
+        "headcount": 64251,
+        "averageContributionWage": 41376
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 25437,
+          "averageContributionWage": 34763
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 23246,
+          "averageContributionWage": 40996
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 8811,
+          "averageContributionWage": 53129
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 5355,
+          "averageContributionWage": 57474
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 1140,
+          "averageContributionWage": 29848
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 262,
+          "averageContributionWage": 42995
+        }
+      ]
+    },
+    {
+      "industry": "礦業及土石採取業",
+      "total": {
+        "name": "礦業及土石採取業",
+        "headcount": 19,
+        "averageContributionWage": 39602
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 17,
+          "averageContributionWage": 36349
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 0,
+          "averageContributionWage": null
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 0,
+          "averageContributionWage": null
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 0,
+          "averageContributionWage": null
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 0,
+          "averageContributionWage": null
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 2,
+          "averageContributionWage": 67250
+        }
+      ]
+    },
+    {
+      "industry": "藝術、娛樂及休閒服務業",
+      "total": {
+        "name": "藝術、娛樂及休閒服務業",
+        "headcount": 8955,
+        "averageContributionWage": 38667
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 1960,
+          "averageContributionWage": 31518
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 3835,
+          "averageContributionWage": 40249
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 1655,
+          "averageContributionWage": 44458
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 1286,
+          "averageContributionWage": 36998
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 0,
+          "averageContributionWage": null
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 219,
+          "averageContributionWage": 40986
+        }
+      ]
+    },
+    {
+      "industry": "其他服務業",
+      "total": {
+        "name": "其他服務業",
+        "headcount": 25302,
+        "averageContributionWage": 37447
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 9381,
+          "averageContributionWage": 33138
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 5280,
+          "averageContributionWage": 38577
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 4466,
+          "averageContributionWage": 48375
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 1667,
+          "averageContributionWage": 44624
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 2342,
+          "averageContributionWage": 15136
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 2166,
+          "averageContributionWage": 49418
+        }
+      ]
+    },
+    {
+      "industry": "用水供應及污染整治業",
+      "total": {
+        "name": "用水供應及污染整治業",
+        "headcount": 4092,
+        "averageContributionWage": 36363
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 2073,
+          "averageContributionWage": 32747
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 1382,
+          "averageContributionWage": 35380
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 375,
+          "averageContributionWage": 51606
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 259,
+          "averageContributionWage": 48513
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 0,
+          "averageContributionWage": null
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 3,
+          "averageContributionWage": 33367
+        }
+      ]
+    },
+    {
+      "industry": "農、林、漁、牧業",
+      "total": {
+        "name": "農、林、漁、牧業",
+        "headcount": 456,
+        "averageContributionWage": 36214
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 192,
+          "averageContributionWage": 32355
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 186,
+          "averageContributionWage": 33219
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 0,
+          "averageContributionWage": null
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 0,
+          "averageContributionWage": null
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 0,
+          "averageContributionWage": null
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 78,
+          "averageContributionWage": 52853
+        }
+      ]
+    },
+    {
+      "industry": "教育業",
+      "total": {
+        "name": "教育業",
+        "headcount": 43424,
+        "averageContributionWage": 35631
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 8855,
+          "averageContributionWage": 30878
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 16308,
+          "averageContributionWage": 36533
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 12131,
+          "averageContributionWage": 37602
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 3004,
+          "averageContributionWage": 48263
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 3009,
+          "averageContributionWage": 24002
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 117,
+          "averageContributionWage": 40018
+        }
+      ]
+    },
+    {
+      "industry": "支援服務業",
+      "total": {
+        "name": "支援服務業",
+        "headcount": 74268,
+        "averageContributionWage": 35552
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 6123,
+          "averageContributionWage": 33485
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 12101,
+          "averageContributionWage": 32622
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 18823,
+          "averageContributionWage": 34046
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 19064,
+          "averageContributionWage": 37034
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 18117,
+          "averageContributionWage": 38187
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 40,
+          "averageContributionWage": 47658
+        }
+      ]
+    },
+    {
+      "industry": "住宿及餐飲業",
+      "total": {
+        "name": "住宿及餐飲業",
+        "headcount": 49424,
+        "averageContributionWage": 29364
+      },
+      "cells": [
+        {
+          "sizeGroup": "1–9人",
+          "sourceBands": [
+            "1-2人",
+            "3-4人",
+            "5-9人"
+          ],
+          "headcount": 18958,
+          "averageContributionWage": 25181
+        },
+        {
+          "sizeGroup": "10–49人",
+          "sourceBands": [
+            "10-19人",
+            "20-29人",
+            "30-39人",
+            "40-49人"
+          ],
+          "headcount": 19917,
+          "averageContributionWage": 28082
+        },
+        {
+          "sizeGroup": "50–199人",
+          "sourceBands": [
+            "50-99人",
+            "100-199人"
+          ],
+          "headcount": 5077,
+          "averageContributionWage": 38127
+        },
+        {
+          "sizeGroup": "200–999人",
+          "sourceBands": [
+            "200-299人",
+            "300-399人",
+            "400-499人",
+            "500-999人"
+          ],
+          "headcount": 5160,
+          "averageContributionWage": 40259
+        },
+        {
+          "sizeGroup": "1,000人以上",
+          "sourceBands": [
+            "1000-1999人",
+            "2000-2999人",
+            "3000-3999人",
+            "4000-4999人",
+            "5000-9999人"
+          ],
+          "headcount": 0,
+          "averageContributionWage": null
+        },
+        {
+          "sizeGroup": "其他",
+          "sourceBands": [
+            "其他"
+          ],
+          "headcount": 312,
+          "averageContributionWage": 42583
+        }
+      ]
+    }
+  ]
+}

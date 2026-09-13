@@ -1,0 +1,1060 @@
+{
+  "meta": {
+    "version": "G6-WAGE-INDUSTRY-1.0",
+    "rocYear": 113,
+    "ageBands": [
+      "18-35",
+      "18-24",
+      "25-29",
+      "30-35"
+    ],
+    "unit": "萬元/年",
+    "statistic": "全年總薪資平均數",
+    "population": "工作場所位於新北市之本國籍全時受僱員工；以全國各業受僱員工年齡別薪資差異作結構輔助",
+    "geographyBasis": "工作場所所在地；不是戶籍地或居住地",
+    "identity": "模型估計值",
+    "formula": "青年行業薪資估計＝新北市目標年齡全年總薪資平均數錨點×校準後全國同行業同年齡薪資指數",
+    "calibration": "各年齡組的行業薪資指數以目前官方端點可取得之新北市114年勞退提繳者全年齡行業人數為權重中心化，使17個可用行業加權回加至113年同年齡新北市薪資錨點",
+    "uncertainty": "上下限取新北年齡薪資錨點既有敏感度、全國同年齡行業薪資指數、以及新北全年齡行業提繳工資指數的組合包絡；18–35另納入PCLM與均勻拆分的年齡權重差。這是方法敏感度，不是信賴區間或顯著性檢定",
+    "limitations": [
+      "官方未發布新北市×青年年齡×行業的直接交叉薪資，本表不得標示為官方原生值",
+      "18–24使用全國未滿25歲行業差異作輔助；30–35使用全國30–39歲行業差異作輔助，邊界差異已納入方法限制",
+      "勞退提繳人數僅作行業校準權重；提繳工資是級距化申報值，不是全年總薪資",
+      "目前勞退公開端點僅提供114年，故113年薪資模型以114年全年齡行業人數作校準權重；這是跨一年的結構輔助，不能解讀為113年青年行業人數",
+      "農林漁牧業及公共行政未列入主計總處表2的詳細行業薪資範圍，保留缺值，不以勞退資料補造"
+    ],
+    "sources": [
+      {
+        "alias": "DGBAS-WAGE-T2",
+        "name": "表2 各業受僱員工全年總薪資統計－按年齡別分",
+        "url": "https://www.stat.gov.tw/News_Content.aspx?n=4580&s=232642",
+        "snapshot": "data/raw/DGBAS-WAGE-INDUSTRY-AGE/20260907/DGBAS-WAGE-TABLE2-INDUSTRY-AGE.xlsx",
+        "sha256": "2ec4b9a7785e9ac57acd6ba735e61979ee05d3a95257de956394306d76db2757"
+      },
+      {
+        "alias": "DGBAS-WAGE-T6",
+        "name": "表6 工業及服務業全年總薪資統計－按工作場所縣市及年齡別分",
+        "url": "https://www.stat.gov.tw/News_Content.aspx?n=4580&s=232642",
+        "snapshot": "data/raw/DGBAS-WAGE-INDUSTRY-AGE/20260907/DGBAS-WAGE-TABLE6-COUNTY-AGE.xlsx",
+        "sha256": "e6b188147c5fe02376c8e8c5d1a1294c3b8aaab8e86203b5e8664fa67d89460b"
+      },
+      {
+        "alias": "BLI-AGE-REGION-SEX",
+        "name": "勞工保險人數－按年齡、地區及性別",
+        "url": "https://data.gov.tw/dataset/162821",
+        "snapshot": "data/raw/DGBAS-WAGE-INDUSTRY-AGE/20260907/BLI-AGE-REGION-SEX-113.csv",
+        "sha256": "6200c08d7c9c8a5ddc84688155c5f3c68d91405a5964ffd86992e330c83c2fdc"
+      },
+      {
+        "alias": "BLI-PENSION-REGION-INDUSTRY-SIZE",
+        "name": "勞工退休金提繳統計年報－按地區、行業及規模別",
+        "url": "https://data.gov.tw/dataset/102667",
+        "snapshot": "app/data/mol-salary-context.json",
+        "sha256": "d8105fb61edc4754d2919b0c35791f53da439b91f8f40a2b70d3bc6e892b91ea"
+      }
+    ],
+    "generatedAt": "2026-09-12T13:43:04.622342+00:00"
+  },
+  "rows": [
+    {
+      "industry": "金融及保險業",
+      "supportingAllAgeHeadcount": 13375,
+      "estimates": {
+        "18-24": {
+          "value": 64.1,
+          "low": 64.1,
+          "high": 70.4,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 1.296971,
+          "localAllAgeContributionIndex": 1.405514,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 84.2,
+          "low": 84.2,
+          "high": 84.2,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 1.405627,
+          "localAllAgeContributionIndex": 1.405514,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 106.0,
+          "low": 94.2,
+          "high": 107.0,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 1.582107,
+          "localAllAgeContributionIndex": 1.405514,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 90.2,
+          "low": 85.6,
+          "high": 91.2,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 1.481515,
+          "localAllAgeContributionIndex": 1.405514,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "電力及燃氣供應業",
+      "supportingAllAgeHeadcount": 2067,
+      "estimates": {
+        "18-24": {
+          "value": 67.5,
+          "low": 67.5,
+          "high": 89.9,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 1.366701,
+          "localAllAgeContributionIndex": 1.794988,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 78.2,
+          "low": 78.2,
+          "high": 107.5,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 1.305345,
+          "localAllAgeContributionIndex": 1.794988,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 94.4,
+          "low": 94.4,
+          "high": 121.3,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 1.408249,
+          "localAllAgeContributionIndex": 1.794988,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 83.3,
+          "low": 83.3,
+          "high": 110.4,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 1.368224,
+          "localAllAgeContributionIndex": 1.794988,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "出版影音及資通訊業",
+      "supportingAllAgeHeadcount": 37655,
+      "estimates": {
+        "18-24": {
+          "value": 52.7,
+          "low": 52.7,
+          "high": 67.5,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 1.066863,
+          "localAllAgeContributionIndex": 1.348086,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 71.6,
+          "low": 71.6,
+          "high": 80.8,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 1.195034,
+          "localAllAgeContributionIndex": 1.348086,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 91.7,
+          "low": 90.3,
+          "high": 92.6,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 1.369131,
+          "localAllAgeContributionIndex": 1.348086,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 77.1,
+          "low": 77.1,
+          "high": 82.9,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 1.266763,
+          "localAllAgeContributionIndex": 1.348086,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "醫療保健及社會工作服務業",
+      "supportingAllAgeHeadcount": 75416,
+      "estimates": {
+        "18-24": {
+          "value": 64.4,
+          "low": 47.5,
+          "high": 65.3,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 1.303944,
+          "localAllAgeContributionIndex": 0.961842,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 72.2,
+          "low": 57.6,
+          "high": 72.2,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 1.205062,
+          "localAllAgeContributionIndex": 0.961842,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 79.0,
+          "low": 64.4,
+          "high": 79.7,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 1.179336,
+          "localAllAgeContributionIndex": 0.961842,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 73.5,
+          "low": 58.6,
+          "high": 74.2,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 1.206405,
+          "localAllAgeContributionIndex": 0.961842,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "製造業",
+      "supportingAllAgeHeadcount": 312278,
+      "estimates": {
+        "18-24": {
+          "value": 54.3,
+          "low": 54.3,
+          "high": 55.6,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 1.099404,
+          "localAllAgeContributionIndex": 1.109875,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 70.6,
+          "low": 66.5,
+          "high": 70.6,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 1.17832,
+          "localAllAgeContributionIndex": 1.109875,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 75.9,
+          "low": 74.4,
+          "high": 76.6,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 1.132974,
+          "localAllAgeContributionIndex": 1.109875,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 69.6,
+          "low": 67.6,
+          "high": 70.3,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 1.142862,
+          "localAllAgeContributionIndex": 1.109875,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "專業、科學及技術服務業",
+      "supportingAllAgeHeadcount": 47479,
+      "estimates": {
+        "18-24": {
+          "value": 47.4,
+          "low": 47.4,
+          "high": 55.8,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 0.959945,
+          "localAllAgeContributionIndex": 1.113688,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 62.9,
+          "low": 62.9,
+          "high": 66.7,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 1.049624,
+          "localAllAgeContributionIndex": 1.113688,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 77.9,
+          "low": 74.6,
+          "high": 78.6,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 1.163399,
+          "localAllAgeContributionIndex": 1.113688,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 66.7,
+          "low": 66.7,
+          "high": 68.5,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 1.095616,
+          "localAllAgeContributionIndex": 1.113688,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "運輸及倉儲業",
+      "supportingAllAgeHeadcount": 35497,
+      "estimates": {
+        "18-24": {
+          "value": 55.6,
+          "low": 55.6,
+          "high": 57.6,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 1.124971,
+          "localAllAgeContributionIndex": 1.14949,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 63.0,
+          "low": 63.0,
+          "high": 68.9,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 1.051296,
+          "localAllAgeContributionIndex": 1.14949,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 72.9,
+          "low": 72.9,
+          "high": 77.7,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 1.088061,
+          "localAllAgeContributionIndex": 1.14949,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 65.9,
+          "low": 65.8,
+          "high": 70.7,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 1.081492,
+          "localAllAgeContributionIndex": 1.14949,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "礦業及土石採取業",
+      "supportingAllAgeHeadcount": 19,
+      "estimates": {
+        "18-24": {
+          "value": 52.9,
+          "low": 43.9,
+          "high": 53.7,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 1.071512,
+          "localAllAgeContributionIndex": 0.888375,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 61.9,
+          "low": 53.2,
+          "high": 61.9,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 1.032911,
+          "localAllAgeContributionIndex": 0.888375,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 71.2,
+          "low": 59.5,
+          "high": 71.9,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 1.063431,
+          "localAllAgeContributionIndex": 0.888375,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 64.2,
+          "low": 54.1,
+          "high": 64.9,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 1.054608,
+          "localAllAgeContributionIndex": 0.888375,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "不動產業",
+      "supportingAllAgeHeadcount": 19761,
+      "estimates": {
+        "18-24": {
+          "value": 48.8,
+          "low": 46.8,
+          "high": 49.5,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 0.987836,
+          "localAllAgeContributionIndex": 0.946431,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 55.9,
+          "low": 55.9,
+          "high": 56.7,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 0.932628,
+          "localAllAgeContributionIndex": 0.946431,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 65.0,
+          "low": 63.4,
+          "high": 65.6,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 0.970707,
+          "localAllAgeContributionIndex": 0.946431,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 58.5,
+          "low": 57.6,
+          "high": 59.1,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 0.960751,
+          "localAllAgeContributionIndex": 0.946431,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "營建工程業",
+      "supportingAllAgeHeadcount": 64251,
+      "estimates": {
+        "18-24": {
+          "value": 52.0,
+          "low": 45.9,
+          "high": 52.8,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 1.052917,
+          "localAllAgeContributionIndex": 0.928171,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 54.7,
+          "low": 54.7,
+          "high": 55.6,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 0.912571,
+          "localAllAgeContributionIndex": 0.928171,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 58.3,
+          "low": 58.3,
+          "high": 62.7,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 0.870738,
+          "localAllAgeContributionIndex": 0.928171,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 55.5,
+          "low": 55.5,
+          "high": 57.1,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 0.9117,
+          "localAllAgeContributionIndex": 0.928171,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "批發及零售業",
+      "supportingAllAgeHeadcount": 284866,
+      "estimates": {
+        "18-24": {
+          "value": 44.0,
+          "low": 44.0,
+          "high": 48.3,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 0.890215,
+          "localAllAgeContributionIndex": 0.964803,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 53.1,
+          "low": 53.1,
+          "high": 57.8,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 0.885829,
+          "localAllAgeContributionIndex": 0.964803,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 61.4,
+          "low": 61.4,
+          "high": 65.2,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 0.917101,
+          "localAllAgeContributionIndex": 0.964803,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 55.0,
+          "low": 55.0,
+          "high": 59.3,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 0.902807,
+          "localAllAgeContributionIndex": 0.964803,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "用水供應及污染整治業",
+      "supportingAllAgeHeadcount": 4092,
+      "estimates": {
+        "18-24": {
+          "value": 45.8,
+          "low": 40.3,
+          "high": 46.5,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 0.927404,
+          "localAllAgeContributionIndex": 0.815716,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 48.0,
+          "low": 48.0,
+          "high": 48.9,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 0.800589,
+          "localAllAgeContributionIndex": 0.815716,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 53.2,
+          "low": 53.2,
+          "high": 55.1,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 0.793951,
+          "localAllAgeContributionIndex": 0.815716,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 49.7,
+          "low": 49.6,
+          "high": 50.2,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 0.816068,
+          "localAllAgeContributionIndex": 0.815716,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "藝術、娛樂及休閒服務業",
+      "supportingAllAgeHeadcount": 8955,
+      "estimates": {
+        "18-24": {
+          "value": 41.3,
+          "low": 41.3,
+          "high": 43.5,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 0.836756,
+          "localAllAgeContributionIndex": 0.867401,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 49.3,
+          "low": 49.3,
+          "high": 52.0,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 0.822317,
+          "localAllAgeContributionIndex": 0.867401,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 53.9,
+          "low": 53.9,
+          "high": 58.6,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 0.804093,
+          "localAllAgeContributionIndex": 0.867401,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 49.6,
+          "low": 49.6,
+          "high": 53.3,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 0.814961,
+          "localAllAgeContributionIndex": 0.867401,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "支援服務業",
+      "supportingAllAgeHeadcount": 74268,
+      "estimates": {
+        "18-24": {
+          "value": 43.1,
+          "low": 39.4,
+          "high": 43.7,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 0.87162,
+          "localAllAgeContributionIndex": 0.797523,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 47.8,
+          "low": 47.8,
+          "high": 47.8,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 0.797246,
+          "localAllAgeContributionIndex": 0.797523,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 50.9,
+          "low": 50.9,
+          "high": 53.9,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 0.75918,
+          "localAllAgeContributionIndex": 0.797523,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 48.0,
+          "low": 48.0,
+          "high": 49.0,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 0.788486,
+          "localAllAgeContributionIndex": 0.797523,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "住宿及餐飲業",
+      "supportingAllAgeHeadcount": 49424,
+      "estimates": {
+        "18-24": {
+          "value": 38.8,
+          "low": 32.5,
+          "high": 39.4,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 0.785621,
+          "localAllAgeContributionIndex": 0.65871,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 46.6,
+          "low": 39.5,
+          "high": 46.6,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 0.77719,
+          "localAllAgeContributionIndex": 0.65871,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 50.3,
+          "low": 44.1,
+          "high": 50.7,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 0.750487,
+          "localAllAgeContributionIndex": 0.65871,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 46.6,
+          "low": 40.1,
+          "high": 47.0,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 0.764511,
+          "localAllAgeContributionIndex": 0.65871,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "其他服務業",
+      "supportingAllAgeHeadcount": 25302,
+      "estimates": {
+        "18-24": {
+          "value": 44.1,
+          "low": 41.5,
+          "high": 44.7,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 0.892539,
+          "localAllAgeContributionIndex": 0.840033,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 43.8,
+          "low": 43.8,
+          "high": 50.3,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 0.730391,
+          "localAllAgeContributionIndex": 0.840033,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 48.0,
+          "low": 48.0,
+          "high": 56.8,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 0.717164,
+          "localAllAgeContributionIndex": 0.840033,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 45.5,
+          "low": 45.5,
+          "high": 51.7,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 0.747709,
+          "localAllAgeContributionIndex": 0.840033,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "教育業",
+      "supportingAllAgeHeadcount": 43424,
+      "estimates": {
+        "18-24": {
+          "value": 36.9,
+          "low": 36.9,
+          "high": 40.0,
+          "sourceAgeBand": "未滿25歲",
+          "nationalAgeIndustryIndex": 0.746107,
+          "localAllAgeContributionIndex": 0.799295,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "25-29": {
+          "value": 40.6,
+          "low": 40.6,
+          "high": 47.9,
+          "sourceAgeBand": "25–29歲",
+          "nationalAgeIndustryIndex": 0.678579,
+          "localAllAgeContributionIndex": 0.799295,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "30-35": {
+          "value": 42.3,
+          "low": 42.3,
+          "high": 54.0,
+          "sourceAgeBand": "30–39歲",
+          "nationalAgeIndustryIndex": 0.631684,
+          "localAllAgeContributionIndex": 0.799295,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        },
+        "18-35": {
+          "value": 40.4,
+          "low": 40.4,
+          "high": 49.2,
+          "sourceAgeBand": "18–24、25–29、30–35歲組合",
+          "nationalAgeIndustryIndex": 0.664188,
+          "localAllAgeContributionIndex": 0.799295,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "MODEL_ESTIMATE"
+        }
+      },
+      "availability": "MODEL_ESTIMATE_AVAILABLE"
+    },
+    {
+      "industry": "公共行政及國防；強制性社會安全",
+      "supportingAllAgeHeadcount": 13941,
+      "estimates": {
+        "18-24": {
+          "value": null,
+          "low": null,
+          "high": null,
+          "sourceAgeBand": null,
+          "nationalAgeIndustryIndex": null,
+          "localAllAgeContributionIndex": null,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "SOURCE_UNIVERSE_EXCLUDED"
+        },
+        "25-29": {
+          "value": null,
+          "low": null,
+          "high": null,
+          "sourceAgeBand": null,
+          "nationalAgeIndustryIndex": null,
+          "localAllAgeContributionIndex": null,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "SOURCE_UNIVERSE_EXCLUDED"
+        },
+        "30-35": {
+          "value": null,
+          "low": null,
+          "high": null,
+          "sourceAgeBand": null,
+          "nationalAgeIndustryIndex": null,
+          "localAllAgeContributionIndex": null,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "SOURCE_UNIVERSE_EXCLUDED"
+        },
+        "18-35": {
+          "value": null,
+          "low": null,
+          "high": null,
+          "sourceAgeBand": null,
+          "nationalAgeIndustryIndex": null,
+          "localAllAgeContributionIndex": null,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "SOURCE_UNIVERSE_EXCLUDED"
+        }
+      },
+      "availability": "NOT_IN_DGBAS_TABLE2_INDUSTRY_UNIVERSE"
+    },
+    {
+      "industry": "農、林、漁、牧業",
+      "supportingAllAgeHeadcount": 456,
+      "estimates": {
+        "18-24": {
+          "value": null,
+          "low": null,
+          "high": null,
+          "sourceAgeBand": null,
+          "nationalAgeIndustryIndex": null,
+          "localAllAgeContributionIndex": null,
+          "anchor": 49.4,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "SOURCE_UNIVERSE_EXCLUDED"
+        },
+        "25-29": {
+          "value": null,
+          "low": null,
+          "high": null,
+          "sourceAgeBand": null,
+          "nationalAgeIndustryIndex": null,
+          "localAllAgeContributionIndex": null,
+          "anchor": 59.9,
+          "anchorOrigin": "官方調查統計值",
+          "status": "SOURCE_UNIVERSE_EXCLUDED"
+        },
+        "30-35": {
+          "value": null,
+          "low": null,
+          "high": null,
+          "sourceAgeBand": null,
+          "nationalAgeIndustryIndex": null,
+          "localAllAgeContributionIndex": null,
+          "anchor": 67.0,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "SOURCE_UNIVERSE_EXCLUDED"
+        },
+        "18-35": {
+          "value": null,
+          "low": null,
+          "high": null,
+          "sourceAgeBand": null,
+          "nationalAgeIndustryIndex": null,
+          "localAllAgeContributionIndex": null,
+          "anchor": 60.9,
+          "anchorOrigin": "官方薪資錨定之輔助資料模型估計值",
+          "status": "SOURCE_UNIVERSE_EXCLUDED"
+        }
+      },
+      "availability": "NOT_IN_DGBAS_TABLE2_INDUSTRY_UNIVERSE"
+    }
+  ],
+  "validation": {
+    "availableIndustryCount": 17,
+    "displayedIndustryCount": 19,
+    "unavailableIndustryCount": 2,
+    "reaggregation": {
+      "18-24": {
+        "anchor": 49.4,
+        "reaggregated": 49.405326,
+        "absoluteError": 0.005326
+      },
+      "25-29": {
+        "anchor": 59.9,
+        "reaggregated": 59.926979,
+        "absoluteError": 0.026979
+      },
+      "30-35": {
+        "anchor": 67.0,
+        "reaggregated": 66.97969,
+        "absoluteError": 0.02031
+      },
+      "18-35": {
+        "anchor": 60.9,
+        "reaggregated": 60.901283,
+        "absoluteError": 0.001283
+      }
+    },
+    "pclmSelectedLambda": 100.0,
+    "pclmPostCalibrationMaxMarginError": 0.0,
+    "native2529AnchorMatchesTable6": true,
+    "methodEnvelopeIsConfidenceInterval": false
+  }
+}

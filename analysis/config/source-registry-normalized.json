@@ -1,0 +1,126 @@
+{
+  "registryVersion": "1.1.0",
+  "dataClass": "PUBLIC_AGGREGATE",
+  "sources": [
+    {
+      "sourceId": "MOI-POP1Y",
+      "nameZh": "村里戶數、單一年齡人口",
+      "ownerZh": "內政部戶政司",
+      "officialUrl": "https://data.gov.tw/dataset/77132",
+      "refreshCadence": "每月",
+      "defaultRole": "PRIMARY_OR_CALIBRATION_MARGIN"
+    },
+    {
+      "sourceId": "MOI-EDU5Y",
+      "nameZh": "15歲以上現住人口按性別、年齡、婚姻狀況及教育程度分",
+      "ownerZh": "內政部戶政司",
+      "officialUrl": "https://data.gov.tw/dataset/117988",
+      "refreshCadence": "每年",
+      "defaultRole": "PRIMARY"
+    },
+    {
+      "sourceId": "MOI-MARITAL5Y",
+      "nameZh": "15歲以上現住人口按性別、年齡及婚姻狀況分",
+      "ownerZh": "內政部戶政司",
+      "officialUrl": "https://data.gov.tw/dataset/117986",
+      "refreshCadence": "每年",
+      "defaultRole": "PRIMARY"
+    },
+    {
+      "sourceId": "NTPC-LAND-AREA",
+      "nameZh": "新北市行政區面積",
+      "ownerZh": "新北市政府民政局",
+      "officialUrl": "https://data.ntpc.gov.tw/datasets/13f881c7-53c4-4f8c-b693-816584562666",
+      "refreshCadence": "不定期；系統每日檢查來源版本",
+      "defaultRole": "GEOGRAPHY_DENOMINATOR"
+    },
+    {
+      "sourceId": "NTPC-YOUTH-ANNUAL",
+      "nameZh": "新北市政府青年局統計年報",
+      "ownerZh": "新北市政府青年局",
+      "officialUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/list?id=136&module=youth0008",
+      "refreshCadence": "每年；系統每日檢查來源版本",
+      "defaultRole": "PRIMARY_SERVICE_ADMIN"
+    },
+    {
+      "sourceId": "NTPC-YOUTH-CAREER-BASE-113",
+      "nameZh": "113年度新北市青職基地職涯專業服務統計分析",
+      "ownerZh": "新北市政府青年局",
+      "officialUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/data/doc?detailNo=1404372674104266752&module=youth0008&type=s",
+      "refreshCadence": "專題統計；系統每日檢查是否有新版",
+      "defaultRole": "PRIMARY_SERVICE_CASE_ANALYSIS"
+    },
+    {
+      "sourceId": "NTPC-YOUTH-BASE-PAGES",
+      "nameZh": "新北市青年局官方青年服務據點頁面",
+      "ownerZh": "新北市政府青年局",
+      "officialUrl": "https://www.youth.ntpc.gov.tw/youth/ch/app/folder/59",
+      "refreshCadence": "不定期；系統每日檢查來源版本",
+      "defaultRole": "PRIMARY_SERVICE_FACILITY_INVENTORY"
+    },
+    {
+      "sourceId": "DGBAS-HR-T27",
+      "nameZh": "人力資源調查年報表27：15歲以上民間人口之教育程度與年齡",
+      "ownerZh": "行政院主計總處",
+      "officialUrl": "https://www.stat.gov.tw/News_Content.aspx?n=4001&s=236078",
+      "refreshCadence": "每年",
+      "defaultRole": "PRIMARY"
+    },
+    {
+      "sourceId": "DGBAS-HR-T28",
+      "nameZh": "人力資源調查年報表28：勞動力年齡資料",
+      "ownerZh": "行政院主計總處",
+      "officialUrl": "https://www.stat.gov.tw/News_Content.aspx?n=4001&s=236078",
+      "refreshCadence": "每年",
+      "defaultRole": "QA_RECONCILIATION"
+    },
+    {
+      "sourceId": "DGBAS-HR-T32",
+      "nameZh": "人力資源調查年報表32：就業者之教育程度與年齡",
+      "ownerZh": "行政院主計總處",
+      "officialUrl": "https://www.stat.gov.tw/News_Content.aspx?n=4001&s=236078",
+      "refreshCadence": "每年",
+      "defaultRole": "PRIMARY"
+    },
+    {
+      "sourceId": "DGBAS-HR-T36",
+      "nameZh": "人力資源調查年報表36：失業者之教育程度與年齡",
+      "ownerZh": "行政院主計總處",
+      "officialUrl": "https://www.stat.gov.tw/News_Content.aspx?n=4001&s=236078",
+      "refreshCadence": "每年",
+      "defaultRole": "PRIMARY"
+    },
+    {
+      "sourceId": "DGBAS-NTPC-H2-T41+T42",
+      "nameZh": "新北市114年下半年人力資源調查表41及表42年齡結構",
+      "ownerZh": "行政院主計總處",
+      "officialUrl": "https://www.stat.gov.tw/News_Content.aspx?n=4003&s=235759",
+      "refreshCadence": "半年度",
+      "defaultRole": "AUXILIARY_AGE_SPLIT"
+    },
+    {
+      "sourceId": "STAT-WAGE-LOC",
+      "nameZh": "受僱員工全年總薪資統計表6：工作場所縣市及年齡",
+      "ownerZh": "行政院主計總處",
+      "officialUrl": "https://www.stat.gov.tw/News_Content.aspx?n=4580&s=232642",
+      "refreshCadence": "每年",
+      "defaultRole": "PRIMARY_WAGE_ANCHOR"
+    },
+    {
+      "sourceId": "BLI-AGE-REGION-SEX",
+      "nameZh": "勞工保險被保險人年齡、地區及性別人數",
+      "ownerZh": "勞動部勞工保險局",
+      "officialUrl": "https://data.gov.tw/dataset/162821",
+      "refreshCadence": "每年",
+      "defaultRole": "AUXILIARY_WEIGHT"
+    },
+    {
+      "sourceId": "BLI-PENSION-AGE-WAGE",
+      "nameZh": "勞工退休金年齡別平均提繳工資",
+      "ownerZh": "勞動部勞工保險局",
+      "officialUrl": "https://data.gov.tw/dataset/46103",
+      "refreshCadence": "每年",
+      "defaultRole": "AUXILIARY_AGE_PROFILE"
+    }
+  ]
+}

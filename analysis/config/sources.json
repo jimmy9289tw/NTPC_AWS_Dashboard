@@ -1,0 +1,192 @@
+{
+  "registryVersion": "1.2",
+  "retrievalPolicy": "official-api-first",
+  "allowedOrigins": [
+    "https://data.gov.tw",
+    "https://data.ntpc.gov.tw",
+    "https://oas.bas.ntpc.gov.tw",
+    "https://www.stat.gov.tw",
+    "https://ws.dgbas.gov.tw",
+    "https://www.ris.gov.tw",
+    "https://ris.gov.tw"
+  ],
+  "platforms": [
+    {
+      "id": "PLAT-GOV-DATA",
+      "name": "政府資料開放平臺",
+      "url": "https://data.gov.tw/",
+      "requiredByProposition": true
+    },
+    {
+      "id": "PLAT-NTPC-OPENAPI",
+      "name": "新北市政府資料開放平臺 OpenAPI",
+      "url": "https://data.ntpc.gov.tw/openapi/",
+      "requiredByProposition": true
+    },
+    {
+      "id": "PLAT-NTPC-OAS",
+      "name": "新北市統計資料庫",
+      "url": "https://oas.bas.ntpc.gov.tw/DgbasWeb/Page/Default.aspx",
+      "requiredByProposition": true
+    },
+    {
+      "id": "PLAT-STAT",
+      "name": "中華民國統計資訊網",
+      "url": "https://www.stat.gov.tw/News_Content.aspx?n=4580&s=232642",
+      "requiredByProposition": true
+    },
+    {
+      "id": "PLAT-MOI-RIS",
+      "name": "內政部戶政司全球資訊網",
+      "url": "https://www.ris.gov.tw/",
+      "requiredByProposition": false
+    }
+  ],
+  "datasets": [
+    {
+      "alias": "MOI-POP1Y",
+      "sourceId": "MOI-POP-SINGLE-AGE",
+      "registryId": "GOV-001",
+      "name": "村里戶數、單一年齡人口",
+      "platformId": "PLAT-GOV-DATA",
+      "url": "https://data.gov.tw/dataset/77132",
+      "topic": "人口",
+      "geographyRole": "residence",
+      "population": "戶籍人口",
+      "unit": "人",
+      "status": "ACQUIRED"
+    },
+    {
+      "alias": "OAS-POP",
+      "sourceId": "OAS-POP-AGE",
+      "registryId": "NTPC-002",
+      "name": "現住人口之年齡分配",
+      "platformId": "PLAT-NTPC-OAS",
+      "url": "https://oas.bas.ntpc.gov.tw/DgbasWeb/Page/Default.aspx",
+      "topic": "人口",
+      "geographyRole": "residence",
+      "population": "戶籍人口",
+      "unit": "人",
+      "status": "EVIDENCE_ONLY"
+    },
+    {
+      "alias": "NTPC-POP",
+      "sourceId": "NTPC-POP-AGE",
+      "registryId": "NTPC-001",
+      "name": "現住人口之年齡分配",
+      "platformId": "PLAT-NTPC-OPENAPI",
+      "url": "https://data.ntpc.gov.tw/datasets/8308ab58-62d1-424e-8314-24b65b7ab492",
+      "topic": "人口",
+      "geographyRole": "residence",
+      "population": "戶籍人口",
+      "unit": "人",
+      "status": "ACQUIRED"
+    },
+    {
+      "alias": "NTPC-UNEMP",
+      "sourceId": "NTPC-UNEMP-AGE",
+      "registryId": "GOV-002",
+      "name": "失業率－年齡別",
+      "platformId": "PLAT-NTPC-OPENAPI",
+      "url": "https://data.ntpc.gov.tw/datasets/c29c80d4-bef1-452c-8d9a-659e72f07831",
+      "topic": "就業",
+      "geographyRole": "residence",
+      "population": "15歲以上民間人口／勞動力統計",
+      "unit": "%",
+      "status": "ACQUIRED"
+    },
+    {
+      "alias": "NTPC-EMPSTR",
+      "sourceId": "NTPC-EMP-AGE-STRUCT",
+      "registryId": "NTPC-001",
+      "name": "就業者年齡結構",
+      "platformId": "PLAT-NTPC-OPENAPI",
+      "url": "https://data.ntpc.gov.tw/datasets/c285509a-7fb2-434f-8542-0b4986c337a8",
+      "topic": "就業",
+      "geographyRole": "residence",
+      "population": "就業者",
+      "unit": "%",
+      "status": "ACQUIRED"
+    },
+    {
+      "alias": "NTPC-EDU15P",
+      "sourceId": "NTPC-EDU-STRUCT-15PLUS",
+      "registryId": "NTPC-003",
+      "name": "十五歲以上人口教育程度結構",
+      "platformId": "PLAT-NTPC-OPENAPI",
+      "url": "https://data.ntpc.gov.tw/datasets/ffef3ed1-867e-4013-ade0-47cfdba44b2d",
+      "topic": "教育",
+      "geographyRole": "residence",
+      "population": "15歲以上人口",
+      "unit": "%",
+      "status": "ACQUIRED"
+    },
+    {
+      "alias": "STAT-WAGE-A",
+      "sourceId": "STAT-WAGE-T2-AGE",
+      "registryId": "GOV-003",
+      "name": "表2：按年齡別薪資",
+      "platformId": "PLAT-STAT",
+      "url": "https://www.stat.gov.tw/News_Content.aspx?n=4580&s=232642",
+      "topic": "薪資",
+      "geographyRole": "national",
+      "population": "各業受僱員工",
+      "unit": "萬元",
+      "status": "ACQUIRED"
+    },
+    {
+      "alias": "STAT-WAGE-LOC",
+      "sourceId": "STAT-WAGE-T6-WORKPLACE-AGE",
+      "registryId": "GOV-003",
+      "name": "表6：工作場所縣市×年齡薪資",
+      "platformId": "PLAT-STAT",
+      "url": "https://www.stat.gov.tw/News_Content.aspx?n=4580&s=232642",
+      "topic": "薪資",
+      "geographyRole": "workplace",
+      "population": "本國籍全時受僱員工",
+      "unit": "萬元",
+      "status": "ACQUIRED"
+    },
+    {
+      "alias": "STAT-WAGE-EDU",
+      "sourceId": "STAT-WAGE-T5-AGE-EDU",
+      "registryId": "GOV-003",
+      "name": "表5：年齡×教育程度薪資",
+      "platformId": "PLAT-STAT",
+      "url": "https://www.stat.gov.tw/News_Content.aspx?n=4580&s=232642",
+      "topic": "薪資×教育",
+      "geographyRole": "national",
+      "population": "工業及服務業受僱員工",
+      "unit": "萬元",
+      "status": "ACQUIRED"
+    },
+    {
+      "alias": "MOI-POP-MONTHLY",
+      "sourceId": "MOI-POP-SINGLE-AGE-MONTHLY",
+      "registryId": "GOV-001-MONTHLY",
+      "name": "村里戶數、單一年齡人口（月資料）",
+      "platformId": "PLAT-GOV-DATA",
+      "url": "https://data.gov.tw/dataset/77132",
+      "apiTemplate": "https://www.ris.gov.tw/rs-opendata/api/v1/datastore/ODRP014/{YYYMM}",
+      "topic": "人口月資料",
+      "geographyRole": "residence",
+      "population": "戶籍人口",
+      "unit": "人",
+      "status": "ACQUIRED_11001_11412"
+    },
+    {
+      "alias": "DGBAS-EMP-INDUSTRY",
+      "sourceId": "DGBAS-HR-T33",
+      "registryId": "DGBAS-ANNUAL-T33",
+      "name": "人力資源調查年報表33：就業者之行業",
+      "platformId": "PLAT-STAT",
+      "url": "https://www.stat.gov.tw/News_Content.aspx?n=4001&s=236078",
+      "topic": "就業者行業",
+      "geographyRole": "residence",
+      "population": "平常居住於新北市且屬15歲以上民間人口中的就業者",
+      "unit": "千人／%",
+      "status": "ACQUIRED_110_114",
+      "publicationLimit": "全年齡就業者分布；不得描述為18–35歲青年行業分布"
+    }
+  ]
+}

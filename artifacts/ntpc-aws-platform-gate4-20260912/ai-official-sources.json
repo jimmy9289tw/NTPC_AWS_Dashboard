@@ -1,0 +1,14 @@
+[
+ {"label":"新北市公共托育中心名冊","url":"https://data.ntpc.gov.tw/datasets/b3faf2aa-e96b-4f2f-b647-da47dc094860","endpoint":"https://data.ntpc.gov.tw/api/datasets/b3faf2aa-e96b-4f2f-b647-da47dc094860/json?page=0&size=1000","format":"facility_json","keywords":["育兒","托育","照顧","托嬰"],"period":"本次查詢名冊；原始資料未標示統計年度","universe":"列冊設施，並非青年家長人數或空餘收托名額"},
+ {"label":"新北市公共親子中心名冊","url":"https://data.ntpc.gov.tw/datasets/4182946c-9f01-4676-9992-d40047b232cf","endpoint":"https://data.ntpc.gov.tw/api/datasets/4182946c-9f01-4676-9992-d40047b232cf/json?page=0&size=1000","format":"facility_json","keywords":["育兒","親子","照顧"],"period":"本次查詢名冊；原始資料未標示統計年度","universe":"公共親子服務設施，不代表托育名額或家長年齡分布"},
+ {"label":"內政部租金查詢系統","url":"https://moisagis.moi.gov.tw/rent/index.html","keywords":["住房","租金","租屋","住宅"],"period":"依頁面發布期別，不等同所選人口年度","universe":"租金補貼有效租約及系統說明；不是全體青年租屋家戶"},
+ {"label":"新北市育兒資訊網","url":"https://lovebaby.sw.ntpc.gov.tw/","keywords":["育兒","托育","照顧","托嬰"],"period":"目前官方服務資訊","universe":"托育服務資訊，不代表30–35歲都是家長"},
+ {"label":"新北市交通局","url":"https://www.traffic.ntpc.gov.tw/","keywords":["交通","通勤","行人","安全","公車"],"period":"目前官方網站公告期別","universe":"行政區交通環境與公共運輸，不是青年個人通勤資料"},
+ {"label":"主計總處人口及住宅普查","url":"https://www.stat.gov.tw/cl.aspx?n=2748","keywords":["通勤","住宅","人口普查"],"period":"人口及住宅普查發布期別","universe":"普查統計，不替代逐年青年觀察"},
+ {"label":"青年職場體驗：企業一日體驗","url":"https://youth.tycg.gov.tw/News_Content.aspx?n=11611&s=1470449","keywords":["就業","行業","產業","職涯","industry","labor"],"period":"依官方頁面所載計畫期間","universe":"桃園市計畫案例，可借鏡形式，不當成新北市成效"},
+ {"label":"家庭生活調適與婚姻資源","url":"https://www.gov.tw/News_Content_26_778871","keywords":["婚姻","離婚","有偶","家庭","諮詢"],"period":"依官方資源頁更新","universe":"全國公開服務資源，不代表地方需求人數"},
+ {"label":"受僱員工全年總薪資統計","url":"https://www.stat.gov.tw/News_Content.aspx?n=4580&s=232642","keywords":["薪資","薪水","工資","中位數","wage"],"period":"依官方統計發布年度","universe":"受僱員工；工作場所口徑，與戶籍所得不同"},
+ {"label":"人力資源調查年報","url":"https://www.stat.gov.tw/News_Content.aspx?n=4001&s=236078","keywords":["勞動","就業率","失業","labor"],"period":"依官方統計發布年度","universe":"民間人口與勞動力調查，不是戶籍母體"},
+ {"label":"新北市青年局公開據點與服務","url":"https://www.youth.ntpc.gov.tw/youth/ch/app/folder/59","keywords":["據點","青年局","服務","policy"],"period":"目前官方服務頁面","universe":"列冊服務資訊，不能直接推定服務量能不足"},
+ {"label":"紐西蘭財政部生活水準儀表板","url":"https://lsfdashboard.treasury.govt.nz/wellbeing/","keywords":["LSF","福祉","生活條件","wellbeing"],"period":"依儀表板各項指標期別","universe":"紐西蘭分析架構參考，不是新北市觀測值"}
+]

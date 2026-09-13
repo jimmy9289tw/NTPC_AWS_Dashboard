@@ -1,0 +1,32 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "ntpc-youth-dashboard",
+  "main": "./dist/server/index.js",
+  "compatibility_date": "2026-08-26",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+  "preview_urls": false,
+  "no_bundle": true,
+  "rules": [
+    { "type": "ESModule", "globs": ["**/*.js", "**/*.mjs"] }
+  ],
+  "routes": [
+    { "pattern": "ntpc-youth.the-weekly-blend.com", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": "./dist/client",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "not_found_handling": "none"
+  },
+  "vars": {
+    "APP_ORIGIN": "https://ntpc-youth.the-weekly-blend.com",
+    "GOOGLE_CLIENT_ID": "307075294079-h3778np1vdttcivoams8ri3p3t5l1be0.apps.googleusercontent.com",
+    "SESSION_COOKIE_NAME": "__Host-ntpc_youth_session",
+    "SESSION_TTL_SECONDS": "28800"
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1
+  }
+}

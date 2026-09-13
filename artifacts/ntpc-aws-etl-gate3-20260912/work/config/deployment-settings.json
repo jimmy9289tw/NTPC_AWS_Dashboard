@@ -1,0 +1,50 @@
+{
+  "environment": "prototype",
+  "awsRegion": "us-west-2",
+  "awsAccountId": "787498376572",
+  "owner": "WSParticipantRole/Participant",
+  "costCenter": "PENDING_HUMAN_CONFIRMATION",
+  "monthlyBudgetUsd": "PENDING_HUMAN_CONFIRMATION",
+  "expiryDate": "PENDING_HUMAN_CONFIRMATION",
+  "dataClass": "PUBLIC",
+  "harness": {
+    "name": "ntpc_youth_ai_v1",
+    "id": "ntpc_youth_ai_v1-jIOgOhhfaT",
+    "arn": "arn:aws:bedrock-agentcore:us-west-2:787498376572:harness/ntpc_youth_ai_v1-jIOgOhhfaT",
+    "endpoint": "DEFAULT",
+    "endpointArn": "arn:aws:bedrock-agentcore:us-west-2:787498376572:harness/ntpc_youth_ai_v1-jIOgOhhfaT/harness-endpoint/DEFAULT",
+    "version": 3,
+    "status": "READY",
+    "modelId": "global.amazon.nova-2-lite-v1:0",
+    "serviceRole": "AmazonBedrockAgentCoreHarnessDefaultServiceRole-3r0zx",
+    "networkMode": "PUBLIC",
+    "inboundAuth": "IAM",
+    "validatedAt": "2026-08-15T23:43:00+08:00"
+  },
+  "availability": {
+    "status": "PROVISIONAL",
+    "testSuccessRate": 0.95,
+    "ragP95Seconds": 20,
+    "browserP95Seconds": 90,
+    "rtoHours": 4,
+    "rpoHours": 24
+  },
+  "retention": {
+    "status": "PROVISIONAL",
+    "browserRecordingDays": 7,
+    "auditMetadataDays": 90
+  },
+  "knowledgeBase": {
+    "status": "NOT_DEPLOYED_PENDING_UPLOAD_APPROVAL",
+    "s3Bucket": "PENDING_HUMAN_CONFIRMATION",
+    "gatewayArn": "PENDING_HUMAN_CONFIRMATION"
+  },
+  "browser": {
+    "currentTool": "arn:aws:bedrock-agentcore:us-west-2:aws:browser/aws.browser.v1",
+    "currentEnforcementMode": "SYSTEM_PROMPT_READ_ONLY_MVP",
+    "requiredForRelease": "CUSTOM_BROWSER_REQUIRED",
+    "enterprisePolicyFile": "config/browser-enterprise-policy.json",
+    "enterprisePolicyS3Uri": "PENDING_HUMAN_CONFIRMATION"
+  },
+  "releaseGate": "BLOCKED_UNTIL_HUMAN_CONFIRMATION"
+}

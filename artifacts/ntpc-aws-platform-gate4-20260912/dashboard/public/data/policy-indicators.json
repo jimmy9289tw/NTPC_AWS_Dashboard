@@ -1,0 +1,544 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-16T08:12:08.873913+08:00",
+  "runId": "20260816T081200+0800",
+  "population": {
+    "period": "2026-07",
+    "sourcePeriod": "11507",
+    "geography": "新北市",
+    "geographyRole": "residence",
+    "population": "戶籍人口",
+    "totalPopulation": 4037150,
+    "coreYouth18To35": 832214,
+    "coreSharePercent": 20.6139,
+    "groups": [
+      {
+        "code": "AGE-OBS-15-17",
+        "minAge": 15,
+        "maxAge": 17,
+        "core": false,
+        "male": 49689,
+        "female": 45843,
+        "total": 95532
+      },
+      {
+        "code": "AGE-CORE-18-24",
+        "minAge": 18,
+        "maxAge": 24,
+        "core": true,
+        "male": 133907,
+        "female": 122198,
+        "total": 256105
+      },
+      {
+        "code": "AGE-CORE-25-29",
+        "minAge": 25,
+        "maxAge": 29,
+        "core": true,
+        "male": 126664,
+        "female": 118031,
+        "total": 244695
+      },
+      {
+        "code": "AGE-CORE-30-35",
+        "minAge": 30,
+        "maxAge": 35,
+        "core": true,
+        "male": 171105,
+        "female": 160309,
+        "total": 331414
+      },
+      {
+        "code": "AGE-EXT-36-40",
+        "minAge": 36,
+        "maxAge": 40,
+        "core": false,
+        "male": 141881,
+        "female": 137999,
+        "total": 279880
+      }
+    ]
+  },
+  "education": {
+    "measure": "15歲以上人口教育程度結構－大專及以上",
+    "geography": "新北市",
+    "geographyRole": "residence",
+    "population": "15歲以上人口",
+    "unit": "%",
+    "series": [
+      {
+        "year": 2006,
+        "male": 21.2525035919,
+        "female": 18.9831222102
+      },
+      {
+        "year": 2007,
+        "male": 22.7932820856,
+        "female": 20.6004039257
+      },
+      {
+        "year": 2008,
+        "male": 24.1150347251,
+        "female": 21.8888644377
+      },
+      {
+        "year": 2009,
+        "male": 25.7273565404,
+        "female": 23.4396446516
+      },
+      {
+        "year": 2010,
+        "male": 27.2409285126,
+        "female": 24.864491567
+      },
+      {
+        "year": 2011,
+        "male": 28.5748080578,
+        "female": 25.6245630991
+      },
+      {
+        "year": 2012,
+        "male": 29.9317672488,
+        "female": 26.9066229176
+      },
+      {
+        "year": 2013,
+        "male": 31.2509040492,
+        "female": 28.197866245
+      },
+      {
+        "year": 2014,
+        "male": 32.338217747,
+        "female": 29.2972921336
+      },
+      {
+        "year": 2015,
+        "male": 33.2673811225,
+        "female": 30.1799610071
+      },
+      {
+        "year": 2016,
+        "male": 34.2144014747,
+        "female": 31.102076791
+      },
+      {
+        "year": 2017,
+        "male": 35.1645187008,
+        "female": 31.9932998325
+      },
+      {
+        "year": 2018,
+        "male": 36.22,
+        "female": 32.99
+      },
+      {
+        "year": 2019,
+        "male": 37.3348359928,
+        "female": 34.0462024889
+      },
+      {
+        "year": 2020,
+        "male": 38.3137871554,
+        "female": 34.9426665151
+      },
+      {
+        "year": 2021,
+        "male": 39.1758711111,
+        "female": 35.6836972745
+      },
+      {
+        "year": 2022,
+        "male": 40.1374205579,
+        "female": 36.5731203956
+      },
+      {
+        "year": 2023,
+        "male": 41.1671750098,
+        "female": 37.6009962828
+      },
+      {
+        "year": 2024,
+        "male": 42.1350385989,
+        "female": 38.4615673163
+      }
+    ],
+    "latest": {
+      "year": 2024,
+      "male": 42.1350385989,
+      "female": 38.4615673163
+    },
+    "forecast": {
+      "male": {
+        "method": "ordinary_least_squares_trailing_window",
+        "trainingYears": [
+          2017,
+          2024
+        ],
+        "observationCount": 8,
+        "targetYear": 2025,
+        "forecast": 43.14,
+        "backtestMAE": 0.11,
+        "indicativeRange": [
+          43.04,
+          43.25
+        ],
+        "status": "SCENARIO_NOT_OFFICIAL_FORECAST",
+        "caveat": "線性外推只作需求觀察情境；不得視為政策成效或官方預測。"
+      },
+      "female": {
+        "method": "ordinary_least_squares_trailing_window",
+        "trainingYears": [
+          2017,
+          2024
+        ],
+        "observationCount": 8,
+        "targetYear": 2025,
+        "forecast": 39.39,
+        "backtestMAE": 0.13,
+        "indicativeRange": [
+          39.26,
+          39.52
+        ],
+        "status": "SCENARIO_NOT_OFFICIAL_FORECAST",
+        "caveat": "線性外推只作需求觀察情境；不得視為政策成效或官方預測。"
+      }
+    },
+    "alignmentStatus": "PARTIAL_OR_CONFLICT",
+    "limitation": "來源非18–35青年專屬資料，只能作教育環境趨勢。"
+  },
+  "unemployment": {
+    "measure": "25–29歲失業率",
+    "geography": "新北市",
+    "geographyRole": "residence",
+    "population": "勞動力統計母體",
+    "unit": "%",
+    "series": [
+      {
+        "year": 2006,
+        "male": 6.2,
+        "female": 4.8
+      },
+      {
+        "year": 2007,
+        "male": 6.0,
+        "female": 4.9
+      },
+      {
+        "year": 2008,
+        "male": 6.6,
+        "female": 5.3
+      },
+      {
+        "year": 2009,
+        "male": 10.0,
+        "female": 7.3
+      },
+      {
+        "year": 2010,
+        "male": 8.7,
+        "female": 6.1
+      },
+      {
+        "year": 2011,
+        "male": 7.7,
+        "female": 5.7
+      },
+      {
+        "year": 2012,
+        "male": 7.5,
+        "female": 5.3
+      },
+      {
+        "year": 2013,
+        "male": 7.4,
+        "female": 6.2
+      },
+      {
+        "year": 2014,
+        "male": 8.4,
+        "female": 6.5
+      },
+      {
+        "year": 2015,
+        "male": 6.5,
+        "female": 6.3
+      },
+      {
+        "year": 2016,
+        "male": 7.0,
+        "female": 5.4
+      },
+      {
+        "year": 2017,
+        "male": 7.0,
+        "female": 4.5
+      },
+      {
+        "year": 2018,
+        "male": 7.4,
+        "female": 3.1
+      },
+      {
+        "year": 2019,
+        "male": 6.5,
+        "female": 6.0
+      },
+      {
+        "year": 2020,
+        "male": 7.1,
+        "female": 6.4
+      },
+      {
+        "year": 2021,
+        "male": 6.6,
+        "female": 6.4
+      },
+      {
+        "year": 2022,
+        "male": 5.1,
+        "female": 6.1
+      },
+      {
+        "year": 2023,
+        "male": 5.4,
+        "female": 5.8
+      },
+      {
+        "year": 2024,
+        "male": 6.3,
+        "female": 4.7
+      }
+    ],
+    "latest": {
+      "year": 2024,
+      "male": 6.3,
+      "female": 4.7
+    },
+    "forecast": {
+      "male": {
+        "method": "ordinary_least_squares_trailing_window",
+        "trainingYears": [
+          2017,
+          2024
+        ],
+        "observationCount": 8,
+        "targetYear": 2025,
+        "forecast": 5.38,
+        "backtestMAE": 0.75,
+        "indicativeRange": [
+          4.62,
+          6.13
+        ],
+        "status": "SCENARIO_NOT_OFFICIAL_FORECAST",
+        "caveat": "線性外推只作需求觀察情境；不得視為政策成效或官方預測。"
+      },
+      "female": {
+        "method": "ordinary_least_squares_trailing_window",
+        "trainingYears": [
+          2017,
+          2024
+        ],
+        "observationCount": 8,
+        "targetYear": 2025,
+        "forecast": 6.19,
+        "backtestMAE": 1.44,
+        "indicativeRange": [
+          4.75,
+          7.63
+        ],
+        "status": "SCENARIO_NOT_OFFICIAL_FORECAST",
+        "caveat": "線性外推只作需求觀察情境；不得視為政策成效或官方預測。"
+      }
+    },
+    "alignmentStatus": "EXACT_FOR_25_29_ONLY",
+    "limitation": "18–24與30–35無法由來源年齡帶精確重建。"
+  },
+  "salaryByEducation": {
+    "measure": "25–29歲全年總薪資－按教育程度",
+    "geography": "全國",
+    "geographyRole": "national",
+    "population": "工業及服務業受僱員工",
+    "unit": "萬元",
+    "series": [
+      {
+        "year": 2021,
+        "ageBand": "25–29",
+        "mean": {
+          "全體": 54.2,
+          "國中及以下": 43.2,
+          "高級中等": 42.9,
+          "專科及大學": 52.4,
+          "研究所": 83.0
+        },
+        "median": {
+          "全體": 47.2,
+          "國中及以下": 39.0,
+          "高級中等": 39.3,
+          "專科及大學": 46.9,
+          "研究所": 72.9
+        }
+      },
+      {
+        "year": 2022,
+        "ageBand": "25–29",
+        "mean": {
+          "全體": 56.7,
+          "國中及以下": 44.2,
+          "高級中等": 44.2,
+          "專科及大學": 54.3,
+          "研究所": 88.5
+        },
+        "median": {
+          "全體": 48.6,
+          "國中及以下": 39.7,
+          "高級中等": 40.4,
+          "專科及大學": 48.2,
+          "研究所": 76.3
+        }
+      },
+      {
+        "year": 2023,
+        "ageBand": "25–29",
+        "mean": {
+          "全體": 58.4,
+          "國中及以下": 46.1,
+          "高級中等": 45.7,
+          "專科及大學": 56.4,
+          "研究所": 90.5
+        },
+        "median": {
+          "全體": 50.0,
+          "國中及以下": 41.8,
+          "高級中等": 42.0,
+          "專科及大學": 50.1,
+          "研究所": 79.3
+        }
+      },
+      {
+        "year": 2024,
+        "ageBand": "25–29",
+        "mean": {
+          "全體": 61.1,
+          "國中及以下": 48.2,
+          "高級中等": 47.5,
+          "專科及大學": 58.9,
+          "研究所": 94.4
+        },
+        "median": {
+          "全體": 52.1,
+          "國中及以下": 43.0,
+          "高級中等": 43.1,
+          "專科及大學": 52.1,
+          "研究所": 81.7
+        }
+      }
+    ],
+    "latest": {
+      "year": 2024,
+      "ageBand": "25–29",
+      "mean": {
+        "全體": 61.1,
+        "國中及以下": 48.2,
+        "高級中等": 47.5,
+        "專科及大學": 58.9,
+        "研究所": 94.4
+      },
+      "median": {
+        "全體": 52.1,
+        "國中及以下": 43.0,
+        "高級中等": 43.1,
+        "專科及大學": 52.1,
+        "研究所": 81.7
+      }
+    },
+    "alignmentStatus": "PARTIAL_OR_CONFLICT",
+    "limitation": "全國受僱員工資料；教育分層差異是描述性關聯，不是因果效果。"
+  },
+  "salaryByWorkplace": {
+    "measure": "新北市工作場所25–29歲全年總薪資",
+    "geography": "新北市",
+    "geographyRole": "workplace",
+    "population": "本國籍全時受僱員工",
+    "unit": "萬元",
+    "series": [
+      {
+        "year": 2019,
+        "mean": 51.8,
+        "median": 46.9
+      },
+      {
+        "year": 2020,
+        "mean": 52.4,
+        "median": 47.2
+      },
+      {
+        "year": 2021,
+        "mean": 53.4,
+        "median": 47.3
+      },
+      {
+        "year": 2022,
+        "mean": 55.3,
+        "median": 48.7
+      },
+      {
+        "year": 2023,
+        "mean": 57.3,
+        "median": 50.4
+      },
+      {
+        "year": 2024,
+        "mean": 59.9,
+        "median": 52.4
+      }
+    ],
+    "latest": {
+      "year": 2024,
+      "mean": 59.9,
+      "median": 52.4
+    },
+    "forecast": {
+      "mean": {
+        "method": "ordinary_least_squares_trailing_window",
+        "trainingYears": [
+          2019,
+          2024
+        ],
+        "observationCount": 6,
+        "targetYear": 2025,
+        "forecast": 60.73,
+        "backtestMAE": 1.35,
+        "indicativeRange": [
+          59.37,
+          62.08
+        ],
+        "status": "SCENARIO_NOT_OFFICIAL_FORECAST",
+        "caveat": "線性外推只作需求觀察情境；不得視為政策成效或官方預測。"
+      },
+      "median": {
+        "method": "ordinary_least_squares_trailing_window",
+        "trainingYears": [
+          2019,
+          2024
+        ],
+        "observationCount": 6,
+        "targetYear": 2025,
+        "forecast": 52.67,
+        "backtestMAE": 1.47,
+        "indicativeRange": [
+          51.19,
+          54.14
+        ],
+        "status": "SCENARIO_NOT_OFFICIAL_FORECAST",
+        "caveat": "線性外推只作需求觀察情境；不得視為政策成效或官方預測。"
+      }
+    },
+    "alignmentStatus": "EXACT_FOR_25_29_WORKPLACE_ONLY",
+    "limitation": "工作場所口徑不可視為居住在新北市青年的薪資。"
+  },
+  "methodRules": {
+    "coreYouth": "18–24 + 25–29 + 30–35；僅單一年齡精確加總",
+    "crossDomain": "教育與薪資僅並列描述，不進行個體連結或因果推論",
+    "forecast": "尾端視窗線性迴歸＋滾動回測MAE；標記情境而非官方預測"
+  }
+}

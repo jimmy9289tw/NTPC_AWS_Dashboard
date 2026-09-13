@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "sourceName": "勞工退休金提繳統計年報－按地區、行業及規模別",
+    "sourceUrl": "https://data.gov.tw/dataset/102667",
+    "salarySystemUrl": "https://yoursalary.taiwanjobs.gov.tw/Salary/SalaryHome",
+    "sourceApiUrl": "https://apiservice.mol.gov.tw/OdService/download/A17000000J-030214-zBS",
+    "rocYear": 114,
+    "month": 12,
+    "geographyBasis": "提繳單位登記地址；自營作業者依戶籍地址",
+    "population": "勞退新制提繳者；本頁補充層為全年齡，不是18–35歲受僱員工統計",
+    "metricDefinition": "勞工與相關提繳者依月薪資總額，或自營作業者等依月提繳執行業務所得，對照分級表申報之月提繳工資；本資料欄位為全年平均。屬級距化申報值，不是由提繳金額回推，也不等同實領薪資或全年總薪資",
+    "aggregationMethod": "來源每格平均提繳工資金額為全年平均；本頁以各格12月底人數加權重算新北市、全國與彙整群組的平均月提繳工資近似值。因權重不是全年平均提繳人數，屬分組重算值，不等同實際平均薪資"
+  },
+  "newTaipei": {
+    "headcount": 1112526,
+    "averageContributionWage": 44604,
+    "countyRank": 5,
+    "countyCount": 22,
+    "nationalAverageContributionWage": 47708,
+    "differenceFromNationalPct": -6.51
+  },
+  "industries": [
+    {
+      "name": "電力及燃氣供應業",
+      "headcount": 2067,
+      "averageContributionWage": 80017
+    },
+    {
+      "name": "金融及保險業",
+      "headcount": 13375,
+      "averageContributionWage": 62655
+    },
+    {
+      "name": "出版影音及資通訊業",
+      "headcount": 37655,
+      "averageContributionWage": 60095
+    },
+    {
+      "name": "運輸及倉儲業",
+      "headcount": 35497,
+      "averageContributionWage": 51242
+    },
+    {
+      "name": "專業、科學及技術服務業",
+      "headcount": 47479,
+      "averageContributionWage": 49646
+    },
+    {
+      "name": "製造業",
+      "headcount": 312278,
+      "averageContributionWage": 49476
+    },
+    {
+      "name": "公共行政及國防；強制性社會安全",
+      "headcount": 13941,
+      "averageContributionWage": 46896
+    },
+    {
+      "name": "批發及零售業",
+      "headcount": 284866,
+      "averageContributionWage": 43009
+    },
+    {
+      "name": "醫療保健及社會工作服務業",
+      "headcount": 75416,
+      "averageContributionWage": 42877
+    },
+    {
+      "name": "不動產業",
+      "headcount": 19761,
+      "averageContributionWage": 42190
+    },
+    {
+      "name": "營建工程業",
+      "headcount": 64251,
+      "averageContributionWage": 41376
+    },
+    {
+      "name": "礦業及土石採取業",
+      "headcount": 19,
+      "averageContributionWage": 39602
+    },
+    {
+      "name": "藝術、娛樂及休閒服務業",
+      "headcount": 8955,
+      "averageContributionWage": 38667
+    },
+    {
+      "name": "其他服務業",
+      "headcount": 25302,
+      "averageContributionWage": 37447
+    },
+    {
+      "name": "用水供應及污染整治業",
+      "headcount": 4092,
+      "averageContributionWage": 36363
+    },
+    {
+      "name": "農、林、漁、牧業",
+      "headcount": 456,
+      "averageContributionWage": 36214
+    },
+    {
+      "name": "教育業",
+      "headcount": 43424,
+      "averageContributionWage": 35631
+    },
+    {
+      "name": "支援服務業",
+      "headcount": 74268,
+      "averageContributionWage": 35552
+    },
+    {
+      "name": "住宿及餐飲業",
+      "headcount": 49424,
+      "averageContributionWage": 29364
+    }
+  ],
+  "organizationSizes": [
+    {
+      "name": "4000-4999人",
+      "headcount": 9473,
+      "averageContributionWage": 72693
+    },
+    {
+      "name": "3000-3999人",
+      "headcount": 13705,
+      "averageContributionWage": 65091
+    },
+    {
+      "name": "1000-1999人",
+      "headcount": 61328,
+      "averageContributionWage": 59475
+    },
+    {
+      "name": "300-399人",
+      "headcount": 30892,
+      "averageContributionWage": 58057
+    },
+    {
+      "name": "400-499人",
+      "headcount": 21367,
+      "averageContributionWage": 57899
+    },
+    {
+      "name": "500-999人",
+      "headcount": 67145,
+      "averageContributionWage": 56897
+    },
+    {
+      "name": "5000-9999人",
+      "headcount": 15203,
+      "averageContributionWage": 55285
+    },
+    {
+      "name": "2000-2999人",
+      "headcount": 33613,
+      "averageContributionWage": 54042
+    },
+    {
+      "name": "200-299人",
+      "headcount": 44727,
+      "averageContributionWage": 50688
+    },
+    {
+      "name": "100-199人",
+      "headcount": 88354,
+      "averageContributionWage": 49323
+    },
+    {
+      "name": "其他",
+      "headcount": 4744,
+      "averageContributionWage": 47716
+    },
+    {
+      "name": "50-99人",
+      "headcount": 106998,
+      "averageContributionWage": 46434
+    },
+    {
+      "name": "40-49人",
+      "headcount": 41884,
+      "averageContributionWage": 44771
+    },
+    {
+      "name": "30-39人",
+      "headcount": 52693,
+      "averageContributionWage": 42535
+    },
+    {
+      "name": "20-29人",
+      "headcount": 89334,
+      "averageContributionWage": 40924
+    },
+    {
+      "name": "10-19人",
+      "headcount": 164856,
+      "averageContributionWage": 37206
+    },
+    {
+      "name": "5-9人",
+      "headcount": 140446,
+      "averageContributionWage": 35105
+    },
+    {
+      "name": "3-4人",
+      "headcount": 69073,
+      "averageContributionWage": 33900
+    },
+    {
+      "name": "1-2人",
+      "headcount": 56691,
+      "averageContributionWage": 33321
+    }
+  ]
+}

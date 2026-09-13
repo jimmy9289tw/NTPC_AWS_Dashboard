@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.ntpc.gov.tw/schemas/agent-tool-contracts.schema.json",
+  "title": "NTPC Youth AI controlled query tool contracts",
+  "type": "object",
+  "required": ["contractVersion", "dataPlanes", "requiredEvidenceFields", "tools"],
+  "properties": {
+    "contractVersion": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "dataPlanes": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["code", "nameZh", "kind", "athenaTable", "geographyScope"],
+        "properties": {
+          "code": {"type": "string", "pattern": "^[A-Z0-9_]+$"},
+          "kind": {"enum": ["POPULATION_UNIVERSE", "AUXILIARY_EVIDENCE"]},
+          "athenaTable": {"type": "string", "pattern": "^[a-z][a-z0-9_]+$"},
+          "geographyScope": {"enum": ["CITY_AND_DISTRICT", "CITY_ONLY", "FACILITY_AND_DISTRICT"]}
+        },
+        "additionalProperties": true
+      }
+    },
+    "requiredEvidenceFields": {
+      "type": "array",
+      "minItems": 8,
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "tools": {
+      "type": "array",
+      "minItems": 8,
+      "items": {
+        "type": "object",
+        "required": ["name", "descriptionZh", "access", "dataPlaneCodes", "inputSchema", "outputContract"],
+        "properties": {
+          "name": {"type": "string", "pattern": "^[a-z][a-z0-9_]{2,63}$"},
+          "access": {"const": "READ_ONLY"},
+          "dataPlaneCodes": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "inputSchema": {"type": "object"},
+          "outputContract": {"type": "object"}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

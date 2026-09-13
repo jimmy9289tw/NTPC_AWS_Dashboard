@@ -1,0 +1,15 @@
+{
+  "account": "000000000000",
+  "region": "us-west-2",
+  "bucket": "ntpc-youth-data-000000000000",
+  "prefix": "NTPC_Youth_System_V1_20260912/13_資料查核與簽核/",
+  "name": "ntpc-youth-review-v1",
+  "notification_email": "admin@example.com",
+  "admin_email": "admin@example.com",
+  "website": "https://YOUR_DISTRIBUTION.cloudfront.net",
+  "distribution_id": "YOUR_DISTRIBUTION_ID",
+  "monthly_function": "ntpc-youth-monthly-etl-v1",
+  "annual_project": "ntpc-youth-annual-etl-v1",
+  "log_retention_days": 30,
+  "deployment_status": "EXAMPLE_CONFIG_NOT_DEPLOYED"
+}

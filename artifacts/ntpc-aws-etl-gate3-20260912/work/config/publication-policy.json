@@ -1,0 +1,28 @@
+{
+  "policyVersion": "G5-PUBLISH-1.0.0",
+  "failClosed": true,
+  "queryableStatuses": [
+    "PUBLISH_EXACT",
+    "PUBLISH_SOURCE_NATIVE",
+    "PUBLISH_MODEL_WITH_METHOD_LABEL_AFTER_REVIEW"
+  ],
+  "nonQueryableStatuses": [
+    "HOLD_DATA_GAP",
+    "QUARANTINED",
+    "PENDING_HUMAN_REVIEW"
+  ],
+  "blankValueSemantics": "NOT_AVAILABLE_NOT_ZERO",
+  "requiredForPromotion": [
+    "machine_qa_overall_status=PASS",
+    "source_snapshot_present",
+    "source_sha256_present",
+    "publish_status_allowed",
+    "human_approval_when_method_or_schema_changed"
+  ],
+  "apiRules": [
+    "數值查詢只回傳queryableStatuses。",
+    "HOLD_DATA_GAP保留資料列與原因，但value必須為空值且不得轉成0。",
+    "模型估計值必須同時回傳method_code、uncertainty_type、uncertainty_low與uncertainty_high。",
+    "不同universe_code不得共用分母或直接相加。"
+  ]
+}
