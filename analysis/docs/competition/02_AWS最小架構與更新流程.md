@@ -15,7 +15,7 @@
 
 CloudFront使用一般S3來源與OAC，不使用S3網站公開端點。政策內容不能包在人人可下載的靜態JS／JSON裡；須由伺服器依角色授權回傳。CloudFront的API路徑不快取帶身分的政策回應，或以經驗證的權限範圍隔離。
 
-現有程式是Vinext／Cloudflare Worker架構，不能把dist整包丟入S3就說完成AWS移植。Kiro需把純展示部分抽出為靜態資源，並將Worker的登入、路由、靜態保護及匯出轉成Lambda介面；若保留SSR，則須另評估Lambda或容器執行，不套用純靜態架構假設。
+現有程式是Vinext／Cloudflare Worker架構，不能把dist整包丟入S3就說完成AWS移植。移植時需把純展示部分抽出為靜態資源，並將Worker的登入、路由、靜態保護及匯出轉成Lambda介面；若保留SSR，則須另評估Lambda或容器執行，不套用純靜態架構假設。
 
 ## 14 資料分流與每日更新
 
@@ -28,7 +28,7 @@ CloudFront使用一般S3來源與OAC，不使用S3網站公開端點。政策內
 |大量檔案分散式join、清洗與分區ETL|未列入最小版|確實需要Spark平行化才導入Glue Spark|
 |人工SQL查詢與探索|先讀已發布CSV／JSON|需求成立時再以Glue Catalog描述S3資料，Athena查詢|
 
-Glue Catalog是資料表與欄位等中繼資料目錄，Athena是查詢S3資料的SQL服務；兩者不是Kiro功能。Kiro協助寫程式與設定，不負責在競賽後代替AWS排程。
+Glue Catalog是資料表與欄位等中繼資料目錄，Athena是查詢S3資料的SQL服務；程式開發與雲端排程分工處理，執行排程由 AWS 服務負責。
 
 ![每日更新流程](daily-flow.png)
 

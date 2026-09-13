@@ -18,6 +18,7 @@ NTPC_AWS_Dashboard/
 ├── requirements-reports.txt                               ← 既有 Word、PDF 報告腳本的額外套件
 ├── docs/                                                  ← 本次公開版本的架構、設定與驗證說明
 │   ├── ARCHITECTURE.md                                    ← AWS 資料與簽核架構、ROAMEF 循環
+│   ├── CODEX_MAINTENANCE.md                               ← Codex 維護入口、修改與驗證流程
 │   ├── CONFIGURATION.md                                   ← 部署設定、機密管理及移轉注意事項
 │   ├── PUBLICATION_POLICY.md                              ← GitHub 公開期限與到期轉私人條件
 │   ├── PUBLIC_RELEASE_VALIDATION.json                     ← 公開副本建置、測試與憑證檢查結果
@@ -29,7 +30,7 @@ NTPC_AWS_Dashboard/
 │   ├── schemas/                                           ← 整合契約、工具契約及稽核事件欄位
 │   ├── tests/                                             ← 分析管線與治理規則測試
 │   └── docs/                                              ← 研究與交接背景文件
-│       ├── competition/                                   ← 既有競賽、Kiro 交接與操作說明
+│       ├── competition/                                   ← 既有競賽規劃與操作說明
 │       ├── statistical-methods/                           ← 既有統計方法與可重算腳本
 │       ├── lsf/                                           ← 生命階段分析、資料盤點及驗收紀錄
 │       └── history/                                       ← 歷史報告文字與品質處理紀錄
@@ -118,7 +119,7 @@ Gate4 中的 `dashboard/worker/`、`dashboard/app/api/` 與 `dashboard/db/` 保�
 | 修改資料匯入與定期排程 | [現行 ETL 入口](artifacts/ntpc-aws-review-gate5-20260913/prepared/)、[月人口排程](artifacts/ntpc-aws-etl-gate2-20260912/aws_deploy.py)、[年度來源排程](artifacts/ntpc-aws-etl-gate3-20260912/schedule_annual.py) | 月人口每日檢查、年度來源每週檢查，以及接入查核控制器的執行程式；「年度」指資料類型 |
 | 修改自動產表、通知與簽核 | [查核說明](artifacts/ntpc-aws-review-gate5-20260913/README.md)、[控制程式](artifacts/ntpc-aws-review-gate5-20260913/aws_control.py)、[Excel 與通知](artifacts/ntpc-aws-review-gate5-20260913/report_worker.py)、[查核介面](artifacts/ntpc-aws-review-gate5-20260913/review-ui.js) | 異常開案、舊版保留、三工作表 Excel、SNS 通知、復驗及具名核可發布 |
 | 部署或移轉 AWS | [設定說明](docs/CONFIGURATION.md)、[CodeBuild 部署](artifacts/ntpc-aws-etl-gate3-20260912/deploy_annual.py)、[網站部署](artifacts/ntpc-aws-platform-gate4-20260912/deploy.py)、[查核整合部署](artifacts/ntpc-aws-review-gate5-20260913/deploy.py) | 各模組部署入口與設定範例；使用自己的 AWS 資源與執行環境憑證 |
-| 交給 Kiro 或其他開發者接手 | [專案首頁](README.md)、[設定與移轉](docs/CONFIGURATION.md)、[原始碼來源](docs/source-provenance.json)、[既有交接文件](analysis/docs/competition/) | 先依本版 README 建置、測試，再核對來源；既有交接文件供背景參考，其中的舊路徑及部署狀態須比對本版 |
+| 由 Codex 接續維護 | [Codex 維護說明](docs/CODEX_MAINTENANCE.md)、[設定與移轉](docs/CONFIGURATION.md)、[原始碼來源](docs/source-provenance.json) | 現行程式入口、修改順序、資料與政策邊界、測試及部署驗證方式 |
 | 檢查交付品質與待驗收項目 | [本版驗證](docs/PUBLIC_RELEASE_VALIDATION.json)、[前端測試](artifacts/ntpc-aws-platform-gate4-20260912/dashboard/tests/)、[查核測試](artifacts/ntpc-aws-review-gate5-20260913/test_review.py)、[管理者待驗收](artifacts/ntpc-aws-review-gate5-20260913/README.md) | 已執行的建置與測試、可重跑的測試程式，以及 SNS 收件、首次登入與真人簽核的驗收範圍 |
 
 資料範圍：本庫隨附網站快照與排名 CSV；完整官方原始檔、雲端 S3 版本資料及產生後的查核 Excel 另由資料管線管理。目錄中的程式與文件不表示其雲端資源已在新帳號建立。

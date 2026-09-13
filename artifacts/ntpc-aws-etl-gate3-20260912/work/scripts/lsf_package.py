@@ -32,8 +32,7 @@ copy(ROOT/'dashboard/app/lsf-rules.json',STAGE/'03_分析方法與決策樹/lsf-
 tree(ROOT/'data/lsf/qa',STAGE/'04_品質檢查與案例')
 tree(ROOT/'dashboard/dist-lsf',STAGE/'05_本機互動原型')
 tree(ROOT,STAGE/'06_完整原始碼',True)
-tree(ROOT/'docs/competition',STAGE/'07_KIRO與AWS/原競賽合規說明')
-copy(ROOT/'docs/lsf/03_KIRO與執行交接_V1.md',STAGE/'07_KIRO與AWS/LSF交接_V1.md')
+tree(ROOT/'docs/competition',STAGE/'07_AWS與操作說明/原競賽合規說明')
 tree(ROOT/'data/published',STAGE/'08_發布資料包')
 tree(ROOT/'data/lsf/published',STAGE/'08_發布資料包')
 # Mirrors resolve source_snapshot relative paths without depending on the historical zip.
@@ -48,7 +47,7 @@ readme='''# 新北青年 LSF V1：完整整合資料包
 1. 讀00_總覽與治理的政策分析說明與雙輪決策樹。
 2. 看04_品質檢查與案例的淡水、八里與瑞芳。
 3. 最新發布CSV在08_發布資料包；11為本次新增背景層。
-4. 06_完整原始碼保留目前儲存庫，含LSF原型、既有網站與KIRO資料。
+4. 06_完整原始碼保留目前儲存庫，含LSF原型、既有網站與研究方法。
 5. 09_歷史完整成果包含原約620MB完整ZIP，原00–14分類、舊報告與大量原始資料全數原封保留，並非都展開在新版頂層。
 
 ## 原型操作
@@ -57,7 +56,7 @@ readme='''# 新北青年 LSF V1：完整整合資料包
 
     python -m http.server 4177 --bind 127.0.0.1 --directory 05_本機互動原型
 
-接著開http://127.0.0.1:4177/。若需修改程式，依07_KIRO與AWS的交接文件啟動原始碼。
+接著開http://127.0.0.1:4177/。若需修改程式，依儲存庫根目錄 README 的操作說明啟動原始碼。
 
 這是本機研究原型，不是正式網站更新。未commit/push/部署，也沒有啟用AWS或每日排程。不能把無認證的本機原型直接作公開政策頁。
 

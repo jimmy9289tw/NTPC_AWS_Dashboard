@@ -38,9 +38,6 @@
 - 每次變更至少執行與變更範圍相符的 schema validation、pytest、前端 lint/build/test 或資料QA。
 - 未取得正式部署裁示時，不得執行 `agentcore deploy`、`cdk deploy` 或 production S3 寫入。
 
-## 目前執行邊界（G8 Kiro本地實作交接）
+## 現行維護入口
 
-- Kiro開始工作前，必須先閱讀 `07_AWS與Kiro/Kiro本地實作交接流程與驗證SOP_V1.0.docx` 與 `12_AWS_Kiro_實作檔案/KIRO規格/G8_Kiro本地實作任務提示.md`。
-- AWS IaC、AgentCore及排程檔可作為未來架構參考，但本階段不得登入AWS Console、不得建立雲端資源、不得寫入AWS正式資料層。
-- CostCenter、預算、通知信箱、保存期與dev部署授權屬未來部署Gate，不是本地實作的前置阻擋。
-- 本地實作完成的判定，以資料契約、前端測試、問答治理測試、人工查核表及可重現交付紀錄為準。
+本文件保留歷史資料治理規則；現行程式與驗證流程請見 [Codex 維護說明](../../../docs/CODEX_MAINTENANCE.md)。

@@ -4,7 +4,7 @@
 
 - [政策分析與雙輪決策樹](01_LSF政策分析與雙輪決策樹_V1.md)
 - [資料盤點、來源及01–08介接](02_資料盤點與來源說明_V1.md)
-- [Kiro／AWS執行交接](03_KIRO與執行交接_V1.md)
+- [Codex 維護與驗證](../../../docs/CODEX_MAINTENANCE.md)
 - 原型入口：本機啟動後`http://127.0.0.1:4176/`
 - 新增CSV：`data/lsf/published/11_生活條件與公共服務_長格式.csv`
 - 數值檢查：`data/lsf/qa/data-validation.json`

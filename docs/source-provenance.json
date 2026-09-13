@@ -472,13 +472,6 @@
       "sanitized": false
     },
     {
-      "source": "ntpc-aws-etl-gate3-20260912/work/scripts/build_kiro_handoff_sop.py",
-      "path": "artifacts/ntpc-aws-etl-gate3-20260912/work/scripts/build_kiro_handoff_sop.py",
-      "source_sha256": "e3d17a06f7a2369eafac0c78bab8e22fda49717eb1168c909a0ae3cac12f6ebb",
-      "published_sha256": "e3d17a06f7a2369eafac0c78bab8e22fda49717eb1168c909a0ae3cac12f6ebb",
-      "sanitized": false
-    },
-    {
       "source": "ntpc-aws-etl-gate3-20260912/work/scripts/build_labor_age_method_report_v24.py",
       "path": "artifacts/ntpc-aws-etl-gate3-20260912/work/scripts/build_labor_age_method_report_v24.py",
       "source_sha256": "9a2af29d7207db56b4e6e50e2c3b4337f5db526b40eaa37effc8167a0a58145f",
@@ -608,8 +601,9 @@
       "source": "ntpc-aws-etl-gate3-20260912/work/scripts/lsf_package.py",
       "path": "artifacts/ntpc-aws-etl-gate3-20260912/work/scripts/lsf_package.py",
       "source_sha256": "a5c638405082b3ea6c1771827eb60f06eea981b1066cecb79c80e4a6b943aecb",
-      "published_sha256": "a5c638405082b3ea6c1771827eb60f06eea981b1066cecb79c80e4a6b943aecb",
-      "sanitized": false
+      "published_sha256": "8b05d3198b2c1a5619e5491b76c9baa044095a324486f30ad783d1eb1577447d",
+      "sanitized": false,
+      "modified_after_publication": true
     },
     {
       "source": "ntpc-aws-etl-gate3-20260912/work/scripts/lsf_validate.py",
@@ -728,20 +722,6 @@
       "path": "artifacts/ntpc-aws-etl-gate3-20260912/work/scripts/validate_g5_v3_data.py",
       "source_sha256": "a61fd33c765849da4d2acca42216cc21dee830644f27904c48b8f1fda9e1372a",
       "published_sha256": "a61fd33c765849da4d2acca42216cc21dee830644f27904c48b8f1fda9e1372a",
-      "sanitized": false
-    },
-    {
-      "source": "ntpc-aws-etl-gate3-20260912/work/scripts/validate_g7_aws_kiro_readiness.py",
-      "path": "artifacts/ntpc-aws-etl-gate3-20260912/work/scripts/validate_g7_aws_kiro_readiness.py",
-      "source_sha256": "bda8eee9785361d1951f4b22f5b49a89c42f37b63b885c1a07a6cbdd9c91f182",
-      "published_sha256": "bda8eee9785361d1951f4b22f5b49a89c42f37b63b885c1a07a6cbdd9c91f182",
-      "sanitized": false
-    },
-    {
-      "source": "ntpc-aws-etl-gate3-20260912/work/scripts/verify-handoff.mjs",
-      "path": "artifacts/ntpc-aws-etl-gate3-20260912/work/scripts/verify-handoff.mjs",
-      "source_sha256": "c6623a68dd20add132459c26b9113266b41a7af8a1676c03cf0bab1f80207642",
-      "published_sha256": "c6623a68dd20add132459c26b9113266b41a7af8a1676c03cf0bab1f80207642",
       "sanitized": false
     },
     {
@@ -2407,8 +2387,9 @@
       "source": "ntpc-aws-platform-gate4-20260912/dashboard/design-system/ntpc-youth-evidence-console/pages/dashboard.md",
       "path": "artifacts/ntpc-aws-platform-gate4-20260912/dashboard/design-system/ntpc-youth-evidence-console/pages/dashboard.md",
       "source_sha256": "d4e3bc1ceee36bf6c56ad0005de0f3fe7f352f0874efd1625970172efb98c751",
-      "published_sha256": "d4e3bc1ceee36bf6c56ad0005de0f3fe7f352f0874efd1625970172efb98c751",
-      "sanitized": false
+      "published_sha256": "a659ffd486355072d6de8bae79ffd86e6f6806d7f7223be0298c16e31b1f97d1",
+      "sanitized": false,
+      "modified_after_publication": true
     },
     {
       "source": "ntpc-aws-platform-gate4-20260912/dashboard/design-system/ntpc-youth-evidence-console/pages/workspace-v532.md",
@@ -3020,13 +3001,6 @@
       "sanitized": false
     },
     {
-      "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/scripts/build_kiro_handoff_sop.py",
-      "path": "analysis/scripts/build_kiro_handoff_sop.py",
-      "source_sha256": "e3d17a06f7a2369eafac0c78bab8e22fda49717eb1168c909a0ae3cac12f6ebb",
-      "published_sha256": "e3d17a06f7a2369eafac0c78bab8e22fda49717eb1168c909a0ae3cac12f6ebb",
-      "sanitized": false
-    },
-    {
       "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/scripts/build_labor_age_method_report_v24.py",
       "path": "analysis/scripts/build_labor_age_method_report_v24.py",
       "source_sha256": "9a2af29d7207db56b4e6e50e2c3b4337f5db526b40eaa37effc8167a0a58145f",
@@ -3156,8 +3130,9 @@
       "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/scripts/lsf_package.py",
       "path": "analysis/scripts/lsf_package.py",
       "source_sha256": "a5c638405082b3ea6c1771827eb60f06eea981b1066cecb79c80e4a6b943aecb",
-      "published_sha256": "a5c638405082b3ea6c1771827eb60f06eea981b1066cecb79c80e4a6b943aecb",
-      "sanitized": false
+      "published_sha256": "8b05d3198b2c1a5619e5491b76c9baa044095a324486f30ad783d1eb1577447d",
+      "sanitized": false,
+      "modified_after_publication": true
     },
     {
       "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/scripts/lsf_validate.py",
@@ -3276,20 +3251,6 @@
       "path": "analysis/scripts/validate_g5_v3_data.py",
       "source_sha256": "a61fd33c765849da4d2acca42216cc21dee830644f27904c48b8f1fda9e1372a",
       "published_sha256": "a61fd33c765849da4d2acca42216cc21dee830644f27904c48b8f1fda9e1372a",
-      "sanitized": false
-    },
-    {
-      "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/scripts/validate_g7_aws_kiro_readiness.py",
-      "path": "analysis/scripts/validate_g7_aws_kiro_readiness.py",
-      "source_sha256": "bda8eee9785361d1951f4b22f5b49a89c42f37b63b885c1a07a6cbdd9c91f182",
-      "published_sha256": "bda8eee9785361d1951f4b22f5b49a89c42f37b63b885c1a07a6cbdd9c91f182",
-      "sanitized": false
-    },
-    {
-      "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/scripts/verify-handoff.mjs",
-      "path": "analysis/scripts/verify-handoff.mjs",
-      "source_sha256": "c6623a68dd20add132459c26b9113266b41a7af8a1676c03cf0bab1f80207642",
-      "published_sha256": "c6623a68dd20add132459c26b9113266b41a7af8a1676c03cf0bab1f80207642",
       "sanitized": false
     },
     {
@@ -3492,36 +3453,33 @@
       "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/docs/年齡區間轉換方法與來源對照_V1.0.md",
       "path": "analysis/docs/年齡區間轉換方法與來源對照_V1.0.md",
       "source_sha256": "5f9529bb2f09c07979b46cb4edef9d337cb38802284ec8a0e0869907d7423dff",
-      "published_sha256": "5f9529bb2f09c07979b46cb4edef9d337cb38802284ec8a0e0869907d7423dff",
-      "sanitized": false
+      "published_sha256": "945e25e8f1bb02c70b154678c2ab29780a81a88f0d80d94195b69b886c38a7eb",
+      "sanitized": false,
+      "modified_after_publication": true
     },
     {
       "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/docs/competition/01_競賽規劃與操作說明.md",
       "path": "analysis/docs/competition/01_競賽規劃與操作說明.md",
       "source_sha256": "101d6553810df45308cb3d181d0af425491c63651ec81341bb9e2683f365395c",
-      "published_sha256": "101d6553810df45308cb3d181d0af425491c63651ec81341bb9e2683f365395c",
-      "sanitized": false
+      "published_sha256": "bc47d10ff03b3b9803402b875acc3316081540bf3922239ac8fad1da8ce5d668",
+      "sanitized": false,
+      "modified_after_publication": true
     },
     {
       "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/docs/competition/02_AWS最小架構與更新流程.md",
       "path": "analysis/docs/competition/02_AWS最小架構與更新流程.md",
       "source_sha256": "6908df70530323e5dd99d17ef1e4bdfd1b3e510baff7c90739b784acf83fe15b",
-      "published_sha256": "6908df70530323e5dd99d17ef1e4bdfd1b3e510baff7c90739b784acf83fe15b",
-      "sanitized": false
-    },
-    {
-      "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/docs/competition/03_GitHub與Kiro操作SOP.md",
-      "path": "analysis/docs/competition/03_GitHub與Kiro操作SOP.md",
-      "source_sha256": "e7c6f5d1c2958f1a37fdf784ab8fc05bc14dfa860ddac7ebadbe49bd6d44d0c9",
-      "published_sha256": "e7c6f5d1c2958f1a37fdf784ab8fc05bc14dfa860ddac7ebadbe49bd6d44d0c9",
-      "sanitized": false
+      "published_sha256": "5488cc3779d153d8b3cf64a8ca11825d16601d38c95e8f8abf3e97a406446ff4",
+      "sanitized": false,
+      "modified_after_publication": true
     },
     {
       "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/docs/competition/04_錄影與送件清單.md",
       "path": "analysis/docs/competition/04_錄影與送件清單.md",
       "source_sha256": "7668795ac0ddcd757fd6700bbe5bf659eb656d4c8d2950e444cf99e656abc419",
-      "published_sha256": "7668795ac0ddcd757fd6700bbe5bf659eb656d4c8d2950e444cf99e656abc419",
-      "sanitized": false
+      "published_sha256": "85c3db288faad9a4a0137c9225bd8afe7b3790901c9e7be0d03765fdbb9acae7",
+      "sanitized": false,
+      "modified_after_publication": true
     },
     {
       "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/docs/competition/architecture.png",
@@ -3604,15 +3562,17 @@
       "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/docs/history/g5-data-governance.md",
       "path": "analysis/docs/history/g5-data-governance.md",
       "source_sha256": "5da835a2a1c9faba9e2dec8036154d7c9ad33d190d17a5f81bcfaf57d76cb4fb",
-      "published_sha256": "5da835a2a1c9faba9e2dec8036154d7c9ad33d190d17a5f81bcfaf57d76cb4fb",
-      "sanitized": false
+      "published_sha256": "c43a3848f46b4579096e526354c7a5101754cc5d78bcbfc3e21c056f2eba6d4e",
+      "sanitized": false,
+      "modified_after_publication": true
     },
     {
       "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/docs/history/報告書機器可讀文字.md",
       "path": "analysis/docs/history/報告書機器可讀文字.md",
       "source_sha256": "a05a1ca8f0a251ab6425482ccdf35106693c591179d84237d36734a5a6426c80",
-      "published_sha256": "a05a1ca8f0a251ab6425482ccdf35106693c591179d84237d36734a5a6426c80",
-      "sanitized": false
+      "published_sha256": "8955273295e5a64a8cb2010b281972bae87719dc9da166376ae913c04fbbd648",
+      "sanitized": false,
+      "modified_after_publication": true
     },
     {
       "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/docs/history/本次品質發現與處理.md",
@@ -3636,13 +3596,6 @@
       "sanitized": false
     },
     {
-      "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/docs/lsf/03_KIRO與執行交接_V1.md",
-      "path": "analysis/docs/lsf/03_KIRO與執行交接_V1.md",
-      "source_sha256": "093ea35094d429cbaac6e229369e62d773890c02d841f704b6beb2847dc0d46c",
-      "published_sha256": "093ea35094d429cbaac6e229369e62d773890c02d841f704b6beb2847dc0d46c",
-      "sanitized": false
-    },
-    {
       "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/docs/lsf/04_驗收紀錄_V1.md",
       "path": "analysis/docs/lsf/04_驗收紀錄_V1.md",
       "source_sha256": "874943d07218e87bf6b83402ed9fd6e4314b7036ac9fec1c43cc8a86debbd29a",
@@ -3653,8 +3606,9 @@
       "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/docs/lsf/README.md",
       "path": "analysis/docs/lsf/README.md",
       "source_sha256": "629d83f4117699c4952bb6d444b36092bd1159a10f6e0b5a7f3aeb659b5982db",
-      "published_sha256": "629d83f4117699c4952bb6d444b36092bd1159a10f6e0b5a7f3aeb659b5982db",
-      "sanitized": false
+      "published_sha256": "cd9cdc2dcfeaed80454c0abb036d232d711053da9035c27f2b850febcea359c4",
+      "sanitized": false,
+      "modified_after_publication": true
     },
     {
       "source": "NTPC_Youth_System_V1_20260912/09_網站與完整原始碼/完整原始碼/docs/statistical-methods/README.md",
@@ -3937,13 +3891,6 @@
       "sanitized": false
     },
     {
-      "source": "ntpc-aws-etl-gate3-20260912/work/scripts/build_kiro_handoff_sop.py",
-      "path": "analysis/scripts/build_kiro_handoff_sop.py",
-      "source_sha256": "e3d17a06f7a2369eafac0c78bab8e22fda49717eb1168c909a0ae3cac12f6ebb",
-      "published_sha256": "e3d17a06f7a2369eafac0c78bab8e22fda49717eb1168c909a0ae3cac12f6ebb",
-      "sanitized": false
-    },
-    {
       "source": "ntpc-aws-etl-gate3-20260912/work/scripts/build_labor_age_method_report_v24.py",
       "path": "analysis/scripts/build_labor_age_method_report_v24.py",
       "source_sha256": "9a2af29d7207db56b4e6e50e2c3b4337f5db526b40eaa37effc8167a0a58145f",
@@ -4073,8 +4020,9 @@
       "source": "ntpc-aws-etl-gate3-20260912/work/scripts/lsf_package.py",
       "path": "analysis/scripts/lsf_package.py",
       "source_sha256": "a5c638405082b3ea6c1771827eb60f06eea981b1066cecb79c80e4a6b943aecb",
-      "published_sha256": "a5c638405082b3ea6c1771827eb60f06eea981b1066cecb79c80e4a6b943aecb",
-      "sanitized": false
+      "published_sha256": "8b05d3198b2c1a5619e5491b76c9baa044095a324486f30ad783d1eb1577447d",
+      "sanitized": false,
+      "modified_after_publication": true
     },
     {
       "source": "ntpc-aws-etl-gate3-20260912/work/scripts/lsf_validate.py",
@@ -4196,20 +4144,6 @@
       "sanitized": false
     },
     {
-      "source": "ntpc-aws-etl-gate3-20260912/work/scripts/validate_g7_aws_kiro_readiness.py",
-      "path": "analysis/scripts/validate_g7_aws_kiro_readiness.py",
-      "source_sha256": "bda8eee9785361d1951f4b22f5b49a89c42f37b63b885c1a07a6cbdd9c91f182",
-      "published_sha256": "bda8eee9785361d1951f4b22f5b49a89c42f37b63b885c1a07a6cbdd9c91f182",
-      "sanitized": false
-    },
-    {
-      "source": "ntpc-aws-etl-gate3-20260912/work/scripts/verify-handoff.mjs",
-      "path": "analysis/scripts/verify-handoff.mjs",
-      "source_sha256": "c6623a68dd20add132459c26b9113266b41a7af8a1676c03cf0bab1f80207642",
-      "published_sha256": "c6623a68dd20add132459c26b9113266b41a7af8a1676c03cf0bab1f80207642",
-      "sanitized": false
-    },
-    {
       "source": "ntpc-aws-etl-gate3-20260912/work/src/ntpc_youth_ai/analytics.py",
       "path": "analysis/src/ntpc_youth_ai/analytics.py",
       "source_sha256": "4e3b4efe8b84e5f10563e2de92977da38f81530d02523481d6804236a90b1be0",
@@ -4307,5 +4241,11 @@
       "published_sha256": "2a8a04097d59d2977951aecd75136151ba74cfd254140064deaa9c267b37d5ec",
       "sanitized": false
     }
-  ]
+  ],
+  "maintenance_update": {
+    "date": "2026-09-13",
+    "description": "移除舊版專用交接文件及腳本，新增 Codex 維護入口；source_sha256 保留來源版本，published_sha256 對應本次修改。",
+    "removed_file_count": 8,
+    "generated_file": "docs/CODEX_MAINTENANCE.md"
+  }
 }
